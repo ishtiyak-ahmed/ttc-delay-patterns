@@ -1,0 +1,31 @@
+{
+  "rule_version": "task4.1-v1",
+  "scope_start": "2025-01-01",
+  "scope_end": null,
+  "snapshots": [
+    {
+      "mode": "subway",
+      "snapshot_id": 1,
+      "resource_id": "0b6e5c52-e993-46d6-8d74-8602ee224457",
+      "sha256": "ec7c36eeb4785e34d58229e5da6af741c89dfdf9fa59c58a63abe5b026b95c44"
+    },
+    {
+      "mode": "bus",
+      "snapshot_id": 2,
+      "resource_id": "b5725365-9252-4bfe-b6f4-cda7ddf74341",
+      "sha256": "1474f16414e63aaeab58714c236446ea370f5e00e072a3b97fdfeb1f079cd8fe"
+    },
+    {
+      "mode": "streetcar",
+      "snapshot_id": 3,
+      "resource_id": "cf2fdd12-6f0e-4644-aae7-0bbfc31df031",
+      "sha256": "c6c081880619ffff8779c61af3a0b77466471473a014d8dec48d16306ddf9606"
+    },
+    {
+      "mode": "lrt",
+      "snapshot_id": 4,
+      "resource_id": "9a800c92-0362-4cee-8232-7374596b6a43",
+      "sha256": "a493ad2f0d3c2889c34eba7cb42b3c27fc1d6cbf15728be09d7f1b230964984a"
+    }
+  ]
+}
