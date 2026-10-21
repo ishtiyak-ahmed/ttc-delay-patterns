@@ -1,0 +1,43 @@
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Temporary files
+*.tmp
+*.part
+*.swp
+.DS_Store
+
+# Local databases
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+*.sqlite-*
+*.sqlite3-*
+*.duckdb
+*.duckdb.wal
+
+# Unchanged downloaded source snapshots (provenance stays versionable)
+/data/raw/
+
+# Credentials and machine-local settings
+.env
+.env.*
+!.env.example
+.aws/
+.ssh/
+.secrets/
+secrets/
+credentials*.json
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local working data and tool caches
+/data/local/
+.pytest_cache/

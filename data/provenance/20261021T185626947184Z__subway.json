@@ -1,0 +1,17 @@
+{
+  "package_name": "ttc-subway-delay-data",
+  "package_id": "996cfe8d-fb35-40ce-b569-698d51fc683b",
+  "resource_id": "0b6e5c52-e993-46d6-8d74-8602ee224457",
+  "resource_name": "TTC Subway Delay Data since 2025.csv",
+  "source_url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/996cfe8d-fb35-40ce-b569-698d51fc683b/resource/0b6e5c52-e993-46d6-8d74-8602ee224457/download/ttc-subway-delay-data-since-2025.csv",
+  "attempt_started_at_utc": "2026-10-21T18:56:26.947184+00:00",
+  "status": "failed",
+  "http_status": null,
+  "response_headers": null,
+  "raw_path": null,
+  "file_size_bytes": null,
+  "sha256": null,
+  "error_type": "URLError",
+  "error": "<urlopen error [Errno 8] nodename nor servname provided, or not known>",
+  "attempt_finished_at_utc": "2026-10-21T18:56:27.032355+00:00"
+}

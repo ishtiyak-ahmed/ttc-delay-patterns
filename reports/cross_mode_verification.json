@@ -1,0 +1,4651 @@
+{
+  "subway": {
+    "verification": "PASS",
+    "weekday_mismatches_by_date": {
+      "2026-04-26": 63
+    },
+    "line_coverage": {
+      "": {
+        "rows": 177,
+        "minimum": "2025-01-09",
+        "maximum": "2026-08-29"
+      },
+      "116 MORNINGSIDE": {
+        "rows": 1,
+        "minimum": "2025-07-29",
+        "maximum": "2025-07-29"
+      },
+      "29 DUFFERIN": {
+        "rows": 1,
+        "minimum": "2025-12-11",
+        "maximum": "2025-12-11"
+      },
+      "47 LANSDOWNE": {
+        "rows": 1,
+        "minimum": "2026-07-21",
+        "maximum": "2026-07-21"
+      },
+      "50 BURNHAMTHORPE": {
+        "rows": 1,
+        "minimum": "2026-01-26",
+        "maximum": "2026-01-26"
+      },
+      "504 KING": {
+        "rows": 1,
+        "minimum": "2026-06-23",
+        "maximum": "2026-06-23"
+      },
+      "506 CARLTON": {
+        "rows": 1,
+        "minimum": "2026-04-25",
+        "maximum": "2026-04-25"
+      },
+      "508 LAKESHORE": {
+        "rows": 1,
+        "minimum": "2025-06-04",
+        "maximum": "2025-06-04"
+      },
+      "60 STEELES WEST": {
+        "rows": 1,
+        "minimum": "2026-01-08",
+        "maximum": "2026-01-08"
+      },
+      "62 MORTIMER": {
+        "rows": 1,
+        "minimum": "2025-09-18",
+        "maximum": "2025-09-18"
+      },
+      "76 ROYAL YORK SOUTH": {
+        "rows": 1,
+        "minimum": "2026-01-09",
+        "maximum": "2026-01-09"
+      },
+      "95 YORK MILLS": {
+        "rows": 1,
+        "minimum": "2025-05-31",
+        "maximum": "2025-05-31"
+      },
+      "999": {
+        "rows": 1,
+        "minimum": "2026-05-19",
+        "maximum": "2026-05-19"
+      },
+      "BD": {
+        "rows": 19758,
+        "minimum": "2025-01-01",
+        "maximum": "2026-08-31"
+      },
+      "BD/YU": {
+        "rows": 7,
+        "minimum": "2025-10-30",
+        "maximum": "2026-06-16"
+      },
+      "BD/YUS": {
+        "rows": 5,
+        "minimum": "2025-05-10",
+        "maximum": "2026-04-16"
+      },
+      "BD/YUS/SHP/FWLRT/ECLRT": {
+        "rows": 1,
+        "minimum": "2026-02-10",
+        "maximum": "2026-02-10"
+      },
+      "EC": {
+        "rows": 2,
+        "minimum": "2025-08-18",
+        "maximum": "2025-09-25"
+      },
+      "LINE 1": {
+        "rows": 1,
+        "minimum": "2025-02-01",
+        "maximum": "2025-02-01"
+      },
+      "LINE 2 - BLOOR DANFORT": {
+        "rows": 1,
+        "minimum": "2025-09-30",
+        "maximum": "2025-09-30"
+      },
+      "LINE 2 BLOOR-DANFORTH": {
+        "rows": 1,
+        "minimum": "2026-07-22",
+        "maximum": "2026-07-22"
+      },
+      "SHP": {
+        "rows": 1772,
+        "minimum": "2025-01-02",
+        "maximum": "2026-08-31"
+      },
+      "SRT": {
+        "rows": 5,
+        "minimum": "2025-06-15",
+        "maximum": "2026-06-26"
+      },
+      "TRANSIT CONTROL": {
+        "rows": 1,
+        "minimum": "2026-07-30",
+        "maximum": "2026-07-30"
+      },
+      "WOODBINE STN": {
+        "rows": 1,
+        "minimum": "2026-05-18",
+        "maximum": "2026-05-18"
+      },
+      "YU": {
+        "rows": 23134,
+        "minimum": "2025-01-01",
+        "maximum": "2026-08-31"
+      },
+      "YU -BD LINES": {
+        "rows": 1,
+        "minimum": "2025-12-09",
+        "maximum": "2025-12-09"
+      },
+      "YU / BD": {
+        "rows": 2,
+        "minimum": "2025-01-25",
+        "maximum": "2025-12-13"
+      },
+      "YU/ BD": {
+        "rows": 4,
+        "minimum": "2025-01-10",
+        "maximum": "2026-05-08"
+      },
+      "YU/BD": {
+        "rows": 470,
+        "minimum": "2025-01-01",
+        "maximum": "2026-08-15"
+      },
+      "YU/BD LINES": {
+        "rows": 2,
+        "minimum": "2025-12-22",
+        "maximum": "2025-12-28"
+      },
+      "YU/BD/SHP": {
+        "rows": 11,
+        "minimum": "2025-11-14",
+        "maximum": "2026-07-27"
+      },
+      "YUS": {
+        "rows": 13,
+        "minimum": "2025-03-22",
+        "maximum": "2026-07-22"
+      },
+      "YUS / BD": {
+        "rows": 2,
+        "minimum": "2025-08-29",
+        "maximum": "2025-11-09"
+      },
+      "YUS/ BD": {
+        "rows": 3,
+        "minimum": "2025-03-29",
+        "maximum": "2026-07-17"
+      },
+      "YUS/ BD/ SHP": {
+        "rows": 1,
+        "minimum": "2025-08-18",
+        "maximum": "2025-08-18"
+      },
+      "YUS/BD": {
+        "rows": 87,
+        "minimum": "2025-02-22",
+        "maximum": "2026-08-31"
+      },
+      "YUS/BD/SHP": {
+        "rows": 1,
+        "minimum": "2026-05-29",
+        "maximum": "2026-05-29"
+      }
+    },
+    "non_cardinal_bound": {
+      "B": 62
+    },
+    "maximum_label_lengths": {
+      "Line": 22,
+      "Station": 22,
+      "Code": 5
+    }
+  },
+  "bus": {
+    "verification": "PASS",
+    "weekday_mismatches_by_date": {
+      "2026-04-26": 130
+    },
+    "line_coverage": {
+      "": {
+        "rows": 1241,
+        "minimum": "2025-01-01",
+        "maximum": "2026-08-31"
+      },
+      "08": {
+        "rows": 1,
+        "minimum": "2025-02-20",
+        "maximum": "2025-02-20"
+      },
+      "09 BELLAMY": {
+        "rows": 1,
+        "minimum": "2025-02-14",
+        "maximum": "2025-02-14"
+      },
+      "1 LINE SHUTTLE": {
+        "rows": 3,
+        "minimum": "2025-03-02",
+        "maximum": "2025-10-15"
+      },
+      "1 SHUTTLE": {
+        "rows": 5,
+        "minimum": "2025-02-05",
+        "maximum": "2025-07-19"
+      },
+      "1 SHUTTLE BUS": {
+        "rows": 1,
+        "minimum": "2025-03-01",
+        "maximum": "2025-03-01"
+      },
+      "10 VAN HORNE": {
+        "rows": 27,
+        "minimum": "2025-01-06",
+        "maximum": "2026-08-31"
+      },
+      "100": {
+        "rows": 3,
+        "minimum": "2025-05-16",
+        "maximum": "2026-08-28"
+      },
+      "100 FLEMINGDON PARK": {
+        "rows": 1063,
+        "minimum": "2025-01-01",
+        "maximum": "2026-08-31"
+      },
+      "100 FLEMINGDON PARK (6": {
+        "rows": 2,
+        "minimum": "2025-01-12",
+        "maximum": "2025-09-04"
+      },
+      "100 FLEMINGTON PARK": {
+        "rows": 1,
+        "minimum": "2026-06-23",
+        "maximum": "2026-06-23"
+      },
+      "101 DOWNSVIEW PARK": {
+        "rows": 211,
+        "minimum": "2025-01-19",
+        "maximum": "2026-08-28"
+      },
+      "101 DOWNSVIEW PARK / 1": {
+        "rows": 1,
+        "minimum": "2026-03-17",
+        "maximum": "2026-03-17"
+      },
+      "102": {
+        "rows": 1,
+        "minimum": "2025-03-30",
+        "maximum": "2025-03-30"
+      },
+      "102 MARKHAM RD": {
+        "rows": 1,
+        "minimum": "2025-10-22",
+        "maximum": "2025-10-22"
+      },
+      "102 MARKHAM ROAD": {
+        "rows": 1982,
+        "minimum": "2025-01-01",
+        "maximum": "2026-08-31"
+      },
+      "102 MARKHAM ROAD (D-BR": {
+        "rows": 1,
+        "minimum": "2026-01-19",
+        "maximum": "2026-01-19"
+      },
+      "102 MARKHAM ROAD (RAD": {
+        "rows": 1,
+        "minimum": "2025-11-22",
+        "maximum": "2025-11-22"
+      },
+      "102D MARKHAM ROAD": {
+        "rows": 3,
+        "minimum": "2025-01-05",
+        "maximum": "2025-06-11"
+      },
+      "103 MT. PLEASANT NORTH": {
+        "rows": 47,
+        "minimum": "2025-10-25",
+        "maximum": "2026-08-30"
+      },
+      "104 FAYWOOD": {
+        "rows": 232,
+        "minimum": "2025-01-10",
+        "maximum": "2026-08-27"
+      },
+      "105 DUFFERIN NORTH": {
+        "rows": 203,
+        "minimum": "2025-01-03",
+        "maximum": "2026-08-22"
+      },
+      "106 SENTIAL": {
+        "rows": 1,
+        "minimum": "2025-03-08",
+        "maximum": "2025-03-08"
+      },
+      "106 SENTINEL": {
+        "rows": 275,
+        "minimum": "2025-01-06",
+        "maximum": "2026-08-31"
+      },
+      "107 ALLNESS-CHESSWOOD": {
+        "rows": 24,
+        "minimum": "2026-02-17",
+        "maximum": "2026-08-27"
+      },
+      "107 YORK UNIVERSITY HE": {
+        "rows": 148,
+        "minimum": "2025-01-02",
+        "maximum": "2026-02-03"
+      },
+      "108 DRIFTWOOD": {
+        "rows": 558,
+        "minimum": "2025-01-03",
+        "maximum": "2026-08-30"
+      },
+      "109 RANEE": {
+        "rows": 304,
+        "minimum": "2025-01-02",
+        "maximum": "2026-08-25"
+      },
+      "109 RANEE - B BRANCH": {
+        "rows": 1,
+        "minimum": "2025-11-01",
+        "maximum": "2025-11-01"
+      },
+      "11 BAYVIEW": {
+        "rows": 581,
+        "minimum": "2025-01-02",
+        "maximum": "2026-08-30"
+      },
+      "110": {
+        "rows": 1,
+        "minimum": "2026-03-19",
+        "maximum": "2026-03-19"
+      },
+      "110 ISLINGTON SOUTH": {
+        "rows": 580,
+        "minimum": "2025-01-01",
+        "maximum": "2026-08-30"
+      },
+      "111": {
+        "rows": 1,
+        "minimum": "2025-08-07",
+        "maximum": "2025-08-07"
+      },
+      "111 EAST MALL": {
+        "rows": 369,
+        "minimum": "2025-01-02",
+        "maximum": "2026-08-31"
+      },
+      "112 WEST MALL": {
+        "rows": 608,
+        "minimum": "2025-01-01",
+        "maximum": "2026-08-31"
+      },
+      "112 WEST MALL (300 BLO": {
+        "rows": 1,
+        "minimum": "2026-04-29",
+        "maximum": "2026-04-29"
+      },
+      "113 DANFORTH": {
+        "rows": 327,
+        "minimum": "2025-01-03",
+        "maximum": "2026-08-28"
+      },
+      "114": {
+        "rows": 1,
+        "minimum": "2025-09-21",
+        "maximum": "2025-09-21"
+      },
+      "114 QUEENS QUAY EAST": {
+        "rows": 450,
+        "minimum": "2025-01-02",
+        "maximum": "2026-08-29"
+      },
+      "115 SILVER HILLS": {
+        "rows": 31,
+        "minimum": "2025-01-04",
+        "maximum": "2026-08-29"
+      },
+      "116": {
+        "rows": 1,
+        "minimum": "2025-04-13",
+        "maximum": "2025-04-13"
+      },
+      "116 MORNINGSIDE": {
+        "rows": 1566,
+        "minimum": "2025-01-01",
+        "maximum": "2026-08-31"
+      },
+      "117 ALNESS-CHESSWOOD": {
+        "rows": 10,
+        "minimum": "2025-01-17",
+        "maximum": "2025-03-15"
+      },
+      "117 BIRCHMOUNT SOUTH": {
+        "rows": 50,
+        "minimum": "2025-01-18",
+        "maximum": "2026-08-22"
+      },
+      "1174": {
+        "rows": 1,
+        "minimum": "2026-06-08",
+        "maximum": "2026-06-08"
+      },
+      "118 THISTLE DOWN": {
+        "rows": 284,
+        "minimum": "2025-01-02",
+        "maximum": "2026-08-31"
+      },
+      "119 TORBARRIE": {
+        "rows": 141,
+        "minimum": "2025-01-15",
+        "maximum": "2026-08-10"
+      },
+      "12 KINGSTON ROAD": {
+        "rows": 730,
+        "minimum": "2025-01-01",
+        "maximum": "2026-08-31"
+      },
+      "120 CALVINGTON": {
+        "rows": 168,
+        "minimum": "2025-01-09",
+        "maximum": "2026-08-29"
+      },
+      "120 CALVINGTON ( RAD)": {
+        "rows": 1,
+        "minimum": "2026-07-07",
+        "maximum": "2026-07-07"
+      },
+      "1202": {
+        "rows": 2,
+        "minimum": "2025-09-15",
+        "maximum": "2025-12-08"
+      },
+      "121 ESPLANADE-RIVER": {
+        "rows": 342,
+        "minimum": "2025-01-06",
+        "maximum": "2026-08-25"
+      },
+      "122 GRAYDON HALL": {
+        "rows": 400,
+        "minimum": "2025-01-01",
+        "maximum": "2026-08-28"
+      },
+      "122 GRAYDON HALL DRIVE": {
+        "rows": 1,
+        "minimum": "2026-02-26",
+        "maximum": "2026-02-26"
+      },
+      "123 SHERWAY": {
+        "rows": 686,
+        "minimum": "2025-01-01",
+        "maximum": "2026-08-31"
+      },
+      "123 SHERWAY (RAD)": {
+        "rows": 1,
+        "minimum": "2025-07-31",
+        "maximum": "2025-07-31"
+      },
+      "123 SHERWAY - F": {
+        "rows": 1,
+        "minimum": "2025-02-21",
+        "maximum": "2025-02-21"
+      },
+      "123C SHERWAY": {
+        "rows": 1,
+        "minimum": "2025-07-17",
+        "maximum": "2025-07-17"
+      },
+      "124": {
+        "rows": 1,
+        "minimum": "2025-06-15",
+        "maximum": "2025-06-15"
+      },
+      "124 SUNNYBROOK": {
+        "rows": 235,
+        "minimum": "2025-01-08",
+        "maximum": "2026-08-25"
+      },
+      "125 DREWRY": {
+        "rows": 193,
+        "minimum": "2025-01-03",
+        "maximum": "2026-08-26"
+      },
+      "126 CHRISTIE": {
+        "rows": 175,
+        "minimum": "2025-01-02",
+        "maximum": "2026-08-30"
+      },
+      "127 DAVENPORT": {
+        "rows": 224,
+        "minimum": "2025-01-06",
+        "maximum": "2026-08-28"
+      },
+      "128 STANLEY GREENE": {
+        "rows": 42,
+        "minimum": "2025-01-10",
+        "maximum": "2025-11-13"
+      },
+      "129 MCCOWAN NORTH": {
+        "rows": 867,
+        "minimum": "2025-01-01",
+        "maximum": "2026-08-30"
+      },
+      "129 MCCOWAN NORTH (A-B": {
+        "rows": 1,
+        "minimum": "2025-12-11",
+        "maximum": "2025-12-11"
+      },
+      "13 AVENUE ROAD": {
+        "rows": 259,
+        "minimum": "2025-01-04",
+        "maximum": "2026-08-30"
+      },
+      "130 MIDDLEFIELD": {
+        "rows": 422,
+        "minimum": "2025-01-02",
+        "maximum": "2026-08-29"
+      },
+      "130 NEILSON": {
+        "rows": 1,
+        "minimum": "2025-06-20",
+        "maximum": "2025-06-20"
+      },
+      "131": {
+        "rows": 1,
+        "minimum": "2025-12-07",
+        "maximum": "2025-12-07"
+      },
+      "131 NUGGET": {
+        "rows": 690,
+        "minimum": "2025-01-02",
+        "maximum": "2026-08-31"
+      },
+      "132 MILNER": {
+        "rows": 106,
+        "minimum": "2025-01-21",
+        "maximum": "2026-08-22"
+      },
+      "133": {
+        "rows": 1,
+        "minimum": "2025-09-14",
+        "maximum": "2025-09-14"
+      },
+      "133 NEILSON": {
+        "rows": 1047,
+        "minimum": "2025-01-01",
+        "maximum": "2026-08-31"
+      },
+      "134": {
+        "rows": 2,
+        "minimum": "2025-02-12",
+        "maximum": "2025-04-22"
+      },
+      "134 PROGRESS": {
+        "rows": 440,
+        "minimum": "2025-01-03",
+        "maximum": "2026-08-31"
+      },
+      "135 GERRARD": {
+        "rows": 166,
+        "minimum": "2025-01-05",
+        "maximum": "2026-08-31"
+      },
+      "135 GERRRARD": {
+        "rows": 1,
+        "minimum": "2026-06-10",
+        "maximum": "2026-06-10"
+      },
+      "14": {
+        "rows": 2,
+        "minimum": "2025-09-15",
+        "maximum": "2026-08-14"
+      },
+      "14 GLENCAIRN": {
+        "rows": 316,
+        "minimum": "2025-01-07",
+        "maximum": "2026-08-31"
+      },
+      "14 GLENCAIRN (28 BAYVI": {
+        "rows": 1,
+        "minimum": "2026-06-16",
+        "maximum": "2026-06-16"
+      },
+      "14 GLENCAIRN / 28 BAYV": {
+        "rows": 1,
+        "minimum": "2025-08-29",
+        "maximum": "2025-08-29"
+      },
+      "14 GLENCAIRN/ 28": {
+        "rows": 1,
+        "minimum": "2025-04-19",
+        "maximum": "2025-04-19"
+      },
+      "147": {
+        "rows": 1,
+        "minimum": "2025-11-15",
+        "maximum": "2025-11-15"
+      },
+      "149": {
+        "rows": 11,
+        "minimum": "2025-01-07",
+        "maximum": "2025-04-07"
+      },
+      "149 - ETOBICOKE-BLOOR": {
+        "rows": 1,
+        "minimum": "2025-03-04",
+        "maximum": "2025-03-04"
+      },
+      "149 ETOBICOKE": {
+        "rows": 1,
+        "minimum": "2025-02-12",
+        "maximum": "2025-02-12"
+      },
+      "149 ETOBICOKE - BLOOR": {
+        "rows": 6,
+        "minimum": "2025-01-14",
+        "maximum": "2025-03-20"
+      },
+      "149 ETOBICOKE BLOOR": {
+        "rows": 9,
+        "minimum": "2025-01-06",
+        "maximum": "2025-04-03"
+      },
+      "149 ETOBICOKE- BLOOR": {
+        "rows": 1,
+        "minimum": "2025-02-04",
+        "maximum": "2025-02-04"
+      },
+      "149 ETOBICOKE-BLOOR": {
+        "rows": 192,
+        "minimum": "2025-01-08",
+        "maximum": "2026-08-27"
+      },
+      "15 EVANS": {
+        "rows": 156,
+        "minimum": "2025-01-03",
+        "maximum": "2026-08-30"
+      },
+      "151 LESLIE NORTH": {
+        "rows": 46,
+        "minimum": "2026-02-11",
+        "maximum": "2026-08-31"
+      },
+      "154 CURRAN HALL": {
+        "rows": 402,
+        "minimum": "2025-01-03",
+        "maximum": "2026-08-31"
+      },
+      "154 CURRAN HALL (300 B": {
+        "rows": 1,
+        "minimum": "2026-04-15",
+        "maximum": "2026-04-15"
+      },
+      "156": {
+        "rows": 6,
+        "minimum": "2026-04-12",
+        "maximum": "2026-06-19"
+      },
+      "156 - MILLWOOD": {
+        "rows": 1,
+        "minimum": "2026-06-22",
+        "maximum": "2026-06-22"
+      },
+      "156 MILLWOOD": {
+        "rows": 19,
+        "minimum": "2026-03-21",
+        "maximum": "2026-08-27"
+      },
+      "158 THRETHEWEY": {
+        "rows": 1,
+        "minimum": "2026-02-08",
+        "maximum": "2026-02-08"
+      },
+      "158 TRETHEWEY": {
+        "rows": 116,
+        "minimum": "2026-02-11",
+        "maximum": "2026-08-31"
+      },
+      "16 MCCOWAN": {
+        "rows": 585,
+        "minimum": "2025-01-01",
+        "maximum": "2026-08-29"
+      },
+      "160 BATHURST NORTH": {
+        "rows": 400,
+        "minimum": "2025-01-01",
+        "maximum": "2026-08-31"
+      },
+      "160 BATHURST NORTH (RA": {
+        "rows": 1,
+        "minimum": "2026-05-26",
+        "maximum": "2026-05-26"
+      },
+      "161 ROGERS ROAD": {
+        "rows": 550,
+        "minimum": "2025-01-01",
+        "maximum": "2026-08-30"
+      },
+      "162": {
+        "rows": 1,
+        "minimum": "2025-08-18",
+        "maximum": "2025-08-18"
+      },
+      "162 LAWRENCE-DONWAY": {
+        "rows": 234,
+        "minimum": "2025-01-02",
+        "maximum": "2026-08-29"
+      },
+      "164 CASTELFIELD": {
+        "rows": 1,
+        "minimum": "2025-10-14",
+        "maximum": "2025-10-14"
+      },
+      "164 CASTLEFIELD": {
+        "rows": 96,
+        "minimum": "2025-10-12",
+        "maximum": "2026-08-29"
+      },
+      "165": {
+        "rows": 1,
+        "minimum": "2025-07-10",
+        "maximum": "2025-07-10"
+      },
+      "165 WESTON ROAD NORTH": {
+        "rows": 1492,
+        "minimum": "2025-01-02",
+        "maximum": "2026-08-31"
+      },
+      "166": {
+        "rows": 5,
+        "minimum": "2025-12-02",
+        "maximum": "2026-02-03"
+      },
+      "166 TORYORK": {
+        "rows": 51,
+        "minimum": "2025-11-17",
+        "maximum": "2026-08-26"
+      },
+      "167 PHARMACY NORTH": {
+        "rows": 128,
+        "minimum": "2025-01-08",
+        "maximum": "2026-08-19"
+      },
+      "168": {
+        "rows": 1,
+        "minimum": "2026-05-24",
+        "maximum": "2026-05-24"
+      },
+      "168 SYMINGTON": {
+        "rows": 489,
+        "minimum": "2025-01-04",
+        "maximum": "2026-08-29"
+      },
+      "168/": {
+        "rows": 1,
+        "minimum": "2026-02-02",
+        "maximum": "2026-02-02"
+      },
+      "169 HUNTINGWOOD": {
+        "rows": 270,
+        "minimum": "2025-01-02",
+        "maximum": "2026-08-31"
+      },
+      "17 BIRCHMOUNT": {
+        "rows": 488,
+        "minimum": "2025-01-01",
+        "maximum": "2026-08-31"
+      },
+      "171 MOUNT DENNIS": {
+        "rows": 1,
+        "minimum": "2025-10-07",
+        "maximum": "2025-10-07"
+      },
+      "171 MT. DENNIS": {
+        "rows": 103,
+        "minimum": "2025-02-17",
+        "maximum": "2026-08-29"
+      },
+      "18 CALEDONIA": {
+        "rows": 61,
+        "minimum": "2026-02-09",
+        "maximum": "2026-08-26"
+      },
+      "184 ANCASTER PARK": {
+        "rows": 20,
+        "minimum": "2025-01-08",
+        "maximum": "2026-06-27"
+      },
+      "185 SHEPPARD CENTRAL": {
+        "rows": 206,
+        "minimum": "2025-01-10",
+        "maximum": "2026-08-31"
+      },
+      "189 STOCKYARDS": {
+        "rows": 56,
+        "minimum": "2025-02-06",
+        "maximum": "2026-07-20"
+      },
+      "19 BAY": {
+        "rows": 335,
+        "minimum": "2025-01-01",
+        "maximum": "2026-08-16"
+      },
+      "191 UNDERHILL": {
+        "rows": 74,
+        "minimum": "2025-10-16",
+        "maximum": "2026-08-31"
+      },
+      "20 CLIFFSIDE": {
+        "rows": 403,
+        "minimum": "2025-01-02",
+        "maximum": "2026-08-31"
+      },
+      "20 CLIFFSIDE (RAD)": {
+        "rows": 1,
+        "minimum": "2026-06-29",
+        "maximum": "2026-06-29"
+      },
+      "200": {
+        "rows": 1,
+        "minimum": "2025-02-28",
+        "maximum": "2025-02-28"
+      },
+      "200 TORONTO ZOO": {
+        "rows": 26,
+        "minimum": "2025-06-14",
+        "maximum": "2026-08-23"
+      },
+      "201 BLUFFER'S PARK": {
+        "rows": 57,
+        "minimum": "2025-05-11",
+        "maximum": "2026-08-27"
+      },
+      "202 CHERRY BEACH": {
+        "rows": 153,
+        "minimum": "2025-05-11",
+        "maximum": "2026-08-25"
+      },
+      "203": {
+        "rows": 2,
+        "minimum": "2025-08-04",
+        "maximum": "2026-07-03"
+      },
+      "203 - HIGH PARK": {
+        "rows": 1,
+        "minimum": "2026-05-10",
+        "maximum": "2026-05-10"
+      },
+      "203 HIGH PARK": {
+        "rows": 4,
+        "minimum": "2025-08-02",
+        "maximum": "2026-08-25"
+      },
+      "203 HIGH PARK SHUTTLE": {
+        "rows": 1,
+        "minimum": "2026-03-15",
+        "maximum": "2026-03-15"
+      },
+      "21 BRIMLEY": {
+        "rows": 547,
+        "minimum": "2025-01-01",
+        "maximum": "2026-08-31"
+      },
+      "22": {
+        "rows": 1,
+        "minimum": "2026-03-18",
+        "maximum": "2026-03-18"
+      },
+      "22 COXWELL": {
+        "rows": 318,
+        "minimum": "2025-01-01",
+        "maximum": "2026-08-26"
+      },
+      "23": {
+        "rows": 1,
+        "minimum": "2026-06-07",
+        "maximum": "2026-06-07"
+      },
+      "23 DAWES": {
+        "rows": 307,
+        "minimum": "2025-01-03",
+        "maximum": "2026-08-29"
+      },
+      "238": {
+        "rows": 1,
+        "minimum": "2026-08-27",
+        "maximum": "2026-08-27"
+      },
+      "24 VICTORIA PARK": {
+        "rows": 1194,
+        "minimum": "2025-01-01",
+        "maximum": "2026-08-31"
+      },
+      "24B VICTORIA PARK": {
+        "rows": 1,
+        "minimum": "2025-11-28",
+        "maximum": "2025-11-28"
+      },
+      "25": {
+        "rows": 1,
+        "minimum": "2026-03-17",
+        "maximum": "2026-03-17"
+      },
+      "25 DON MILLS": {
+        "rows": 1490,
+        "minimum": "2025-01-02",
+        "maximum": "2026-08-31"
+      },
+      "25 DON MILLS (600)": {
+        "rows": 1,
+        "minimum": "2026-03-11",
+        "maximum": "2026-03-11"
+      },
+      "26 DUPONT": {
+        "rows": 378,
+        "minimum": "2025-01-05",
+        "maximum": "2026-08-30"
+      },
+      "27 JANE SOUTH": {
+        "rows": 186,
+        "minimum": "2026-02-10",
+        "maximum": "2026-08-31"
+      },
+      "28 BAYVIEW": {
+        "rows": 1,
+        "minimum": "2025-04-08",
+        "maximum": "2025-04-08"
+      },
+      "28 BAYVIEW SOUTH": {
+        "rows": 40,
+        "minimum": "2025-02-13",
+        "maximum": "2026-08-19"
+      },
+      "29 DUFFERIN": {
+        "rows": 1907,
+        "minimum": "2025-01-01",
+        "maximum": "2026-08-31"
+      },
+      "29 DUFFERIN / 929 DUFF": {
+        "rows": 1,
+        "minimum": "2025-09-20",
+        "maximum": "2025-09-20"
+      },
+      "29 DUFFERIN EXPRESS": {
+        "rows": 1,
+        "minimum": "2025-03-01",
+        "maximum": "2025-03-01"
+      },
+      "29C DUFFERIN": {
+        "rows": 5,
+        "minimum": "2025-03-11",
+        "maximum": "2025-06-20"
+      },
+      "30 HIGH PARK": {
+        "rows": 20,
+        "minimum": "2025-01-17",
+        "maximum": "2025-04-08"
+      },
+      "30 HIGH PARK NORTH": {
+        "rows": 150,
+        "minimum": "2025-04-23",
+        "maximum": "2026-08-27"
+      },
+      "300": {
+        "rows": 1,
+        "minimum": "2026-08-17",
+        "maximum": "2026-08-17"
+      },
+      "300 BLOOR - DANFORTH": {
+        "rows": 1,
+        "minimum": "2025-02-23",
+        "maximum": "2025-02-23"
+      },
+      "300 BLOOR DANFORTH": {
+        "rows": 2,
+        "minimum": "2026-01-29",
+        "maximum": "2026-03-15"
+      },
+      "300 BLOOR NIGHT": {
+        "rows": 1,
+        "minimum": "2026-03-01",
+        "maximum": "2026-03-01"
+      },
+      "300 BLOOR-DANFORTH": {
+        "rows": 710,
+        "minimum": "2025-01-03",
+        "maximum": "2026-08-31"
+      },
+      "301": {
+        "rows": 3,
+        "minimum": "2025-02-27",
+        "maximum": "2026-07-21"
+      },
+      "301 OVERHEAD": {
+        "rows": 2,
+        "minimum": "2026-02-09",
+        "maximum": "2026-04-19"
+      },
+      "301 QUEEN NIGHT": {
+        "rows": 2,
+        "minimum": "2025-05-24",
+        "maximum": "2026-02-26"
+      },
+      "302 KINGSTON ROAD-MCCO": {
+        "rows": 30,
+        "minimum": "2025-01-19",
+        "maximum": "2026-02-01"
+      },
+      "304": {
+        "rows": 1,
+        "minimum": "2025-06-27",
+        "maximum": "2025-06-27"
+      },
+      "304 KING": {
+        "rows": 1,
+        "minimum": "2025-06-29",
+        "maximum": "2025-06-29"
+      },
+      "305": {
+        "rows": 1,
+        "minimum": "2025-02-24",
+        "maximum": "2025-02-24"
+      },
+      "305 DUNDAS": {
+        "rows": 1,
+        "minimum": "2026-07-26",
+        "maximum": "2026-07-26"
+      },
+      "306 COLLEGE NIGHT": {
+        "rows": 1,
+        "minimum": "2025-04-19",
+        "maximum": "2025-04-19"
+      },
+      "307 BATHURST": {
+        "rows": 114,
+        "minimum": "2025-01-01",
+        "maximum": "2026-08-30"
+      },
+      "307 BATHURST NIGHT": {
+        "rows": 1,
+        "minimum": "2025-08-03",
+        "maximum": "2025-08-03"
+      },
+      "307 BATHURST NIGHT BUS": {
+        "rows": 1,
+        "minimum": "2025-06-14",
+        "maximum": "2025-06-14"
+      },
+      "31 GREENWOOD": {
+        "rows": 321,
+        "minimum": "2025-01-13",
+        "maximum": "2026-08-26"
+      },
+      "312 ST CLAIR": {
+        "rows": 1,
+        "minimum": "2026-08-23",
+        "maximum": "2026-08-23"
+      },
+      "315 EVANS-BROWN'S LINE": {
+        "rows": 7,
+        "minimum": "2025-03-18",
+        "maximum": "2026-07-15"
+      },
+      "316": {
+        "rows": 5,
+        "minimum": "2026-03-11",
+        "maximum": "2026-07-12"
+      },
+      "316 KINGSTON RD - MCCO": {
+        "rows": 2,
+        "minimum": "2026-03-20",
+        "maximum": "2026-06-07"
+      },
+      "316 KINGSTON RD-MCCOWA": {
+        "rows": 1,
+        "minimum": "2026-02-15",
+        "maximum": "2026-02-15"
+      },
+      "316 KINGSTON ROAD MCCO": {
+        "rows": 2,
+        "minimum": "2026-03-10",
+        "maximum": "2026-06-12"
+      },
+      "32 (C) EGLINTON WEST": {
+        "rows": 1,
+        "minimum": "2025-05-26",
+        "maximum": "2025-05-26"
+      },
+      "32 EGLINTON EAST": {
+        "rows": 1,
+        "minimum": "2025-06-07",
+        "maximum": "2025-06-07"
+      },
+      "32 EGLINTON WEST": {
+        "rows": 2124,
+        "minimum": "2025-01-02",
+        "maximum": "2026-08-31"
+      },
+      "32 EGLINTON WEST (RAD)": {
+        "rows": 1,
+        "minimum": "2025-04-23",
+        "maximum": "2025-04-23"
+      },
+      "320 YONGE": {
+        "rows": 786,
+        "minimum": "2025-01-01",
+        "maximum": "2026-08-31"
+      },
+      "320 YONGE (RAD)": {
+        "rows": 1,
+        "minimum": "2025-02-09",
+        "maximum": "2025-02-09"
+      },
+      "322 COXWELL": {
+        "rows": 49,
+        "minimum": "2025-01-06",
+        "maximum": "2026-08-24"
+      },
+      "324 STEELES": {
+        "rows": 1,
+        "minimum": "2025-05-16",
+        "maximum": "2025-05-16"
+      },
+      "324 VICTORIA PARK": {
+        "rows": 26,
+        "minimum": "2025-01-19",
+        "maximum": "2026-07-31"
+      },
+      "325 DON MILLS": {
+        "rows": 60,
+        "minimum": "2025-01-13",
+        "maximum": "2026-08-29"
+      },
+      "329 DUFFERIN": {
+        "rows": 88,
+        "minimum": "2025-01-21",
+        "maximum": "2026-08-27"
+      },
+      "32A EGLINTON WEST": {
+        "rows": 1,
+        "minimum": "2025-05-12",
+        "maximum": "2025-05-12"
+      },
+      "32C EGLINTON WEST": {
+        "rows": 2,
+        "minimum": "2025-10-17",
+        "maximum": "2026-01-23"
+      },
+      "33 FOREST HILL": {
+        "rows": 169,
+        "minimum": "2025-01-05",
+        "maximum": "2026-08-30"
+      },
+      "332 EGLINTON WEST": {
+        "rows": 39,
+        "minimum": "2025-02-04",
+        "maximum": "2026-01-11"
+      },
+      "334 EGLINTON EAST": {
+        "rows": 181,
+        "minimum": "2025-01-02",
+        "maximum": "2026-08-30"
+      },
+      "335 JANE": {
+        "rows": 60,
+        "minimum": "2025-01-20",
+        "maximum": "2026-07-25"
+      },
+      "336 FINCH WEST": {
+        "rows": 92,
+        "minimum": "2025-01-04",
+        "maximum": "2026-08-24"
+      },
+      "337 EVANS": {
+        "rows": 1,
+        "minimum": "2025-09-20",
+        "maximum": "2025-09-20"
+      },
+      "337 ISLINGTON": {
+        "rows": 31,
+        "minimum": "2025-01-12",
+        "maximum": "2026-08-09"
+      },
+      "339 FINCH EAST": {
+        "rows": 69,
+        "minimum": "2025-01-17",
+        "maximum": "2026-08-24"
+      },
+      "34 EGLINTON": {
+        "rows": 341,
+        "minimum": "2026-02-10",
+        "maximum": "2026-08-30"
+      },
+      "34 EGLINTON - RAD": {
+        "rows": 1,
+        "minimum": "2026-04-23",
+        "maximum": "2026-04-23"
+      },
+      "34 EGLINTON EAST": {
+        "rows": 930,
+        "minimum": "2025-01-01",
+        "maximum": "2026-04-23"
+      },
+      "34 EGLINTON EAST - C B": {
+        "rows": 2,
+        "minimum": "2025-08-15",
+        "maximum": "2025-09-26"
+      },
+      "340 JUNCTION": {
+        "rows": 18,
+        "minimum": "2025-07-28",
+        "maximum": "2026-08-30"
+      },
+      "340 JUNCTION-DUNDAS WE": {
+        "rows": 1,
+        "minimum": "2026-08-03",
+        "maximum": "2026-08-03"
+      },
+      "341 KEELE": {
+        "rows": 45,
+        "minimum": "2025-01-03",
+        "maximum": "2026-08-26"
+      },
+      "343 KENNEDY": {
+        "rows": 36,
+        "minimum": "2025-01-08",
+        "maximum": "2026-08-26"
+      },
+      "34C EGLINTON EAST": {
+        "rows": 1,
+        "minimum": "2025-08-21",
+        "maximum": "2025-08-21"
+      },
+      "35 JANE": {
+        "rows": 1501,
+        "minimum": "2025-01-01",
+        "maximum": "2026-08-31"
+      },
+      "35 JANE (A-BRANCH)": {
+        "rows": 1,
+        "minimum": "2026-05-02",
+        "maximum": "2026-05-02"
+      },
+      "35 JANE (TRAINING BUS)": {
+        "rows": 1,
+        "minimum": "2025-03-27",
+        "maximum": "2025-03-27"
+      },
+      "35 JANE - B BRANCH": {
+        "rows": 1,
+        "minimum": "2025-10-04",
+        "maximum": "2025-10-04"
+      },
+      "352 LAWRENCE WEST": {
+        "rows": 62,
+        "minimum": "2025-01-05",
+        "maximum": "2026-08-07"
+      },
+      "353 STEELES": {
+        "rows": 82,
+        "minimum": "2025-01-07",
+        "maximum": "2026-08-22"
+      },
+      "353 STEELES EAST": {
+        "rows": 2,
+        "minimum": "2025-06-06",
+        "maximum": "2026-07-06"
+      },
+      "354 LAWRENCE EAST": {
+        "rows": 49,
+        "minimum": "2025-01-18",
+        "maximum": "2026-08-30"
+      },
+      "36 FINCH WEST": {
+        "rows": 1500,
+        "minimum": "2025-01-01",
+        "maximum": "2026-08-31"
+      },
+      "363 OSSINGTON": {
+        "rows": 35,
+        "minimum": "2025-01-12",
+        "maximum": "2026-08-15"
+      },
+      "365 PARLIAMENT": {
+        "rows": 9,
+        "minimum": "2025-01-28",
+        "maximum": "2026-07-20"
+      },
+      "368": {
+        "rows": 1,
+        "minimum": "2025-11-28",
+        "maximum": "2025-11-28"
+      },
+      "37 ISLINGTON": {
+        "rows": 1084,
+        "minimum": "2025-01-02",
+        "maximum": "2026-08-31"
+      },
+      "37 ISLINGTON (A-BRANCH": {
+        "rows": 1,
+        "minimum": "2025-07-12",
+        "maximum": "2025-07-12"
+      },
+      "37B ISLINGTON": {
+        "rows": 1,
+        "minimum": "2025-11-23",
+        "maximum": "2025-11-23"
+      },
+      "38 HIGHLAND CREEK": {
+        "rows": 1051,
+        "minimum": "2025-01-02",
+        "maximum": "2026-08-31"
+      },
+      "384 SHEPPARD WEST": {
+        "rows": 14,
+        "minimum": "2025-01-27",
+        "maximum": "2026-05-31"
+      },
+      "385 SHEPPARD EAST": {
+        "rows": 46,
+        "minimum": "2025-03-06",
+        "maximum": "2026-08-08"
+      },
+      "386": {
+        "rows": 8,
+        "minimum": "2026-01-17",
+        "maximum": "2026-06-11"
+      },
+      "386 (RAD BUS)": {
+        "rows": 1,
+        "minimum": "2026-05-14",
+        "maximum": "2026-05-14"
+      },
+      "386 NIGHT BUS": {
+        "rows": 1,
+        "minimum": "2026-05-30",
+        "maximum": "2026-05-30"
+      },
+      "386 SCARBOROUGH": {
+        "rows": 10,
+        "minimum": "2025-12-28",
+        "maximum": "2026-08-03"
+      },
+      "39 FINCH EAST": {
+        "rows": 1054,
+        "minimum": "2025-01-01",
+        "maximum": "2026-08-29"
+      },
+      "39 FINCH EAST (RAD)": {
+        "rows": 1,
+        "minimum": "2026-06-18",
+        "maximum": "2026-06-18"
+      },
+      "39 FINCH WEST": {
+        "rows": 1,
+        "minimum": "2026-02-04",
+        "maximum": "2026-02-04"
+      },
+      "393": {
+        "rows": 1,
+        "minimum": "2025-12-08",
+        "maximum": "2025-12-08"
+      },
+      "3935": {
+        "rows": 1,
+        "minimum": "2025-04-17",
+        "maximum": "2025-04-17"
+      },
+      "395 YORK MILLS": {
+        "rows": 34,
+        "minimum": "2025-01-16",
+        "maximum": "2026-07-12"
+      },
+      "396 WILSON": {
+        "rows": 57,
+        "minimum": "2025-01-09",
+        "maximum": "2026-08-26"
+      },
+      "39B FINCH EAST": {
+        "rows": 3,
+        "minimum": "2025-02-23",
+        "maximum": "2025-12-26"
+      },
+      "39C FINCH EAST": {
+        "rows": 1,
+        "minimum": "2025-09-09",
+        "maximum": "2025-09-09"
+      },
+      "3X - 600": {
+        "rows": 1,
+        "minimum": "2026-07-05",
+        "maximum": "2026-07-05"
+      },
+      "40 JUNCTION-DUNDAS WES": {
+        "rows": 535,
+        "minimum": "2025-01-05",
+        "maximum": "2026-08-31"
+      },
+      "41": {
+        "rows": 2,
+        "minimum": "2025-07-05",
+        "maximum": "2025-07-19"
+      },
+      "41 KEELE": {
+        "rows": 1231,
+        "minimum": "2025-01-01",
+        "maximum": "2026-08-31"
+      },
+      "41 KEELE/941 KEELE EXP": {
+        "rows": 1,
+        "minimum": "2026-06-16",
+        "maximum": "2026-06-16"
+      },
+      "42 CUMMER": {
+        "rows": 534,
+        "minimum": "2025-01-06",
+        "maximum": "2026-08-31"
+      },
+      "42 CUMMER - 600 RAD": {
+        "rows": 1,
+        "minimum": "2026-06-19",
+        "maximum": "2026-06-19"
+      },
+      "43 KENNEDY": {
+        "rows": 1139,
+        "minimum": "2025-01-02",
+        "maximum": "2026-08-31"
+      },
+      "43 KENNEDY (320 YONGE": {
+        "rows": 1,
+        "minimum": "2026-04-12",
+        "maximum": "2026-04-12"
+      },
+      "439": {
+        "rows": 1,
+        "minimum": "2025-09-10",
+        "maximum": "2025-09-10"
+      },
+      "44 KIPLING SOUTH": {
+        "rows": 663,
+        "minimum": "2025-01-02",
+        "maximum": "2026-08-29"
+      },
+      "444": {
+        "rows": 1,
+        "minimum": "2025-10-18",
+        "maximum": "2025-10-18"
+      },
+      "45 KIPLING": {
+        "rows": 777,
+        "minimum": "2025-01-02",
+        "maximum": "2026-08-31"
+      },
+      "45 KIPLING (B BRANCH)": {
+        "rows": 1,
+        "minimum": "2026-07-28",
+        "maximum": "2026-07-28"
+      },
+      "46 MARTIN GROVE": {
+        "rows": 374,
+        "minimum": "2025-01-05",
+        "maximum": "2026-08-30"
+      },
+      "47": {
+        "rows": 3,
+        "minimum": "2025-03-18",
+        "maximum": "2026-03-01"
+      },
+      "47 LANSDOWNE": {
+        "rows": 1306,
+        "minimum": "2025-01-02",
+        "maximum": "2026-08-30"
+      },
+      "47 LANSDOWNE (RAD BUS)": {
+        "rows": 1,
+        "minimum": "2025-06-04",
+        "maximum": "2025-06-04"
+      },
+      "47 LANSDOWNE - A BRANC": {
+        "rows": 1,
+        "minimum": "2025-05-13",
+        "maximum": "2025-05-13"
+      },
+      "48 RATHBURN": {
+        "rows": 120,
+        "minimum": "2025-01-24",
+        "maximum": "2026-08-29"
+      },
+      "49 BLOOR WEST": {
+        "rows": 92,
+        "minimum": "2025-01-04",
+        "maximum": "2026-08-23"
+      },
+      "50 BURNHAMTHORPE": {
+        "rows": 184,
+        "minimum": "2025-01-06",
+        "maximum": "2026-08-24"
+      },
+      "50 BURNHAMTHORPE - RAD": {
+        "rows": 1,
+        "minimum": "2026-08-02",
+        "maximum": "2026-08-02"
+      },
+      "500": {
+        "rows": 4,
+        "minimum": "2025-04-19",
+        "maximum": "2025-10-26"
+      },
+      "500 (512 ST CLAIR)": {
+        "rows": 1,
+        "minimum": "2025-04-19",
+        "maximum": "2025-04-19"
+      },
+      "501": {
+        "rows": 7,
+        "minimum": "2025-06-07",
+        "maximum": "2026-08-27"
+      },
+      "501 QUEEN": {
+        "rows": 13,
+        "minimum": "2025-01-14",
+        "maximum": "2026-03-30"
+      },
+      "501 REPLACEMENT": {
+        "rows": 1,
+        "minimum": "2026-01-28",
+        "maximum": "2026-01-28"
+      },
+      "503": {
+        "rows": 21,
+        "minimum": "2025-10-03",
+        "maximum": "2026-08-25"
+      },
+      "503 KINGSTON": {
+        "rows": 21,
+        "minimum": "2025-11-05",
+        "maximum": "2026-08-29"
+      },
+      "503 KINGSTON RD": {
+        "rows": 3,
+        "minimum": "2025-11-07",
+        "maximum": "2026-07-09"
+      },
+      "503 KINGSTON ROAD": {
+        "rows": 27,
+        "minimum": "2025-09-19",
+        "maximum": "2026-08-31"
+      },
+      "504": {
+        "rows": 26,
+        "minimum": "2025-03-16",
+        "maximum": "2026-08-17"
+      },
+      "504 KING": {
+        "rows": 32,
+        "minimum": "2025-02-21",
+        "maximum": "2026-04-27"
+      },
+      "505": {
+        "rows": 5,
+        "minimum": "2025-04-21",
+        "maximum": "2026-08-26"
+      },
+      "505 DUNDAS": {
+        "rows": 4,
+        "minimum": "2025-01-24",
+        "maximum": "2026-03-15"
+      },
+      "506": {
+        "rows": 16,
+        "minimum": "2025-01-19",
+        "maximum": "2026-08-14"
+      },
+      "506 CARLTON": {
+        "rows": 16,
+        "minimum": "2025-05-22",
+        "maximum": "2026-08-24"
+      },
+      "506 RAD BUS": {
+        "rows": 1,
+        "minimum": "2025-09-07",
+        "maximum": "2025-09-07"
+      },
+      "506 REPLACEMENT": {
+        "rows": 1,
+        "minimum": "2025-11-21",
+        "maximum": "2025-11-21"
+      },
+      "506 SHUTTLE": {
+        "rows": 2,
+        "minimum": "2025-05-10",
+        "maximum": "2025-08-19"
+      },
+      "506 SHUTTLE BUS": {
+        "rows": 1,
+        "minimum": "2025-08-20",
+        "maximum": "2025-08-20"
+      },
+      "507": {
+        "rows": 10,
+        "minimum": "2025-02-14",
+        "maximum": "2026-08-23"
+      },
+      "507 (600 RAD)": {
+        "rows": 1,
+        "minimum": "2025-06-25",
+        "maximum": "2025-06-25"
+      },
+      "507 LONG BRANCH": {
+        "rows": 12,
+        "minimum": "2026-06-26",
+        "maximum": "2026-08-15"
+      },
+      "507 LONGBRANCH": {
+        "rows": 1,
+        "minimum": "2026-08-09",
+        "maximum": "2026-08-09"
+      },
+      "507 RAD": {
+        "rows": 1,
+        "minimum": "2026-06-06",
+        "maximum": "2026-06-06"
+      },
+      "508 LAKESHORE": {
+        "rows": 1,
+        "minimum": "2025-05-13",
+        "maximum": "2025-05-13"
+      },
+      "509 HARBOURFRONT": {
+        "rows": 8,
+        "minimum": "2025-02-21",
+        "maximum": "2025-10-10"
+      },
+      "51 LESLIE": {
+        "rows": 483,
+        "minimum": "2025-01-01",
+        "maximum": "2026-08-31"
+      },
+      "510": {
+        "rows": 6,
+        "minimum": "2025-01-04",
+        "maximum": "2026-08-16"
+      },
+      "510 SPADINA": {
+        "rows": 23,
+        "minimum": "2025-01-25",
+        "maximum": "2026-06-11"
+      },
+      "511": {
+        "rows": 6,
+        "minimum": "2025-01-19",
+        "maximum": "2025-12-03"
+      },
+      "511 BATHURST": {
+        "rows": 9,
+        "minimum": "2025-02-07",
+        "maximum": "2025-05-21"
+      },
+      "511 BATHURST (600)": {
+        "rows": 1,
+        "minimum": "2025-08-19",
+        "maximum": "2025-08-19"
+      },
+      "512": {
+        "rows": 7,
+        "minimum": "2025-01-20",
+        "maximum": "2026-08-02"
+      },
+      "512 ST CLAIR": {
+        "rows": 5,
+        "minimum": "2025-05-19",
+        "maximum": "2026-01-11"
+      },
+      "512 ST CLAIR - 600 RAD": {
+        "rows": 1,
+        "minimum": "2025-07-06",
+        "maximum": "2025-07-06"
+      },
+      "512 ST. CLAIR": {
+        "rows": 6,
+        "minimum": "2025-03-12",
+        "maximum": "2026-05-20"
+      },
+      "513 QUEEN EAST": {
+        "rows": 1,
+        "minimum": "2025-08-21",
+        "maximum": "2025-08-21"
+      },
+      "52": {
+        "rows": 5,
+        "minimum": "2025-02-16",
+        "maximum": "2026-05-18"
+      },
+      "52 BURNHAMTHORPE": {
+        "rows": 1,
+        "minimum": "2026-07-26",
+        "maximum": "2026-07-26"
+      },
+      "52 LAWRENCE WEST": {
+        "rows": 2387,
+        "minimum": "2025-01-01",
+        "maximum": "2026-08-30"
+      },
+      "52 LAWRENCE WEST & 952": {
+        "rows": 1,
+        "minimum": "2025-04-24",
+        "maximum": "2025-04-24"
+      },
+      "52B LAWRENCE WEST": {
+        "rows": 1,
+        "minimum": "2025-07-11",
+        "maximum": "2025-07-11"
+      },
+      "52F LAWRENCE WEST": {
+        "rows": 1,
+        "minimum": "2025-04-05",
+        "maximum": "2025-04-05"
+      },
+      "53 STEELES EAST": {
+        "rows": 1435,
+        "minimum": "2025-01-04",
+        "maximum": "2026-08-31"
+      },
+      "534": {
+        "rows": 1,
+        "minimum": "2025-07-10",
+        "maximum": "2025-07-10"
+      },
+      "54": {
+        "rows": 2,
+        "minimum": "2025-02-02",
+        "maximum": "2026-04-21"
+      },
+      "54 LAWRENCE EAST": {
+        "rows": 1618,
+        "minimum": "2025-01-01",
+        "maximum": "2026-08-31"
+      },
+      "55 WARREN PARK": {
+        "rows": 123,
+        "minimum": "2025-01-02",
+        "maximum": "2026-08-30"
+      },
+      "555": {
+        "rows": 30,
+        "minimum": "2025-01-20",
+        "maximum": "2026-08-18"
+      },
+      "56 LEASIDE": {
+        "rows": 270,
+        "minimum": "2025-01-07",
+        "maximum": "2026-02-03"
+      },
+      "57 MIDLAND": {
+        "rows": 483,
+        "minimum": "2025-01-04",
+        "maximum": "2026-08-31"
+      },
+      "59 MAPLE LEAF": {
+        "rows": 363,
+        "minimum": "2025-01-04",
+        "maximum": "2026-08-29"
+      },
+      "59 MAPLE LEAF (A-BRANC": {
+        "rows": 1,
+        "minimum": "2025-05-28",
+        "maximum": "2025-05-28"
+      },
+      "60 STEELES WEST": {
+        "rows": 742,
+        "minimum": "2025-01-06",
+        "maximum": "2026-08-31"
+      },
+      "60 STEELES WEST(600 RA": {
+        "rows": 1,
+        "minimum": "2026-07-11",
+        "maximum": "2026-07-11"
+      },
+      "600": {
+        "rows": 314,
+        "minimum": "2025-01-02",
+        "maximum": "2026-08-29"
+      },
+      "600  (57 MIDLAND)": {
+        "rows": 1,
+        "minimum": "2026-06-22",
+        "maximum": "2026-06-22"
+      },
+      "600  -LINE 2 SHUTTLE": {
+        "rows": 1,
+        "minimum": "2026-05-30",
+        "maximum": "2026-05-30"
+      },
+      "600 (42 CUMMER)": {
+        "rows": 1,
+        "minimum": "2025-12-04",
+        "maximum": "2025-12-04"
+      },
+      "600 (510)": {
+        "rows": 1,
+        "minimum": "2026-02-27",
+        "maximum": "2026-02-27"
+      },
+      "600 (900 AIRPORT EXPRE": {
+        "rows": 1,
+        "minimum": "2026-03-09",
+        "maximum": "2026-03-09"
+      },
+      "600 (RAD)": {
+        "rows": 4,
+        "minimum": "2025-01-12",
+        "maximum": "2026-08-10"
+      },
+      "600 - 22": {
+        "rows": 1,
+        "minimum": "2026-07-01",
+        "maximum": "2026-07-01"
+      },
+      "600 - 42 CUMMER": {
+        "rows": 1,
+        "minimum": "2026-06-09",
+        "maximum": "2026-06-09"
+      },
+      "600 - 501": {
+        "rows": 1,
+        "minimum": "2026-02-04",
+        "maximum": "2026-02-04"
+      },
+      "600 - 506": {
+        "rows": 1,
+        "minimum": "2026-03-02",
+        "maximum": "2026-03-02"
+      },
+      "600 - ARROW (32 EGLINT": {
+        "rows": 1,
+        "minimum": "2026-07-17",
+        "maximum": "2026-07-17"
+      },
+      "600 - ARROW DIVISION": {
+        "rows": 1,
+        "minimum": "2025-06-14",
+        "maximum": "2025-06-14"
+      },
+      "600 - LINE 2 SHUTTLE": {
+        "rows": 1,
+        "minimum": "2026-05-30",
+        "maximum": "2026-05-30"
+      },
+      "600 - QUEENSWAY GARAGE": {
+        "rows": 1,
+        "minimum": "2026-01-06",
+        "maximum": "2026-01-06"
+      },
+      "600 - RAD": {
+        "rows": 1,
+        "minimum": "2025-04-26",
+        "maximum": "2025-04-26"
+      },
+      "600 - RUNNING AS 506": {
+        "rows": 1,
+        "minimum": "2025-11-26",
+        "maximum": "2025-11-26"
+      },
+      "600 CONSTRUCTION": {
+        "rows": 2,
+        "minimum": "2025-01-22",
+        "maximum": "2026-04-30"
+      },
+      "600 CONSTRUCTION XTRA": {
+        "rows": 1,
+        "minimum": "2025-05-17",
+        "maximum": "2025-05-17"
+      },
+      "600 LINE 1 SHUTTLE": {
+        "rows": 1,
+        "minimum": "2026-08-15",
+        "maximum": "2026-08-15"
+      },
+      "600 LINE SHUTTLE": {
+        "rows": 1,
+        "minimum": "2025-07-13",
+        "maximum": "2025-07-13"
+      },
+      "600 RAD": {
+        "rows": 160,
+        "minimum": "2025-01-04",
+        "maximum": "2026-08-15"
+      },
+      "600 RAD (41 ROUTE)": {
+        "rows": 1,
+        "minimum": "2025-03-08",
+        "maximum": "2025-03-08"
+      },
+      "600 RAD (LINE 1 SHUTTL": {
+        "rows": 1,
+        "minimum": "2025-06-22",
+        "maximum": "2025-06-22"
+      },
+      "600 RAD - #504": {
+        "rows": 1,
+        "minimum": "2026-05-10",
+        "maximum": "2026-05-10"
+      },
+      "600 RAD - 116 BUS": {
+        "rows": 1,
+        "minimum": "2025-04-16",
+        "maximum": "2025-04-16"
+      },
+      "600 RAD - 52 LAWRENCE": {
+        "rows": 1,
+        "minimum": "2026-07-11",
+        "maximum": "2026-07-11"
+      },
+      "600 RAD - 95 YORK MILL": {
+        "rows": 1,
+        "minimum": "2026-04-25",
+        "maximum": "2026-04-25"
+      },
+      "600 RAD - LINE 1 SHUTT": {
+        "rows": 2,
+        "minimum": "2025-06-21",
+        "maximum": "2025-06-22"
+      },
+      "600 RAD - LINE 2 SHUTT": {
+        "rows": 1,
+        "minimum": "2026-07-26",
+        "maximum": "2026-07-26"
+      },
+      "600 RAD - ON #35": {
+        "rows": 1,
+        "minimum": "2026-06-15",
+        "maximum": "2026-06-15"
+      },
+      "600 RAD - OPERATING AS": {
+        "rows": 1,
+        "minimum": "2025-03-28",
+        "maximum": "2025-03-28"
+      },
+      "600 RAD - OPERATING ON": {
+        "rows": 1,
+        "minimum": "2025-08-09",
+        "maximum": "2025-08-09"
+      },
+      "600 RAD BUS": {
+        "rows": 9,
+        "minimum": "2025-03-03",
+        "maximum": "2026-05-08"
+      },
+      "600 RAD LINE 1": {
+        "rows": 1,
+        "minimum": "2025-05-24",
+        "maximum": "2025-05-24"
+      },
+      "600 RAD LINE 1 SHUTTLE": {
+        "rows": 1,
+        "minimum": "2025-03-12",
+        "maximum": "2025-03-12"
+      },
+      "600 RAD ON 67 PHARMACY": {
+        "rows": 1,
+        "minimum": "2025-03-02",
+        "maximum": "2025-03-02"
+      },
+      "600 RAD'S": {
+        "rows": 1,
+        "minimum": "2026-01-18",
+        "maximum": "2026-01-18"
+      },
+      "600 ROUTE": {
+        "rows": 1,
+        "minimum": "2026-05-09",
+        "maximum": "2026-05-09"
+      },
+      "600 SERIES": {
+        "rows": 6,
+        "minimum": "2025-06-19",
+        "maximum": "2026-03-04"
+      },
+      "600 SERIES (501 QUEEN)": {
+        "rows": 1,
+        "minimum": "2026-04-14",
+        "maximum": "2026-04-14"
+      },
+      "600 SERIES (805 SHUTTL": {
+        "rows": 1,
+        "minimum": "2026-02-13",
+        "maximum": "2026-02-13"
+      },
+      "600 SERIES (84 SHEPPAR": {
+        "rows": 1,
+        "minimum": "2025-12-14",
+        "maximum": "2025-12-14"
+      },
+      "600 SERIES (96 WILSON)": {
+        "rows": 1,
+        "minimum": "2026-01-05",
+        "maximum": "2026-01-05"
+      },
+      "600 SERIES (LINE 2 SHU": {
+        "rows": 1,
+        "minimum": "2026-03-08",
+        "maximum": "2026-03-08"
+      },
+      "600 SERIES (LINE 6 SHU": {
+        "rows": 1,
+        "minimum": "2026-08-03",
+        "maximum": "2026-08-03"
+      },
+      "600 SERIES (SHUTTLE)": {
+        "rows": 1,
+        "minimum": "2025-09-28",
+        "maximum": "2025-09-28"
+      },
+      "600 SHUTTLE": {
+        "rows": 2,
+        "minimum": "2025-03-26",
+        "maximum": "2026-06-01"
+      },
+      "600 SHUTTLE LINE 1": {
+        "rows": 1,
+        "minimum": "2025-03-08",
+        "maximum": "2025-03-08"
+      },
+      "600- 510ROUTE": {
+        "rows": 1,
+        "minimum": "2026-02-27",
+        "maximum": "2026-02-27"
+      },
+      "600-RAD": {
+        "rows": 3,
+        "minimum": "2025-06-23",
+        "maximum": "2026-05-03"
+      },
+      "600/ 79 SCARLETT": {
+        "rows": 1,
+        "minimum": "2026-05-26",
+        "maximum": "2026-05-26"
+      },
+      "600/ 84A  SHEPPARD": {
+        "rows": 1,
+        "minimum": "2025-03-05",
+        "maximum": "2025-03-05"
+      },
+      "600/ 85": {
+        "rows": 1,
+        "minimum": "2025-04-20",
+        "maximum": "2025-04-20"
+      },
+      "600/ LINE 2 SHUTTLE": {
+        "rows": 1,
+        "minimum": "2025-03-08",
+        "maximum": "2025-03-08"
+      },
+      "600/42": {
+        "rows": 1,
+        "minimum": "2025-01-03",
+        "maximum": "2025-01-03"
+      },
+      "600RAD": {
+        "rows": 8,
+        "minimum": "2025-02-04",
+        "maximum": "2026-04-18"
+      },
+      "601RAD": {
+        "rows": 1,
+        "minimum": "2025-05-27",
+        "maximum": "2025-05-27"
+      },
+      "61 AVENUE ROAD NORTH": {
+        "rows": 240,
+        "minimum": "2025-01-12",
+        "maximum": "2026-08-30"
+      },
+      "61 AVENUE ROAD NORTH (": {
+        "rows": 1,
+        "minimum": "2025-11-28",
+        "maximum": "2025-11-28"
+      },
+      "62 MORTIMER": {
+        "rows": 303,
+        "minimum": "2025-01-02",
+        "maximum": "2026-08-31"
+      },
+      "63": {
+        "rows": 4,
+        "minimum": "2025-01-23",
+        "maximum": "2025-12-09"
+      },
+      "63 OSSINGTON": {
+        "rows": 1669,
+        "minimum": "2025-01-02",
+        "maximum": "2026-08-31"
+      },
+      "63 OSSINGTON (RAD)": {
+        "rows": 1,
+        "minimum": "2026-05-29",
+        "maximum": "2026-05-29"
+      },
+      "64": {
+        "rows": 1,
+        "minimum": "2026-01-27",
+        "maximum": "2026-01-27"
+      },
+      "64 MAIN": {
+        "rows": 816,
+        "minimum": "2025-01-01",
+        "maximum": "2026-08-31"
+      },
+      "65 PARLIAMENT": {
+        "rows": 503,
+        "minimum": "2025-01-01",
+        "maximum": "2026-08-30"
+      },
+      "66 PRINCE EDWARD": {
+        "rows": 255,
+        "minimum": "2025-01-02",
+        "maximum": "2026-08-28"
+      },
+      "66B PRINCE EDWARD": {
+        "rows": 1,
+        "minimum": "2026-08-09",
+        "maximum": "2026-08-09"
+      },
+      "67 PHARMACY": {
+        "rows": 395,
+        "minimum": "2025-01-02",
+        "maximum": "2026-08-31"
+      },
+      "68 WARDEN": {
+        "rows": 806,
+        "minimum": "2025-01-03",
+        "maximum": "2026-08-31"
+      },
+      "68 WARDEN (B-BRANCH)": {
+        "rows": 1,
+        "minimum": "2026-05-24",
+        "maximum": "2026-05-24"
+      },
+      "69": {
+        "rows": 1,
+        "minimum": "2025-04-22",
+        "maximum": "2025-04-22"
+      },
+      "69 WARDEN SOUTH": {
+        "rows": 471,
+        "minimum": "2025-01-03",
+        "maximum": "2026-08-30"
+      },
+      "7": {
+        "rows": 1,
+        "minimum": "2026-06-24",
+        "maximum": "2026-06-24"
+      },
+      "7 BATHURST": {
+        "rows": 1840,
+        "minimum": "2025-01-01",
+        "maximum": "2026-08-31"
+      },
+      "7 BATHURST (600)": {
+        "rows": 1,
+        "minimum": "2026-04-22",
+        "maximum": "2026-04-22"
+      },
+      "7 BATHURST (RAD)": {
+        "rows": 1,
+        "minimum": "2025-04-22",
+        "maximum": "2025-04-22"
+      },
+      "7 BATHURST - 600 RAD": {
+        "rows": 1,
+        "minimum": "2026-05-30",
+        "maximum": "2026-05-30"
+      },
+      "70 O'CONNOR": {
+        "rows": 429,
+        "minimum": "2025-01-02",
+        "maximum": "2026-08-30"
+      },
+      "705": {
+        "rows": 1,
+        "minimum": "2025-05-10",
+        "maximum": "2025-05-10"
+      },
+      "71 RUNNYMEDE": {
+        "rows": 364,
+        "minimum": "2025-01-04",
+        "maximum": "2026-08-28"
+      },
+      "7107": {
+        "rows": 1,
+        "minimum": "2025-04-08",
+        "maximum": "2025-04-08"
+      },
+      "72": {
+        "rows": 1,
+        "minimum": "2026-06-20",
+        "maximum": "2026-06-20"
+      },
+      "72 PAPE": {
+        "rows": 1077,
+        "minimum": "2025-01-01",
+        "maximum": "2026-08-31"
+      },
+      "73 ROYAL YORK": {
+        "rows": 608,
+        "minimum": "2025-01-03",
+        "maximum": "2026-08-31"
+      },
+      "73B ROYAL YORK": {
+        "rows": 1,
+        "minimum": "2026-03-05",
+        "maximum": "2026-03-05"
+      },
+      "74 MOUNT PLEASANT": {
+        "rows": 125,
+        "minimum": "2025-05-06",
+        "maximum": "2026-08-30"
+      },
+      "74 MT. PLEASANT": {
+        "rows": 29,
+        "minimum": "2025-01-07",
+        "maximum": "2025-04-10"
+      },
+      "75 SHERBOURNE": {
+        "rows": 833,
+        "minimum": "2025-01-01",
+        "maximum": "2026-08-31"
+      },
+      "76": {
+        "rows": 3,
+        "minimum": "2025-05-09",
+        "maximum": "2026-08-27"
+      },
+      "76 ROYAL YORK SOUTH": {
+        "rows": 400,
+        "minimum": "2025-01-03",
+        "maximum": "2026-08-31"
+      },
+      "76 ROYAL YORK SOUTH (B": {
+        "rows": 1,
+        "minimum": "2025-02-19",
+        "maximum": "2025-02-19"
+      },
+      "77 SWANSEA": {
+        "rows": 149,
+        "minimum": "2025-01-31",
+        "maximum": "2026-08-28"
+      },
+      "77 SWANSEA (1 BUS ROUT": {
+        "rows": 1,
+        "minimum": "2026-01-06",
+        "maximum": "2026-01-06"
+      },
+      "77 SWANSEA (LINE 2 SHU": {
+        "rows": 1,
+        "minimum": "2025-09-30",
+        "maximum": "2025-09-30"
+      },
+      "78 ST. ANDREWS": {
+        "rows": 233,
+        "minimum": "2025-01-03",
+        "maximum": "2026-08-31"
+      },
+      "79 SCARLETT ROAD": {
+        "rows": 483,
+        "minimum": "2025-01-02",
+        "maximum": "2026-08-31"
+      },
+      "7935": {
+        "rows": 1,
+        "minimum": "2025-11-10",
+        "maximum": "2025-11-10"
+      },
+      "79A SCARLETT ROAD": {
+        "rows": 1,
+        "minimum": "2025-03-14",
+        "maximum": "2025-03-14"
+      },
+      "79B SCARLETT ROAD": {
+        "rows": 1,
+        "minimum": "2025-04-16",
+        "maximum": "2025-04-16"
+      },
+      "8 BROADVIEW": {
+        "rows": 321,
+        "minimum": "2025-01-01",
+        "maximum": "2026-08-28"
+      },
+      "80 QUEENSWAY": {
+        "rows": 405,
+        "minimum": "2025-01-01",
+        "maximum": "2026-08-28"
+      },
+      "80 QUEENSWAY (RAD)": {
+        "rows": 1,
+        "minimum": "2025-05-16",
+        "maximum": "2025-05-16"
+      },
+      "805": {
+        "rows": 3,
+        "minimum": "2026-02-13",
+        "maximum": "2026-04-17"
+      },
+      "805 - EGLINTON LINE 5": {
+        "rows": 1,
+        "minimum": "2026-05-02",
+        "maximum": "2026-05-02"
+      },
+      "805 - LINE 5 SHUTTLE": {
+        "rows": 1,
+        "minimum": "2026-04-11",
+        "maximum": "2026-04-11"
+      },
+      "805 LINE 5 SHUTTLE": {
+        "rows": 3,
+        "minimum": "2026-04-17",
+        "maximum": "2026-04-18"
+      },
+      "805: LINE 5 SHUTTLE": {
+        "rows": 1,
+        "minimum": "2026-04-25",
+        "maximum": "2026-04-25"
+      },
+      "806": {
+        "rows": 1,
+        "minimum": "2025-12-19",
+        "maximum": "2025-12-19"
+      },
+      "806 - LINE 6 SHUTTLE": {
+        "rows": 1,
+        "minimum": "2026-01-16",
+        "maximum": "2026-01-16"
+      },
+      "806 LINE 6 FWLRT SHUTT": {
+        "rows": 1,
+        "minimum": "2026-03-12",
+        "maximum": "2026-03-12"
+      },
+      "806 LINE 6 SHUTTLE": {
+        "rows": 1,
+        "minimum": "2026-01-20",
+        "maximum": "2026-01-20"
+      },
+      "82 ROSEDALE": {
+        "rows": 85,
+        "minimum": "2025-01-24",
+        "maximum": "2026-08-18"
+      },
+      "825": {
+        "rows": 1,
+        "minimum": "2025-03-27",
+        "maximum": "2025-03-27"
+      },
+      "827": {
+        "rows": 1,
+        "minimum": "2025-05-02",
+        "maximum": "2025-05-02"
+      },
+      "829 DUFFERIN EXPRESS": {
+        "rows": 1,
+        "minimum": "2026-07-02",
+        "maximum": "2026-07-02"
+      },
+      "829 DUFFERIN GATE EXPR": {
+        "rows": 4,
+        "minimum": "2026-06-23",
+        "maximum": "2026-07-02"
+      },
+      "83 JONES": {
+        "rows": 215,
+        "minimum": "2025-01-01",
+        "maximum": "2026-08-31"
+      },
+      "831 STREETCAR WAY": {
+        "rows": 1,
+        "minimum": "2025-12-26",
+        "maximum": "2025-12-26"
+      },
+      "84 SHEPPARD": {
+        "rows": 1,
+        "minimum": "2025-10-08",
+        "maximum": "2025-10-08"
+      },
+      "84 SHEPPARD WEST": {
+        "rows": 1077,
+        "minimum": "2025-01-01",
+        "maximum": "2026-08-31"
+      },
+      "84 SHEPPARD WEST 984": {
+        "rows": 1,
+        "minimum": "2025-04-01",
+        "maximum": "2025-04-01"
+      },
+      "8468": {
+        "rows": 1,
+        "minimum": "2026-04-07",
+        "maximum": "2026-04-07"
+      },
+      "85 SHEPPARD EAST": {
+        "rows": 1502,
+        "minimum": "2025-01-01",
+        "maximum": "2026-08-31"
+      },
+      "85 SHEPPARD EAST (A BR": {
+        "rows": 1,
+        "minimum": "2026-08-19",
+        "maximum": "2026-08-19"
+      },
+      "85 SHEPPARD EAST - A B": {
+        "rows": 1,
+        "minimum": "2025-04-29",
+        "maximum": "2025-04-29"
+      },
+      "85 SHEPPARD EAST / 985": {
+        "rows": 1,
+        "minimum": "2025-04-17",
+        "maximum": "2025-04-17"
+      },
+      "86": {
+        "rows": 2,
+        "minimum": "2025-04-29",
+        "maximum": "2025-08-28"
+      },
+      "86 SCARBOROUGH": {
+        "rows": 1500,
+        "minimum": "2025-01-01",
+        "maximum": "2026-08-30"
+      },
+      "87 COSBURN": {
+        "rows": 184,
+        "minimum": "2025-01-01",
+        "maximum": "2026-08-31"
+      },
+      "88 SHOUTH LEASIDE": {
+        "rows": 1,
+        "minimum": "2025-11-15",
+        "maximum": "2025-11-15"
+      },
+      "88 SOUTH LEASIDE": {
+        "rows": 358,
+        "minimum": "2025-01-03",
+        "maximum": "2026-08-31"
+      },
+      "882 SHUTTLE": {
+        "rows": 1,
+        "minimum": "2026-02-20",
+        "maximum": "2026-02-20"
+      },
+      "889 RAD, REPLACEMENT O": {
+        "rows": 1,
+        "minimum": "2026-03-22",
+        "maximum": "2026-03-22"
+      },
+      "89": {
+        "rows": 2,
+        "minimum": "2025-06-13",
+        "maximum": "2025-10-21"
+      },
+      "89 WESTON": {
+        "rows": 1127,
+        "minimum": "2025-01-02",
+        "maximum": "2026-08-29"
+      },
+      "89/ / 989 WESTON": {
+        "rows": 1,
+        "minimum": "2025-02-13",
+        "maximum": "2025-02-13"
+      },
+      "899": {
+        "rows": 14,
+        "minimum": "2025-02-18",
+        "maximum": "2026-08-19"
+      },
+      "899 OTC": {
+        "rows": 1,
+        "minimum": "2025-02-14",
+        "maximum": "2025-02-14"
+      },
+      "899 TRAINING BUS": {
+        "rows": 2,
+        "minimum": "2025-02-27",
+        "maximum": "2025-05-22"
+      },
+      "899 TRAINING ROUTE": {
+        "rows": 2,
+        "minimum": "2026-01-23",
+        "maximum": "2026-03-10"
+      },
+      "9 BELLAMY": {
+        "rows": 385,
+        "minimum": "2025-01-03",
+        "maximum": "2026-08-30"
+      },
+      "9*7": {
+        "rows": 1,
+        "minimum": "2025-08-22",
+        "maximum": "2025-08-22"
+      },
+      "9/16/21/38/43/95/129/1": {
+        "rows": 1,
+        "minimum": "2026-06-17",
+        "maximum": "2026-06-17"
+      },
+      "90 VAUGHAN": {
+        "rows": 416,
+        "minimum": "2025-01-06",
+        "maximum": "2026-08-31"
+      },
+      "900": {
+        "rows": 4,
+        "minimum": "2025-06-04",
+        "maximum": "2026-06-17"
+      },
+      "900 AIRPORT EXPRESS": {
+        "rows": 497,
+        "minimum": "2025-04-17",
+        "maximum": "2026-08-31"
+      },
+      "900 AIRPORT ROCKET": {
+        "rows": 98,
+        "minimum": "2025-01-01",
+        "maximum": "2025-04-11"
+      },
+      "9000": {
+        "rows": 1,
+        "minimum": "2026-04-07",
+        "maximum": "2026-04-07"
+      },
+      "902 /102 MARKHAM ROAD": {
+        "rows": 1,
+        "minimum": "2026-04-01",
+        "maximum": "2026-04-01"
+      },
+      "902 MARKHAM RD EXPRESS": {
+        "rows": 567,
+        "minimum": "2025-01-02",
+        "maximum": "2026-08-31"
+      },
+      "9020": {
+        "rows": 1,
+        "minimum": "2025-07-29",
+        "maximum": "2025-07-29"
+      },
+      "903 KENNEDY SCARBOROUG": {
+        "rows": 727,
+        "minimum": "2025-01-03",
+        "maximum": "2026-08-31"
+      },
+      "904 SHEPPARD-KENNEDY E": {
+        "rows": 820,
+        "minimum": "2025-01-03",
+        "maximum": "2026-08-30"
+      },
+      "905 EGLINTON EAST EXPR": {
+        "rows": 545,
+        "minimum": "2025-01-16",
+        "maximum": "2026-08-31"
+      },
+      "906": {
+        "rows": 2,
+        "minimum": "2026-01-05",
+        "maximum": "2026-01-13"
+      },
+      "906 AIRPORT - HUMBER C": {
+        "rows": 1,
+        "minimum": "2026-01-16",
+        "maximum": "2026-01-16"
+      },
+      "906 AIRPORT HUMBER EXP": {
+        "rows": 1,
+        "minimum": "2026-01-21",
+        "maximum": "2026-01-21"
+      },
+      "906 AIRPORT-HUMBER COL": {
+        "rows": 89,
+        "minimum": "2026-01-07",
+        "maximum": "2026-08-29"
+      },
+      "9060": {
+        "rows": 1,
+        "minimum": "2025-01-28",
+        "maximum": "2025-01-28"
+      },
+      "91 WOODBINE": {
+        "rows": 324,
+        "minimum": "2025-01-10",
+        "maximum": "2026-08-31"
+      },
+      "9129": {
+        "rows": 1,
+        "minimum": "2025-08-16",
+        "maximum": "2025-08-16"
+      },
+      "913 PROGRESS EXPRESS": {
+        "rows": 1,
+        "minimum": "2025-10-27",
+        "maximum": "2025-10-27"
+      },
+      "92 WOODBINE SOUTH": {
+        "rows": 241,
+        "minimum": "2025-01-02",
+        "maximum": "2026-08-30"
+      },
+      "924 VICTORIA PARK EXPR": {
+        "rows": 376,
+        "minimum": "2025-01-02",
+        "maximum": "2026-08-28"
+      },
+      "925": {
+        "rows": 2,
+        "minimum": "2025-04-08",
+        "maximum": "2025-11-20"
+      },
+      "925 DON MILLS EXPRESS": {
+        "rows": 844,
+        "minimum": "2025-01-02",
+        "maximum": "2026-08-30"
+      },
+      "9252": {
+        "rows": 1,
+        "minimum": "2025-06-06",
+        "maximum": "2025-06-06"
+      },
+      "927 HIGHWAY 27 EXPRESS": {
+        "rows": 918,
+        "minimum": "2025-01-01",
+        "maximum": "2026-08-31"
+      },
+      "927D  HIGHWAY 27 EXPRE": {
+        "rows": 1,
+        "minimum": "2025-11-28",
+        "maximum": "2025-11-28"
+      },
+      "929": {
+        "rows": 1,
+        "minimum": "2025-02-26",
+        "maximum": "2025-02-26"
+      },
+      "929 DUFFERIN": {
+        "rows": 2,
+        "minimum": "2025-09-16",
+        "maximum": "2025-12-19"
+      },
+      "929 DUFFERIN EXPRESS": {
+        "rows": 1163,
+        "minimum": "2025-01-01",
+        "maximum": "2026-08-31"
+      },
+      "929 DUFFERIN EXPRESS (": {
+        "rows": 1,
+        "minimum": "2025-09-01",
+        "maximum": "2025-09-01"
+      },
+      "929 DUFFERIN EXPRESS -": {
+        "rows": 1,
+        "minimum": "2025-09-26",
+        "maximum": "2025-09-26"
+      },
+      "93 PARKVIEW HILLS": {
+        "rows": 71,
+        "minimum": "2025-01-05",
+        "maximum": "2026-08-27"
+      },
+      "93 WOODBINE SOUTH": {
+        "rows": 1,
+        "minimum": "2026-03-30",
+        "maximum": "2026-03-30"
+      },
+      "935": {
+        "rows": 1,
+        "minimum": "2025-05-10",
+        "maximum": "2025-05-10"
+      },
+      "935 JANE EXPRESS": {
+        "rows": 733,
+        "minimum": "2025-01-01",
+        "maximum": "2026-08-30"
+      },
+      "937 ISLINGTON EXPRESS": {
+        "rows": 191,
+        "minimum": "2025-01-02",
+        "maximum": "2026-08-31"
+      },
+      "938 HIGHLAND CREEK EXP": {
+        "rows": 14,
+        "minimum": "2025-01-24",
+        "maximum": "2026-04-13"
+      },
+      "939": {
+        "rows": 1,
+        "minimum": "2026-05-15",
+        "maximum": "2026-05-15"
+      },
+      "939 FINCH EAST": {
+        "rows": 1,
+        "minimum": "2025-09-08",
+        "maximum": "2025-09-08"
+      },
+      "939 FINCH EXPRESS": {
+        "rows": 1727,
+        "minimum": "2025-01-01",
+        "maximum": "2026-08-31"
+      },
+      "939 FINCH EXPRESS (B)": {
+        "rows": 1,
+        "minimum": "2025-02-13",
+        "maximum": "2025-02-13"
+      },
+      "939B FINCH EXPRESS": {
+        "rows": 2,
+        "minimum": "2025-07-04",
+        "maximum": "2025-08-20"
+      },
+      "94 WELLESLEY": {
+        "rows": 747,
+        "minimum": "2025-01-01",
+        "maximum": "2026-08-29"
+      },
+      "94 WELLESLEY - STATION": {
+        "rows": 1,
+        "minimum": "2025-12-16",
+        "maximum": "2025-12-16"
+      },
+      "941 KEELE EXPRESS": {
+        "rows": 228,
+        "minimum": "2025-01-09",
+        "maximum": "2026-06-18"
+      },
+      "944 KIPLING SOUTH EXPR": {
+        "rows": 64,
+        "minimum": "2025-01-02",
+        "maximum": "2026-06-08"
+      },
+      "945 KIPLING": {
+        "rows": 1,
+        "minimum": "2025-12-09",
+        "maximum": "2025-12-09"
+      },
+      "945 KIPLING EXPRESS": {
+        "rows": 269,
+        "minimum": "2025-01-02",
+        "maximum": "2026-06-19"
+      },
+      "9484": {
+        "rows": 1,
+        "minimum": "2025-04-11",
+        "maximum": "2025-04-11"
+      },
+      "94A WELLESLEY": {
+        "rows": 1,
+        "minimum": "2025-07-07",
+        "maximum": "2025-07-07"
+      },
+      "95 YORK MILLS": {
+        "rows": 1476,
+        "minimum": "2025-01-01",
+        "maximum": "2026-08-31"
+      },
+      "95 YORK MILLS/995 YORK": {
+        "rows": 1,
+        "minimum": "2025-09-17",
+        "maximum": "2025-09-17"
+      },
+      "952 LAWRENCE WEST EXPR": {
+        "rows": 349,
+        "minimum": "2025-01-02",
+        "maximum": "2026-08-25"
+      },
+      "953 STEELES EAST EXPRE": {
+        "rows": 100,
+        "minimum": "2025-01-07",
+        "maximum": "2026-08-26"
+      },
+      "953 STEELES EXPRESS": {
+        "rows": 1,
+        "minimum": "2025-12-12",
+        "maximum": "2025-12-12"
+      },
+      "9535": {
+        "rows": 1,
+        "minimum": "2025-04-15",
+        "maximum": "2025-04-15"
+      },
+      "954 LAWRENCE EAST EXPR": {
+        "rows": 187,
+        "minimum": "2025-01-20",
+        "maximum": "2026-08-31"
+      },
+      "956": {
+        "rows": 2,
+        "minimum": "2025-09-30",
+        "maximum": "2025-12-09"
+      },
+      "9560": {
+        "rows": 1,
+        "minimum": "2026-08-07",
+        "maximum": "2026-08-07"
+      },
+      "9584": {
+        "rows": 1,
+        "minimum": "2025-10-22",
+        "maximum": "2025-10-22"
+      },
+      "96": {
+        "rows": 2,
+        "minimum": "2025-12-10",
+        "maximum": "2026-05-09"
+      },
+      "96 WILSON": {
+        "rows": 1506,
+        "minimum": "2025-01-01",
+        "maximum": "2026-08-31"
+      },
+      "96 WILSON (OTC)": {
+        "rows": 1,
+        "minimum": "2025-10-30",
+        "maximum": "2025-10-30"
+      },
+      "960": {
+        "rows": 2,
+        "minimum": "2025-05-22",
+        "maximum": "2025-12-29"
+      },
+      "960 STEELES WEST EXPRE": {
+        "rows": 1073,
+        "minimum": "2025-01-02",
+        "maximum": "2026-08-31"
+      },
+      "968": {
+        "rows": 1,
+        "minimum": "2026-02-24",
+        "maximum": "2026-02-24"
+      },
+      "968 WARDEN EXPRESS": {
+        "rows": 134,
+        "minimum": "2025-01-03",
+        "maximum": "2026-07-06"
+      },
+      "968 WARDEN EXPRESS (RA": {
+        "rows": 1,
+        "minimum": "2025-05-16",
+        "maximum": "2025-05-16"
+      },
+      "96B WILSON": {
+        "rows": 1,
+        "minimum": "2026-08-14",
+        "maximum": "2026-08-14"
+      },
+      "97": {
+        "rows": 2,
+        "minimum": "2026-01-08",
+        "maximum": "2026-02-26"
+      },
+      "97 YONGE": {
+        "rows": 1029,
+        "minimum": "2025-01-01",
+        "maximum": "2026-08-31"
+      },
+      "97 YONGE (C BRANCH)": {
+        "rows": 1,
+        "minimum": "2025-12-31",
+        "maximum": "2025-12-31"
+      },
+      "97B YONGE": {
+        "rows": 1,
+        "minimum": "2025-06-25",
+        "maximum": "2025-06-25"
+      },
+      "97C YONGE": {
+        "rows": 3,
+        "minimum": "2025-10-03",
+        "maximum": "2025-11-13"
+      },
+      "98 WILLOWDALE-SENLAC": {
+        "rows": 275,
+        "minimum": "2025-01-04",
+        "maximum": "2026-08-27"
+      },
+      "984 SHEPPARD WEST EXPR": {
+        "rows": 236,
+        "minimum": "2025-01-03",
+        "maximum": "2026-08-28"
+      },
+      "985 SHEPPARD EAST EXPR": {
+        "rows": 258,
+        "minimum": "2025-01-06",
+        "maximum": "2026-08-27"
+      },
+      "986 SCARBOROUGH EXPRES": {
+        "rows": 278,
+        "minimum": "2025-01-08",
+        "maximum": "2026-08-31"
+      },
+      "989 WESTON": {
+        "rows": 1,
+        "minimum": "2026-01-28",
+        "maximum": "2026-01-28"
+      },
+      "989 WESTON EXPRESS": {
+        "rows": 328,
+        "minimum": "2025-01-02",
+        "maximum": "2026-08-28"
+      },
+      "99": {
+        "rows": 1,
+        "minimum": "2025-12-11",
+        "maximum": "2025-12-11"
+      },
+      "99 ARROW ROAD": {
+        "rows": 87,
+        "minimum": "2025-01-05",
+        "maximum": "2026-08-23"
+      },
+      "995 EGLINTON EAST EXPR": {
+        "rows": 1,
+        "minimum": "2026-08-06",
+        "maximum": "2026-08-06"
+      },
+      "995 YORK MILLS EXPRESS": {
+        "rows": 612,
+        "minimum": "2025-01-06",
+        "maximum": "2026-08-31"
+      },
+      "996 WILSON": {
+        "rows": 1,
+        "minimum": "2026-02-27",
+        "maximum": "2026-02-27"
+      },
+      "996 WILSON EXPRESS": {
+        "rows": 875,
+        "minimum": "2025-01-02",
+        "maximum": "2026-08-31"
+      },
+      "9984": {
+        "rows": 2,
+        "minimum": "2025-05-14",
+        "maximum": "2025-05-15"
+      },
+      "9985": {
+        "rows": 1,
+        "minimum": "2025-06-20",
+        "maximum": "2025-06-20"
+      },
+      "999": {
+        "rows": 566,
+        "minimum": "2025-01-02",
+        "maximum": "2026-08-31"
+      },
+      "999 (100 FLEMINGDON)": {
+        "rows": 1,
+        "minimum": "2025-05-01",
+        "maximum": "2025-05-01"
+      },
+      "999 (111 EAST MALL)": {
+        "rows": 1,
+        "minimum": "2026-03-04",
+        "maximum": "2026-03-04"
+      },
+      "999 (132 MILNER)": {
+        "rows": 1,
+        "minimum": "2026-07-19",
+        "maximum": "2026-07-19"
+      },
+      "999 (165 WESTON ROAD)": {
+        "rows": 1,
+        "minimum": "2025-06-02",
+        "maximum": "2025-06-02"
+      },
+      "999 (33 FOREST HILL)": {
+        "rows": 1,
+        "minimum": "2025-05-29",
+        "maximum": "2025-05-29"
+      },
+      "999 (600 RAD)": {
+        "rows": 2,
+        "minimum": "2026-01-01",
+        "maximum": "2026-03-01"
+      },
+      "999 (7 BATHURST)": {
+        "rows": 1,
+        "minimum": "2025-06-02",
+        "maximum": "2025-06-02"
+      },
+      "999 - CNE EXPRESS": {
+        "rows": 1,
+        "minimum": "2026-08-28",
+        "maximum": "2026-08-28"
+      },
+      "999 - CNE SHUTTLE": {
+        "rows": 1,
+        "minimum": "2026-08-28",
+        "maximum": "2026-08-28"
+      },
+      "999 - RAD": {
+        "rows": 1,
+        "minimum": "2025-05-02",
+        "maximum": "2025-05-02"
+      },
+      "999 - SHUTTLE": {
+        "rows": 1,
+        "minimum": "2025-09-27",
+        "maximum": "2025-09-27"
+      },
+      "999 RAD": {
+        "rows": 8,
+        "minimum": "2025-02-05",
+        "maximum": "2026-07-26"
+      },
+      "999 ROUTE FAM": {
+        "rows": 1,
+        "minimum": "2026-03-11",
+        "maximum": "2026-03-11"
+      },
+      "9999": {
+        "rows": 1,
+        "minimum": "2026-05-13",
+        "maximum": "2026-05-13"
+      },
+      "A": {
+        "rows": 12,
+        "minimum": "2025-03-04",
+        "maximum": "2026-04-16"
+      },
+      "A150": {
+        "rows": 1,
+        "minimum": "2025-12-17",
+        "maximum": "2025-12-17"
+      },
+      "A304": {
+        "rows": 1,
+        "minimum": "2025-05-08",
+        "maximum": "2025-05-08"
+      },
+      "A356": {
+        "rows": 1,
+        "minimum": "2025-09-11",
+        "maximum": "2025-09-11"
+      },
+      "A421": {
+        "rows": 1,
+        "minimum": "2025-01-31",
+        "maximum": "2025-01-31"
+      },
+      "A433": {
+        "rows": 1,
+        "minimum": "2025-10-14",
+        "maximum": "2025-10-14"
+      },
+      "A521": {
+        "rows": 1,
+        "minimum": "2026-01-27",
+        "maximum": "2026-01-27"
+      },
+      "ALL ROUTES": {
+        "rows": 1,
+        "minimum": "2026-03-14",
+        "maximum": "2026-03-14"
+      },
+      "BATHURST": {
+        "rows": 1,
+        "minimum": "2026-04-12",
+        "maximum": "2026-04-12"
+      },
+      "BD": {
+        "rows": 18,
+        "minimum": "2025-02-22",
+        "maximum": "2026-08-30"
+      },
+      "CHARTERED BUS": {
+        "rows": 1,
+        "minimum": "2025-02-24",
+        "maximum": "2025-02-24"
+      },
+      "CNE SHUTTLES": {
+        "rows": 1,
+        "minimum": "2025-08-16",
+        "maximum": "2025-08-16"
+      },
+      "CONSTRUCTION BUS": {
+        "rows": 2,
+        "minimum": "2025-04-16",
+        "maximum": "2026-03-03"
+      },
+      "DIVISIONAL CLERK": {
+        "rows": 1,
+        "minimum": "2026-08-31",
+        "maximum": "2026-08-31"
+      },
+      "DIVISIONAL TRAINING": {
+        "rows": 1,
+        "minimum": "2026-07-28",
+        "maximum": "2026-07-28"
+      },
+      "EC": {
+        "rows": 1,
+        "minimum": "2026-08-21",
+        "maximum": "2026-08-21"
+      },
+      "EMERGENCY SHUTTLE": {
+        "rows": 1,
+        "minimum": "2025-08-17",
+        "maximum": "2025-08-17"
+      },
+      "FIFA TPS CHARTER": {
+        "rows": 1,
+        "minimum": "2026-06-14",
+        "maximum": "2026-06-14"
+      },
+      "FLEET": {
+        "rows": 4,
+        "minimum": "2025-01-22",
+        "maximum": "2025-03-24"
+      },
+      "FLEET 079": {
+        "rows": 1,
+        "minimum": "2025-07-08",
+        "maximum": "2025-07-08"
+      },
+      "FLEET 898": {
+        "rows": 1,
+        "minimum": "2025-06-17",
+        "maximum": "2025-06-17"
+      },
+      "FLEET A": {
+        "rows": 1,
+        "minimum": "2025-03-24",
+        "maximum": "2025-03-24"
+      },
+      "FLEET A398": {
+        "rows": 1,
+        "minimum": "2025-05-29",
+        "maximum": "2025-05-29"
+      },
+      "FLEET VEHICLE": {
+        "rows": 8,
+        "minimum": "2025-02-07",
+        "maximum": "2026-08-06"
+      },
+      "GARAGE MECHANIC ROUTIN": {
+        "rows": 1,
+        "minimum": "2026-08-06",
+        "maximum": "2026-08-06"
+      },
+      "HARVEY SHOP REPAIR PER": {
+        "rows": 1,
+        "minimum": "2025-07-24",
+        "maximum": "2025-07-24"
+      },
+      "HILLCREST COMPLEX": {
+        "rows": 1,
+        "minimum": "2026-05-13",
+        "maximum": "2026-05-13"
+      },
+      "LINE #2 SHUTTLE": {
+        "rows": 1,
+        "minimum": "2026-03-28",
+        "maximum": "2026-03-28"
+      },
+      "LINE #6 SHUTTLE": {
+        "rows": 1,
+        "minimum": "2026-06-30",
+        "maximum": "2026-06-30"
+      },
+      "LINE 1": {
+        "rows": 1,
+        "minimum": "2025-05-30",
+        "maximum": "2025-05-30"
+      },
+      "LINE 1 - SHUTTLE": {
+        "rows": 1,
+        "minimum": "2025-06-21",
+        "maximum": "2025-06-21"
+      },
+      "LINE 1 SHUTTLE": {
+        "rows": 65,
+        "minimum": "2025-01-16",
+        "maximum": "2026-08-16"
+      },
+      "LINE 1 SHUTTLE (600 RA": {
+        "rows": 1,
+        "minimum": "2025-01-26",
+        "maximum": "2025-01-26"
+      },
+      "LINE 1 SHUTTLE (RAD)": {
+        "rows": 1,
+        "minimum": "2025-03-20",
+        "maximum": "2025-03-20"
+      },
+      "LINE 1 SHUTTLE BUS": {
+        "rows": 4,
+        "minimum": "2025-03-02",
+        "maximum": "2026-06-07"
+      },
+      "LINE 2": {
+        "rows": 4,
+        "minimum": "2025-07-26",
+        "maximum": "2026-05-15"
+      },
+      "LINE 2 SHUTLE": {
+        "rows": 1,
+        "minimum": "2026-01-25",
+        "maximum": "2026-01-25"
+      },
+      "LINE 2 SHUTLLE": {
+        "rows": 1,
+        "minimum": "2025-04-27",
+        "maximum": "2025-04-27"
+      },
+      "LINE 2 SHUTTLE": {
+        "rows": 52,
+        "minimum": "2025-03-08",
+        "maximum": "2026-05-30"
+      },
+      "LINE 2 SHUTTLE (RAD BU": {
+        "rows": 1,
+        "minimum": "2025-06-22",
+        "maximum": "2025-06-22"
+      },
+      "LINE 2 SHUTTLE - 600 R": {
+        "rows": 1,
+        "minimum": "2025-07-06",
+        "maximum": "2025-07-06"
+      },
+      "LINE 2 SHUTTLE BUS": {
+        "rows": 9,
+        "minimum": "2025-04-13",
+        "maximum": "2026-05-31"
+      },
+      "LINE 4 SHUTTLE": {
+        "rows": 2,
+        "minimum": "2026-02-07",
+        "maximum": "2026-02-22"
+      },
+      "LINE 5 SHUTTLE": {
+        "rows": 1,
+        "minimum": "2026-06-16",
+        "maximum": "2026-06-16"
+      },
+      "LINE 6 SHUTTLE": {
+        "rows": 3,
+        "minimum": "2026-02-08",
+        "maximum": "2026-04-17"
+      },
+      "LINE 6 SHUTTLE BUS": {
+        "rows": 1,
+        "minimum": "2026-01-26",
+        "maximum": "2026-01-26"
+      },
+      "LINE SHUTTLE": {
+        "rows": 1,
+        "minimum": "2026-03-22",
+        "maximum": "2026-03-22"
+      },
+      "MCCOWAN": {
+        "rows": 1,
+        "minimum": "2026-05-19",
+        "maximum": "2026-05-19"
+      },
+      "MT DENNIS TEST BUS": {
+        "rows": 1,
+        "minimum": "2025-02-18",
+        "maximum": "2025-02-18"
+      },
+      "NIGHT TRADES": {
+        "rows": 1,
+        "minimum": "2025-07-13",
+        "maximum": "2025-07-13"
+      },
+      "OPERATIONS TRAINING CE": {
+        "rows": 1,
+        "minimum": "2026-04-28",
+        "maximum": "2026-04-28"
+      },
+      "OTC": {
+        "rows": 10,
+        "minimum": "2025-02-19",
+        "maximum": "2026-08-21"
+      },
+      "OTC BUS": {
+        "rows": 5,
+        "minimum": "2025-03-19",
+        "maximum": "2026-06-25"
+      },
+      "OTC TRAINING BUS": {
+        "rows": 5,
+        "minimum": "2025-02-14",
+        "maximum": "2026-05-19"
+      },
+      "R": {
+        "rows": 1,
+        "minimum": "2026-06-01",
+        "maximum": "2026-06-01"
+      },
+      "R5 - DODGE RAM FLEET V": {
+        "rows": 1,
+        "minimum": "2026-01-14",
+        "maximum": "2026-01-14"
+      },
+      "RAD": {
+        "rows": 25,
+        "minimum": "2025-01-05",
+        "maximum": "2026-03-29"
+      },
+      "RAD (600)": {
+        "rows": 1,
+        "minimum": "2025-05-24",
+        "maximum": "2025-05-24"
+      },
+      "RAD - 151 LESLIE": {
+        "rows": 1,
+        "minimum": "2026-04-02",
+        "maximum": "2026-04-02"
+      },
+      "RAD - 53 STEELES EAST": {
+        "rows": 1,
+        "minimum": "2026-04-11",
+        "maximum": "2026-04-11"
+      },
+      "RAD - 806": {
+        "rows": 1,
+        "minimum": "2026-03-04",
+        "maximum": "2026-03-04"
+      },
+      "RAD 600": {
+        "rows": 5,
+        "minimum": "2025-03-02",
+        "maximum": "2026-04-26"
+      },
+      "RAD 600 - 506 CARLTON": {
+        "rows": 1,
+        "minimum": "2026-05-19",
+        "maximum": "2026-05-19"
+      },
+      "RAD 63": {
+        "rows": 1,
+        "minimum": "2025-06-11",
+        "maximum": "2025-06-11"
+      },
+      "RAD 72 PAPE": {
+        "rows": 1,
+        "minimum": "2025-09-16",
+        "maximum": "2025-09-16"
+      },
+      "RAD 999": {
+        "rows": 1,
+        "minimum": "2025-05-01",
+        "maximum": "2025-05-01"
+      },
+      "RAD BUS": {
+        "rows": 2,
+        "minimum": "2025-02-19",
+        "maximum": "2025-11-23"
+      },
+      "RENTAL FLEET VEHICLE": {
+        "rows": 1,
+        "minimum": "2026-05-24",
+        "maximum": "2026-05-24"
+      },
+      "REVENUE DEPARTMENT": {
+        "rows": 1,
+        "minimum": "2025-02-22",
+        "maximum": "2025-02-22"
+      },
+      "REVENUE OPERATIONS TRU": {
+        "rows": 1,
+        "minimum": "2026-07-27",
+        "maximum": "2026-07-27"
+      },
+      "REVENUE SERVICES": {
+        "rows": 1,
+        "minimum": "2026-03-06",
+        "maximum": "2026-03-06"
+      },
+      "REVENUE TRUCK 85": {
+        "rows": 1,
+        "minimum": "2025-08-02",
+        "maximum": "2025-08-02"
+      },
+      "ROAD TEST": {
+        "rows": 1,
+        "minimum": "2026-06-30",
+        "maximum": "2026-06-30"
+      },
+      "SHELTER BUS": {
+        "rows": 1,
+        "minimum": "2026-02-26",
+        "maximum": "2026-02-26"
+      },
+      "SHEPPARD-KENNEDY EXPRE": {
+        "rows": 1,
+        "minimum": "2026-05-02",
+        "maximum": "2026-05-02"
+      },
+      "SHP": {
+        "rows": 4,
+        "minimum": "2025-01-28",
+        "maximum": "2026-06-19"
+      },
+      "SHUTTLE": {
+        "rows": 1,
+        "minimum": "2026-03-04",
+        "maximum": "2026-03-04"
+      },
+      "SHUTTLE BUS": {
+        "rows": 23,
+        "minimum": "2025-01-17",
+        "maximum": "2026-05-02"
+      },
+      "SHUTTLE BUS - LINE 1": {
+        "rows": 1,
+        "minimum": "2025-12-06",
+        "maximum": "2025-12-06"
+      },
+      "SHUTTLE BUS LINE 2": {
+        "rows": 1,
+        "minimum": "2026-02-28",
+        "maximum": "2026-02-28"
+      },
+      "SHUTTLE BUS-504": {
+        "rows": 1,
+        "minimum": "2026-05-07",
+        "maximum": "2026-05-07"
+      },
+      "SHUTTLE LINE 1": {
+        "rows": 2,
+        "minimum": "2025-01-26",
+        "maximum": "2025-12-06"
+      },
+      "SIGNALS FLEET VEHICLE": {
+        "rows": 1,
+        "minimum": "2026-08-30",
+        "maximum": "2026-08-30"
+      },
+      "SRT": {
+        "rows": 24,
+        "minimum": "2025-02-25",
+        "maximum": "2026-07-22"
+      },
+      "ST. CLAIR": {
+        "rows": 1,
+        "minimum": "2026-05-13",
+        "maximum": "2026-05-13"
+      },
+      "TBM": {
+        "rows": 6,
+        "minimum": "2025-11-22",
+        "maximum": "2026-05-25"
+      },
+      "TBM OPERATOR KAUDA": {
+        "rows": 1,
+        "minimum": "2026-04-18",
+        "maximum": "2026-04-18"
+      },
+      "TRAINING BUS": {
+        "rows": 17,
+        "minimum": "2025-01-29",
+        "maximum": "2026-03-30"
+      },
+      "TRANSIT CONTROL BUS OP": {
+        "rows": 1,
+        "minimum": "2026-04-05",
+        "maximum": "2026-04-05"
+      },
+      "TRANSIT CONTROL CENTRE": {
+        "rows": 1,
+        "minimum": "2026-05-05",
+        "maximum": "2026-05-05"
+      },
+      "TRANSIT SPECIAL CONSTA": {
+        "rows": 1,
+        "minimum": "2026-06-24",
+        "maximum": "2026-06-24"
+      },
+      "TTC SPECIAL EVENTS BUS": {
+        "rows": 1,
+        "minimum": "2026-06-02",
+        "maximum": "2026-06-02"
+      },
+      "VARIOUS ROUTE(S)": {
+        "rows": 1,
+        "minimum": "2026-07-28",
+        "maximum": "2026-07-28"
+      },
+      "VISION ISSUES": {
+        "rows": 1,
+        "minimum": "2025-08-07",
+        "maximum": "2025-08-07"
+      },
+      "WHEEL-TRANS": {
+        "rows": 1,
+        "minimum": "2026-05-10",
+        "maximum": "2026-05-10"
+      },
+      "YU": {
+        "rows": 27,
+        "minimum": "2025-03-01",
+        "maximum": "2026-07-31"
+      }
+    },
+    "non_cardinal_bound": {
+      "2": 1,
+      "3": 1,
+      "4": 2,
+      "7": 1,
+      "8": 2,
+      "A": 2,
+      "B": 33,
+      "D": 4,
+      "G": 1,
+      "M": 6,
+      "Q": 1,
+      "Z": 1,
+      "`": 1
+    },
+    "maximum_label_lengths": {
+      "Line": 22,
+      "Station": 22,
+      "Code": 5
+    }
+  },
+  "streetcar": {
+    "verification": "PASS",
+    "weekday_mismatches_by_date": {
+      "2026-04-26": 42
+    },
+    "line_coverage": {
+      "": {
+        "rows": 352,
+        "minimum": "2025-01-03",
+        "maximum": "2026-08-28"
+      },
+      "114": {
+        "rows": 1,
+        "minimum": "2026-07-18",
+        "maximum": "2026-07-18"
+      },
+      "129 MCCOWAN NORTH": {
+        "rows": 1,
+        "minimum": "2025-01-04",
+        "maximum": "2025-01-04"
+      },
+      "131 NUGGET": {
+        "rows": 1,
+        "minimum": "2025-01-04",
+        "maximum": "2025-01-04"
+      },
+      "25": {
+        "rows": 1,
+        "minimum": "2026-07-24",
+        "maximum": "2026-07-24"
+      },
+      "26": {
+        "rows": 1,
+        "minimum": "2025-10-27",
+        "maximum": "2025-10-27"
+      },
+      "301 OVERHEAD CREW": {
+        "rows": 2,
+        "minimum": "2026-02-10",
+        "maximum": "2026-04-09"
+      },
+      "301 QUEEN": {
+        "rows": 7,
+        "minimum": "2025-02-16",
+        "maximum": "2026-04-06"
+      },
+      "301 QUEEN NIGHT": {
+        "rows": 258,
+        "minimum": "2025-01-06",
+        "maximum": "2026-08-30"
+      },
+      "303": {
+        "rows": 1,
+        "minimum": "2025-01-08",
+        "maximum": "2025-01-08"
+      },
+      "303 KINGSTOM": {
+        "rows": 1,
+        "minimum": "2025-04-08",
+        "maximum": "2025-04-08"
+      },
+      "303 KINGSTON RD": {
+        "rows": 5,
+        "minimum": "2025-02-05",
+        "maximum": "2025-03-20"
+      },
+      "303 KINGSTON ROAD": {
+        "rows": 9,
+        "minimum": "2025-01-05",
+        "maximum": "2025-08-04"
+      },
+      "303 KINGSTON ROAD NIGH": {
+        "rows": 27,
+        "minimum": "2025-04-12",
+        "maximum": "2025-08-25"
+      },
+      "303 OVERHEAD": {
+        "rows": 1,
+        "minimum": "2025-12-24",
+        "maximum": "2025-12-24"
+      },
+      "304 KING": {
+        "rows": 5,
+        "minimum": "2025-10-31",
+        "maximum": "2026-08-09"
+      },
+      "304 KING NIGHT": {
+        "rows": 145,
+        "minimum": "2025-01-05",
+        "maximum": "2026-08-29"
+      },
+      "305": {
+        "rows": 4,
+        "minimum": "2025-03-03",
+        "maximum": "2025-04-14"
+      },
+      "305 DUNDAS": {
+        "rows": 32,
+        "minimum": "2025-01-02",
+        "maximum": "2026-05-29"
+      },
+      "305 DUNDAS NIGHT": {
+        "rows": 136,
+        "minimum": "2025-01-05",
+        "maximum": "2026-08-29"
+      },
+      "305 NIGHT CAR": {
+        "rows": 1,
+        "minimum": "2025-04-09",
+        "maximum": "2025-04-09"
+      },
+      "306 CARLTON": {
+        "rows": 8,
+        "minimum": "2025-02-17",
+        "maximum": "2026-07-28"
+      },
+      "306 CARLTON NIGHT": {
+        "rows": 167,
+        "minimum": "2025-01-08",
+        "maximum": "2026-08-30"
+      },
+      "309 HARBOURFRONT": {
+        "rows": 2,
+        "minimum": "2026-07-06",
+        "maximum": "2026-07-14"
+      },
+      "310 SPADINA": {
+        "rows": 4,
+        "minimum": "2025-04-28",
+        "maximum": "2026-05-11"
+      },
+      "310 SPADINA NIGHT": {
+        "rows": 55,
+        "minimum": "2025-01-29",
+        "maximum": "2026-08-30"
+      },
+      "311": {
+        "rows": 2,
+        "minimum": "2026-07-06",
+        "maximum": "2026-07-17"
+      },
+      "311 BATHURST": {
+        "rows": 2,
+        "minimum": "2026-07-14",
+        "maximum": "2026-07-14"
+      },
+      "312 ST. CLAIR NIGHT": {
+        "rows": 30,
+        "minimum": "2025-05-02",
+        "maximum": "2026-08-13"
+      },
+      "335 JANE": {
+        "rows": 1,
+        "minimum": "2026-07-02",
+        "maximum": "2026-07-02"
+      },
+      "39 FINCH EAST": {
+        "rows": 1,
+        "minimum": "2025-11-03",
+        "maximum": "2025-11-03"
+      },
+      "4404": {
+        "rows": 1,
+        "minimum": "2025-06-09",
+        "maximum": "2025-06-09"
+      },
+      "500": {
+        "rows": 70,
+        "minimum": "2025-01-13",
+        "maximum": "2026-08-29"
+      },
+      "500 (512 ST CLAIR)": {
+        "rows": 1,
+        "minimum": "2025-07-09",
+        "maximum": "2025-07-09"
+      },
+      "500 - RAD": {
+        "rows": 1,
+        "minimum": "2026-05-07",
+        "maximum": "2026-05-07"
+      },
+      "500 RAD": {
+        "rows": 1,
+        "minimum": "2026-06-30",
+        "maximum": "2026-06-30"
+      },
+      "5003": {
+        "rows": 1,
+        "minimum": "2025-03-03",
+        "maximum": "2025-03-03"
+      },
+      "501 (RAD)": {
+        "rows": 1,
+        "minimum": "2025-04-30",
+        "maximum": "2025-04-30"
+      },
+      "501 LAKESHORE": {
+        "rows": 1,
+        "minimum": "2025-05-18",
+        "maximum": "2025-05-18"
+      },
+      "501 QUEEN": {
+        "rows": 3992,
+        "minimum": "2025-01-01",
+        "maximum": "2026-08-31"
+      },
+      "501 QUEEN (600)": {
+        "rows": 1,
+        "minimum": "2026-06-03",
+        "maximum": "2026-06-03"
+      },
+      "501 QUEEN - RAD": {
+        "rows": 1,
+        "minimum": "2025-04-28",
+        "maximum": "2025-04-28"
+      },
+      "501 QUEEN - RAD VEHICL": {
+        "rows": 1,
+        "minimum": "2026-08-01",
+        "maximum": "2026-08-01"
+      },
+      "502 DOWNTOWNER": {
+        "rows": 1,
+        "minimum": "2025-08-11",
+        "maximum": "2025-08-11"
+      },
+      "503": {
+        "rows": 3,
+        "minimum": "2025-06-23",
+        "maximum": "2025-12-27"
+      },
+      "503 KINGSOTN ROAD": {
+        "rows": 1,
+        "minimum": "2026-02-10",
+        "maximum": "2026-02-10"
+      },
+      "503 KINGSTON RD": {
+        "rows": 1,
+        "minimum": "2026-04-11",
+        "maximum": "2026-04-11"
+      },
+      "503 KINGSTON ROAD": {
+        "rows": 1814,
+        "minimum": "2025-01-02",
+        "maximum": "2026-08-31"
+      },
+      "503 KINGSTON ROAD - BU": {
+        "rows": 1,
+        "minimum": "2026-02-02",
+        "maximum": "2026-02-02"
+      },
+      "503 LONG BRANCH": {
+        "rows": 1,
+        "minimum": "2026-01-16",
+        "maximum": "2026-01-16"
+      },
+      "504": {
+        "rows": 4,
+        "minimum": "2025-03-18",
+        "maximum": "2026-08-22"
+      },
+      "504 AKING": {
+        "rows": 1,
+        "minimum": "2025-02-22",
+        "maximum": "2025-02-22"
+      },
+      "504 KING": {
+        "rows": 4102,
+        "minimum": "2025-01-01",
+        "maximum": "2026-08-31"
+      },
+      "504 KING (A-BRANCH)": {
+        "rows": 2,
+        "minimum": "2026-01-02",
+        "maximum": "2026-08-16"
+      },
+      "504 KING (B-BRANCH)": {
+        "rows": 1,
+        "minimum": "2026-07-02",
+        "maximum": "2026-07-02"
+      },
+      "504 KING (PRIVATE)": {
+        "rows": 1,
+        "minimum": "2025-04-30",
+        "maximum": "2025-04-30"
+      },
+      "504 KING - B BRANCH": {
+        "rows": 1,
+        "minimum": "2026-03-01",
+        "maximum": "2026-03-01"
+      },
+      "504 KING - SHUTTLE BUS": {
+        "rows": 1,
+        "minimum": "2025-05-06",
+        "maximum": "2025-05-06"
+      },
+      "504 KING RAD CAR": {
+        "rows": 1,
+        "minimum": "2025-01-16",
+        "maximum": "2025-01-16"
+      },
+      "504 KING SHUTTLE": {
+        "rows": 1,
+        "minimum": "2025-05-05",
+        "maximum": "2025-05-05"
+      },
+      "504 KING SHUTTLE BUS": {
+        "rows": 1,
+        "minimum": "2025-05-17",
+        "maximum": "2025-05-17"
+      },
+      "504 KING- 600": {
+        "rows": 1,
+        "minimum": "2025-04-05",
+        "maximum": "2025-04-05"
+      },
+      "5047": {
+        "rows": 1,
+        "minimum": "2026-05-09",
+        "maximum": "2026-05-09"
+      },
+      "504A KING": {
+        "rows": 4,
+        "minimum": "2025-02-18",
+        "maximum": "2026-04-01"
+      },
+      "504B KING": {
+        "rows": 6,
+        "minimum": "2025-04-17",
+        "maximum": "2026-06-20"
+      },
+      "504C KING": {
+        "rows": 1,
+        "minimum": "2025-07-08",
+        "maximum": "2025-07-08"
+      },
+      "504D KING": {
+        "rows": 2,
+        "minimum": "2025-07-09",
+        "maximum": "2026-02-25"
+      },
+      "504D/C KING": {
+        "rows": 1,
+        "minimum": "2025-07-11",
+        "maximum": "2025-07-11"
+      },
+      "505": {
+        "rows": 3,
+        "minimum": "2025-02-11",
+        "maximum": "2026-01-16"
+      },
+      "505 DUNDAS": {
+        "rows": 3230,
+        "minimum": "2025-01-01",
+        "maximum": "2026-08-31"
+      },
+      "505 DUNDAS  (RAD BUS)": {
+        "rows": 1,
+        "minimum": "2025-02-22",
+        "maximum": "2025-02-22"
+      },
+      "505 DUNDAS (NO RUN - R": {
+        "rows": 1,
+        "minimum": "2025-11-17",
+        "maximum": "2025-11-17"
+      },
+      "505 DUNDAS (RAD)": {
+        "rows": 2,
+        "minimum": "2025-02-07",
+        "maximum": "2025-04-17"
+      },
+      "505 RAD STREETCAR": {
+        "rows": 1,
+        "minimum": "2025-10-04",
+        "maximum": "2025-10-04"
+      },
+      "506": {
+        "rows": 2,
+        "minimum": "2025-10-28",
+        "maximum": "2026-04-22"
+      },
+      "506 CARLTON": {
+        "rows": 2950,
+        "minimum": "2025-01-01",
+        "maximum": "2026-08-31"
+      },
+      "506 CARLTON  (RAD)": {
+        "rows": 1,
+        "minimum": "2025-04-27",
+        "maximum": "2025-04-27"
+      },
+      "506 CARLTON (600)": {
+        "rows": 1,
+        "minimum": "2026-03-18",
+        "maximum": "2026-03-18"
+      },
+      "506 CARLTON (RAD)": {
+        "rows": 2,
+        "minimum": "2025-10-25",
+        "maximum": "2026-05-17"
+      },
+      "506 CARLTON - 600 RAD": {
+        "rows": 1,
+        "minimum": "2025-11-28",
+        "maximum": "2025-11-28"
+      },
+      "506 CARLTON - RAD": {
+        "rows": 1,
+        "minimum": "2026-01-29",
+        "maximum": "2026-01-29"
+      },
+      "506 CARLTON - RAD BUS": {
+        "rows": 1,
+        "minimum": "2025-11-25",
+        "maximum": "2025-11-25"
+      },
+      "506 CARLTON RAD": {
+        "rows": 1,
+        "minimum": "2026-04-26",
+        "maximum": "2026-04-26"
+      },
+      "506RAD": {
+        "rows": 1,
+        "minimum": "2025-11-26",
+        "maximum": "2025-11-26"
+      },
+      "507 LONG BRANCH": {
+        "rows": 805,
+        "minimum": "2025-01-02",
+        "maximum": "2026-08-31"
+      },
+      "507 LONG BRANCH (600 R": {
+        "rows": 2,
+        "minimum": "2025-06-26",
+        "maximum": "2026-06-19"
+      },
+      "507 LONG BRANCH (OTC)": {
+        "rows": 1,
+        "minimum": "2025-10-02",
+        "maximum": "2025-10-02"
+      },
+      "507 LONG BRANCH - 500": {
+        "rows": 1,
+        "minimum": "2026-06-20",
+        "maximum": "2026-06-20"
+      },
+      "507 LONG BRANCH EXTRA": {
+        "rows": 1,
+        "minimum": "2025-07-08",
+        "maximum": "2025-07-08"
+      },
+      "507 SHUTTLE": {
+        "rows": 1,
+        "minimum": "2025-01-13",
+        "maximum": "2025-01-13"
+      },
+      "508 KING": {
+        "rows": 1,
+        "minimum": "2026-05-28",
+        "maximum": "2026-05-28"
+      },
+      "508 LAKESHORE": {
+        "rows": 103,
+        "minimum": "2025-01-02",
+        "maximum": "2026-06-03"
+      },
+      "508 LAKESHORE (600 SER": {
+        "rows": 1,
+        "minimum": "2026-03-25",
+        "maximum": "2026-03-25"
+      },
+      "509 HARBOUR FRONT": {
+        "rows": 1,
+        "minimum": "2025-09-11",
+        "maximum": "2025-09-11"
+      },
+      "509 HARBOURFRONT": {
+        "rows": 616,
+        "minimum": "2025-01-02",
+        "maximum": "2026-08-30"
+      },
+      "509 HARBOURFRONT (RAD": {
+        "rows": 1,
+        "minimum": "2026-05-06",
+        "maximum": "2026-05-06"
+      },
+      "509 HARBOURFRONT (RAD)": {
+        "rows": 1,
+        "minimum": "2026-07-10",
+        "maximum": "2026-07-10"
+      },
+      "509 HARBOURFRONT (RADI": {
+        "rows": 1,
+        "minimum": "2025-05-08",
+        "maximum": "2025-05-08"
+      },
+      "510": {
+        "rows": 5,
+        "minimum": "2025-01-25",
+        "maximum": "2026-03-26"
+      },
+      "510 SPADINA": {
+        "rows": 1761,
+        "minimum": "2025-01-01",
+        "maximum": "2026-08-30"
+      },
+      "510 SPADINA (RUN-IN-RA": {
+        "rows": 1,
+        "minimum": "2026-04-04",
+        "maximum": "2026-04-04"
+      },
+      "510 SPADINA -": {
+        "rows": 1,
+        "minimum": "2026-07-08",
+        "maximum": "2026-07-08"
+      },
+      "511": {
+        "rows": 2,
+        "minimum": "2026-05-30",
+        "maximum": "2026-06-14"
+      },
+      "511 BATHURST": {
+        "rows": 1036,
+        "minimum": "2025-01-01",
+        "maximum": "2026-08-30"
+      },
+      "511 BATHURST (600 RAD)": {
+        "rows": 1,
+        "minimum": "2026-03-17",
+        "maximum": "2026-03-17"
+      },
+      "511 BATHURST (600 SERI": {
+        "rows": 1,
+        "minimum": "2026-03-22",
+        "maximum": "2026-03-22"
+      },
+      "511 BATHURST (600)": {
+        "rows": 1,
+        "minimum": "2026-03-22",
+        "maximum": "2026-03-22"
+      },
+      "5111": {
+        "rows": 1,
+        "minimum": "2026-04-03",
+        "maximum": "2026-04-03"
+      },
+      "512": {
+        "rows": 2,
+        "minimum": "2025-05-14",
+        "maximum": "2025-10-14"
+      },
+      "512 ST CLAIR": {
+        "rows": 7,
+        "minimum": "2025-04-04",
+        "maximum": "2026-07-16"
+      },
+      "512 ST. CLAIR": {
+        "rows": 1616,
+        "minimum": "2025-01-01",
+        "maximum": "2026-08-31"
+      },
+      "512 ST. CLAIR ( RAD)": {
+        "rows": 1,
+        "minimum": "2026-07-11",
+        "maximum": "2026-07-11"
+      },
+      "512 ST. CLAIR (RAD BUS": {
+        "rows": 1,
+        "minimum": "2026-01-12",
+        "maximum": "2026-01-12"
+      },
+      "512`": {
+        "rows": 1,
+        "minimum": "2025-04-11",
+        "maximum": "2025-04-11"
+      },
+      "514 CHERRY": {
+        "rows": 1,
+        "minimum": "2025-07-08",
+        "maximum": "2025-07-08"
+      },
+      "54": {
+        "rows": 1,
+        "minimum": "2026-02-17",
+        "maximum": "2026-02-17"
+      },
+      "555": {
+        "rows": 12,
+        "minimum": "2025-01-14",
+        "maximum": "2026-07-01"
+      },
+      "555 (505 DUNDAS)": {
+        "rows": 1,
+        "minimum": "2025-07-17",
+        "maximum": "2025-07-17"
+      },
+      "555 (507 RAD)": {
+        "rows": 1,
+        "minimum": "2026-06-19",
+        "maximum": "2026-06-19"
+      },
+      "600": {
+        "rows": 23,
+        "minimum": "2025-02-09",
+        "maximum": "2026-08-24"
+      },
+      "600 (506 CARLTON)": {
+        "rows": 1,
+        "minimum": "2026-03-10",
+        "maximum": "2026-03-10"
+      },
+      "600 (509 HARBOURFRONT)": {
+        "rows": 1,
+        "minimum": "2026-03-26",
+        "maximum": "2026-03-26"
+      },
+      "600 (510 SPADINA)": {
+        "rows": 1,
+        "minimum": "2026-05-08",
+        "maximum": "2026-05-08"
+      },
+      "600 (511 BATHURST)": {
+        "rows": 1,
+        "minimum": "2026-03-11",
+        "maximum": "2026-03-11"
+      },
+      "600 (OPERATING AS 503": {
+        "rows": 1,
+        "minimum": "2025-06-24",
+        "maximum": "2025-06-24"
+      },
+      "600 (RAD)": {
+        "rows": 1,
+        "minimum": "2025-09-01",
+        "maximum": "2025-09-01"
+      },
+      "600 - 506 CARLTON": {
+        "rows": 1,
+        "minimum": "2026-03-13",
+        "maximum": "2026-03-13"
+      },
+      "600 - QUEENSWAY GARAGE": {
+        "rows": 1,
+        "minimum": "2026-03-27",
+        "maximum": "2026-03-27"
+      },
+      "600 - RAD": {
+        "rows": 1,
+        "minimum": "2026-04-25",
+        "maximum": "2026-04-25"
+      },
+      "600 - STORM CAR": {
+        "rows": 1,
+        "minimum": "2026-02-25",
+        "maximum": "2026-02-25"
+      },
+      "600 RAD": {
+        "rows": 13,
+        "minimum": "2025-02-24",
+        "maximum": "2026-08-20"
+      },
+      "600 RAD (510 SPADINA)": {
+        "rows": 1,
+        "minimum": "2025-08-11",
+        "maximum": "2025-08-11"
+      },
+      "600 RAD (512 ROUTE)": {
+        "rows": 1,
+        "minimum": "2026-01-12",
+        "maximum": "2026-01-12"
+      },
+      "600 RAD 504": {
+        "rows": 1,
+        "minimum": "2025-02-02",
+        "maximum": "2025-02-02"
+      },
+      "600 RAD 512": {
+        "rows": 1,
+        "minimum": "2025-04-19",
+        "maximum": "2025-04-19"
+      },
+      "600 RAD ON 512 ST CLAI": {
+        "rows": 1,
+        "minimum": "2025-04-19",
+        "maximum": "2025-04-19"
+      },
+      "600 RAD VEHICLE": {
+        "rows": 1,
+        "minimum": "2025-04-28",
+        "maximum": "2025-04-28"
+      },
+      "600 SERIES (506 CARLTO": {
+        "rows": 1,
+        "minimum": "2026-03-08",
+        "maximum": "2026-03-08"
+      },
+      "600 SHUTTLE": {
+        "rows": 1,
+        "minimum": "2025-08-28",
+        "maximum": "2025-08-28"
+      },
+      "600 STORM CAR": {
+        "rows": 1,
+        "minimum": "2026-02-07",
+        "maximum": "2026-02-07"
+      },
+      "600(506)": {
+        "rows": 1,
+        "minimum": "2026-03-06",
+        "maximum": "2026-03-06"
+      },
+      "600(512 ST CLAIR)": {
+        "rows": 1,
+        "minimum": "2026-04-28",
+        "maximum": "2026-04-28"
+      },
+      "600- 507 ROUTE": {
+        "rows": 1,
+        "minimum": "2026-06-09",
+        "maximum": "2026-06-09"
+      },
+      "600/506 CARLTON": {
+        "rows": 1,
+        "minimum": "2025-03-09",
+        "maximum": "2025-03-09"
+      },
+      "600RAD": {
+        "rows": 1,
+        "minimum": "2026-07-27",
+        "maximum": "2026-07-27"
+      },
+      "600RAD, 504": {
+        "rows": 1,
+        "minimum": "2025-02-28",
+        "maximum": "2025-02-28"
+      },
+      "69": {
+        "rows": 1,
+        "minimum": "2025-09-13",
+        "maximum": "2025-09-13"
+      },
+      "7 BATHURST": {
+        "rows": 1,
+        "minimum": "2025-06-20",
+        "maximum": "2025-06-20"
+      },
+      "705": {
+        "rows": 21,
+        "minimum": "2025-02-18",
+        "maximum": "2026-07-23"
+      },
+      "705 LONG BRANCH": {
+        "rows": 1,
+        "minimum": "2026-03-25",
+        "maximum": "2026-03-25"
+      },
+      "705 RAD": {
+        "rows": 12,
+        "minimum": "2025-02-04",
+        "maximum": "2026-06-08"
+      },
+      "706": {
+        "rows": 1,
+        "minimum": "2026-08-17",
+        "maximum": "2026-08-17"
+      },
+      "72652": {
+        "rows": 1,
+        "minimum": "2026-05-04",
+        "maximum": "2026-05-04"
+      },
+      "75 SHERBOURNE": {
+        "rows": 1,
+        "minimum": "2026-06-30",
+        "maximum": "2026-06-30"
+      },
+      "831 STREETCAR WAY": {
+        "rows": 1,
+        "minimum": "2026-01-01",
+        "maximum": "2026-01-01"
+      },
+      "899": {
+        "rows": 1,
+        "minimum": "2025-02-21",
+        "maximum": "2025-02-21"
+      },
+      "899 TRAINING ROUTE": {
+        "rows": 1,
+        "minimum": "2026-08-06",
+        "maximum": "2026-08-06"
+      },
+      "900": {
+        "rows": 1,
+        "minimum": "2025-07-06",
+        "maximum": "2025-07-06"
+      },
+      "929 DUFFERIN EXPRESS": {
+        "rows": 1,
+        "minimum": "2025-07-13",
+        "maximum": "2025-07-13"
+      },
+      "939 FINCH EXPRESS": {
+        "rows": 1,
+        "minimum": "2026-01-24",
+        "maximum": "2026-01-24"
+      },
+      "96 WILSON": {
+        "rows": 1,
+        "minimum": "2025-05-24",
+        "maximum": "2025-05-24"
+      },
+      "999": {
+        "rows": 54,
+        "minimum": "2025-01-14",
+        "maximum": "2026-08-21"
+      },
+      "999 (505 DUNDAS)": {
+        "rows": 1,
+        "minimum": "2025-02-26",
+        "maximum": "2025-02-26"
+      },
+      "A410": {
+        "rows": 1,
+        "minimum": "2025-05-01",
+        "maximum": "2025-05-01"
+      },
+      "BD": {
+        "rows": 3,
+        "minimum": "2025-04-03",
+        "maximum": "2026-01-22"
+      },
+      "CARHOUSE": {
+        "rows": 1,
+        "minimum": "2025-08-29",
+        "maximum": "2025-08-29"
+      },
+      "CHO": {
+        "rows": 1,
+        "minimum": "2025-08-03",
+        "maximum": "2025-08-03"
+      },
+      "CNE EXTRA": {
+        "rows": 2,
+        "minimum": "2025-08-15",
+        "maximum": "2025-08-28"
+      },
+      "CSR B#T010165": {
+        "rows": 1,
+        "minimum": "2026-07-02",
+        "maximum": "2026-07-02"
+      },
+      "EXHIBITION LOOP": {
+        "rows": 1,
+        "minimum": "2026-07-05",
+        "maximum": "2026-07-05"
+      },
+      "EXTRA": {
+        "rows": 1,
+        "minimum": "2025-06-28",
+        "maximum": "2025-06-28"
+      },
+      "EXTRA CAR": {
+        "rows": 1,
+        "minimum": "2025-11-26",
+        "maximum": "2025-11-26"
+      },
+      "FLEET TRUCK": {
+        "rows": 1,
+        "minimum": "2026-07-07",
+        "maximum": "2026-07-07"
+      },
+      "FLEET VEHICLE - A": {
+        "rows": 1,
+        "minimum": "2025-09-21",
+        "maximum": "2025-09-21"
+      },
+      "OTC": {
+        "rows": 4,
+        "minimum": "2025-03-14",
+        "maximum": "2026-04-09"
+      },
+      "OTC - 501 QUEEN": {
+        "rows": 1,
+        "minimum": "2026-03-12",
+        "maximum": "2026-03-12"
+      },
+      "OTC CAR": {
+        "rows": 2,
+        "minimum": "2025-02-18",
+        "maximum": "2026-01-27"
+      },
+      "OVERHEAD": {
+        "rows": 1,
+        "minimum": "2026-05-07",
+        "maximum": "2026-05-07"
+      },
+      "RAD": {
+        "rows": 20,
+        "minimum": "2025-03-13",
+        "maximum": "2026-07-03"
+      },
+      "RAD (510 SPADINA)": {
+        "rows": 1,
+        "minimum": "2026-03-31",
+        "maximum": "2026-03-31"
+      },
+      "RAD - #507": {
+        "rows": 1,
+        "minimum": "2026-06-15",
+        "maximum": "2026-06-15"
+      },
+      "RAD - 504 KING": {
+        "rows": 1,
+        "minimum": "2026-05-04",
+        "maximum": "2026-05-04"
+      },
+      "RAD - 506 CARLTON": {
+        "rows": 1,
+        "minimum": "2025-09-19",
+        "maximum": "2025-09-19"
+      },
+      "RAD 600": {
+        "rows": 1,
+        "minimum": "2025-02-21",
+        "maximum": "2025-02-21"
+      },
+      "RAD CAR - DOING #501": {
+        "rows": 1,
+        "minimum": "2026-06-18",
+        "maximum": "2026-06-18"
+      },
+      "RAD CAR ON #501": {
+        "rows": 1,
+        "minimum": "2026-06-02",
+        "maximum": "2026-06-02"
+      },
+      "RUN IN": {
+        "rows": 1,
+        "minimum": "2025-11-30",
+        "maximum": "2025-11-30"
+      },
+      "RUN IN CAR": {
+        "rows": 1,
+        "minimum": "2026-01-29",
+        "maximum": "2026-01-29"
+      },
+      "S": {
+        "rows": 1,
+        "minimum": "2025-03-28",
+        "maximum": "2025-03-28"
+      },
+      "STORM CAR": {
+        "rows": 2,
+        "minimum": "2026-01-27",
+        "maximum": "2026-01-30"
+      },
+      "STORM CAR - 505": {
+        "rows": 1,
+        "minimum": "2025-03-29",
+        "maximum": "2025-03-29"
+      },
+      "STORM STREETCAR": {
+        "rows": 1,
+        "minimum": "2026-03-01",
+        "maximum": "2026-03-01"
+      },
+      "TEST CAR": {
+        "rows": 1,
+        "minimum": "2025-08-10",
+        "maximum": "2025-08-10"
+      },
+      "TRACK 11": {
+        "rows": 1,
+        "minimum": "2025-07-15",
+        "maximum": "2025-07-15"
+      },
+      "TRACK 2 - SWITCH 130": {
+        "rows": 1,
+        "minimum": "2025-07-13",
+        "maximum": "2025-07-13"
+      },
+      "TRACK 7E": {
+        "rows": 1,
+        "minimum": "2025-11-23",
+        "maximum": "2025-11-23"
+      },
+      "TRAINING VEHICLE": {
+        "rows": 1,
+        "minimum": "2025-02-19",
+        "maximum": "2025-02-19"
+      },
+      "YU": {
+        "rows": 2,
+        "minimum": "2025-04-23",
+        "maximum": "2026-02-27"
+      }
+    },
+    "non_cardinal_bound": {
+      "8": 1,
+      "B": 16
+    },
+    "maximum_label_lengths": {
+      "Line": 22,
+      "Station": 22,
+      "Code": 5
+    }
+  },
+  "lrt": {
+    "verification": "PASS",
+    "weekday_mismatches_by_date": {
+      "2025-12-27": 12,
+      "2026-03-01": 16,
+      "2026-03-08": 15,
+      "2026-03-15": 11,
+      "2026-03-22": 10,
+      "2026-03-29": 17,
+      "2026-04-05": 19,
+      "2026-04-12": 14,
+      "2026-04-19": 16,
+      "2026-04-26": 21,
+      "2026-05-03": 19,
+      "2026-05-10": 8,
+      "2026-05-17": 16,
+      "2026-05-24": 12,
+      "2026-05-31": 14,
+      "2026-06-07": 18,
+      "2026-06-14": 13,
+      "2026-06-21": 18,
+      "2026-06-28": 21,
+      "2026-07-05": 15,
+      "2026-07-12": 17,
+      "2026-07-19": 17,
+      "2026-07-26": 16,
+      "2026-08-02": 9,
+      "2026-08-09": 10,
+      "2026-08-16": 14,
+      "2026-08-23": 16,
+      "2026-08-30": 16
+    },
+    "line_coverage": {
+      "": {
+        "rows": 7,
+        "minimum": "2026-04-15",
+        "maximum": "2026-08-26"
+      },
+      "EC": {
+        "rows": 2743,
+        "minimum": "2026-02-08",
+        "maximum": "2026-08-31"
+      },
+      "EC/FW": {
+        "rows": 3,
+        "minimum": "2026-07-27",
+        "maximum": "2026-08-29"
+      },
+      "ECLRT/FWLRT": {
+        "rows": 1,
+        "minimum": "2026-06-17",
+        "maximum": "2026-06-17"
+      },
+      "EGLINTON/FINCH": {
+        "rows": 1,
+        "minimum": "2026-03-27",
+        "maximum": "2026-03-27"
+      },
+      "FW": {
+        "rows": 1808,
+        "minimum": "2025-12-07",
+        "maximum": "2026-08-31"
+      },
+      "FW (OTC)": {
+        "rows": 2,
+        "minimum": "2026-03-23",
+        "maximum": "2026-03-23"
+      },
+      "FW/EC": {
+        "rows": 3,
+        "minimum": "2026-04-21",
+        "maximum": "2026-05-19"
+      },
+      "LRT": {
+        "rows": 1,
+        "minimum": "2026-07-23",
+        "maximum": "2026-07-23"
+      }
+    },
+    "non_cardinal_bound": {
+      "B": 2
+    },
+    "maximum_label_lengths": {
+      "Line": 14,
+      "Station": 22,
+      "Code": 5
+    }
+  }
+}
