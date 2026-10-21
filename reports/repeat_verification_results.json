@@ -1,0 +1,127 @@
+{
+  "results": [
+    {
+      "mode": "subway",
+      "snapshot_id": 1,
+      "source_rows": 45475,
+      "staged_rows": 45475,
+      "fields_compared": 500225,
+      "exact_field_match": true,
+      "blank_strings": {
+        "_id": 0,
+        "Date": 0,
+        "Time": 0,
+        "Day": 0,
+        "Station": 0,
+        "Code": 0,
+        "Min Delay": 0,
+        "Min Gap": 0,
+        "Bound": 15860,
+        "Line": 177,
+        "Vehicle": 0
+      },
+      "original_zero_delay_strings": 29669,
+      "sha256": "ec7c36eeb4785e34d58229e5da6af741c89dfdf9fa59c58a63abe5b026b95c44",
+      "checksum_verified": true,
+      "provenance_path": "data/provenance/20261021T190204614685Z__subway.json",
+      "provenance_paths": [
+        "data/provenance/20261021T190204614685Z__subway.json"
+      ],
+      "retrieval_count": 1
+    },
+    {
+      "mode": "bus",
+      "snapshot_id": 2,
+      "source_rows": 102257,
+      "staged_rows": 102257,
+      "fields_compared": 1124827,
+      "exact_field_match": true,
+      "blank_strings": {
+        "_id": 0,
+        "Date": 0,
+        "Line": 1241,
+        "Time": 0,
+        "Day": 0,
+        "Station": 0,
+        "Code": 0,
+        "Min Delay": 0,
+        "Min Gap": 0,
+        "Bound": 21327,
+        "Vehicle": 0
+      },
+      "original_zero_delay_strings": 12974,
+      "sha256": "1474f16414e63aaeab58714c236446ea370f5e00e072a3b97fdfeb1f079cd8fe",
+      "checksum_verified": true,
+      "provenance_path": "data/provenance/20261021T190548363172Z__bus.json",
+      "provenance_paths": [
+        "data/provenance/20261021T190548363172Z__bus.json"
+      ],
+      "retrieval_count": 1
+    },
+    {
+      "mode": "streetcar",
+      "snapshot_id": 3,
+      "source_rows": 23703,
+      "staged_rows": 23703,
+      "fields_compared": 260733,
+      "exact_field_match": true,
+      "blank_strings": {
+        "_id": 0,
+        "Date": 0,
+        "Line": 352,
+        "Time": 0,
+        "Day": 0,
+        "Station": 0,
+        "Code": 1,
+        "Min Delay": 0,
+        "Min Gap": 0,
+        "Bound": 5327,
+        "Vehicle": 0
+      },
+      "original_zero_delay_strings": 5279,
+      "sha256": "c6c081880619ffff8779c61af3a0b77466471473a014d8dec48d16306ddf9606",
+      "checksum_verified": true,
+      "provenance_path": "data/provenance/20261021T190549738480Z__streetcar.json",
+      "provenance_paths": [
+        "data/provenance/20261021T190549738480Z__streetcar.json"
+      ],
+      "retrieval_count": 1
+    },
+    {
+      "mode": "lrt",
+      "snapshot_id": 4,
+      "source_rows": 4569,
+      "staged_rows": 4569,
+      "fields_compared": 50259,
+      "exact_field_match": true,
+      "blank_strings": {
+        "_id": 0,
+        "Date": 0,
+        "Line": 7,
+        "Time": 0,
+        "Day": 0,
+        "Station": 0,
+        "Code": 0,
+        "Min Delay": 0,
+        "Min Gap": 0,
+        "Bound": 773,
+        "Vehicle": 0
+      },
+      "original_zero_delay_strings": 1908,
+      "sha256": "a493ad2f0d3c2889c34eba7cb42b3c27fc1d6cbf15728be09d7f1b230964984a",
+      "checksum_verified": true,
+      "provenance_path": "data/provenance/20261021T190550293696Z__lrt.json",
+      "provenance_paths": [
+        "data/provenance/20261021T190550293696Z__lrt.json"
+      ],
+      "retrieval_count": 1
+    }
+  ],
+  "total_source_rows": 176004,
+  "total_staged_rows": 176004,
+  "traced_records": 176004,
+  "foreign_key_violations": 0,
+  "integrity_check": "ok",
+  "access": "read-only",
+  "scope": "all preserved snapshot versions; totals are storage checks, not a current analytical dataset"
+}

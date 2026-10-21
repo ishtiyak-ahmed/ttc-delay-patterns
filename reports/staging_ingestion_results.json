@@ -1,0 +1,477 @@
+{
+  "parser_version": "ttc-csv-utf8-sig-v1",
+  "database": "data/local/ttc.sqlite3",
+  "transaction_scope": "one snapshot; earlier successful snapshots remain if a later snapshot fails",
+  "results": [
+    {
+      "mode": "subway",
+      "snapshot_id": 1,
+      "resource_id": "0b6e5c52-e993-46d6-8d74-8602ee224457",
+      "sha256": "ec7c36eeb4785e34d58229e5da6af741c89dfdf9fa59c58a63abe5b026b95c44",
+      "file_size_bytes": 3069485,
+      "raw_path": "data/raw/subway/20261021T190204614685Z__0b6e5c52-e993-46d6-8d74-8602ee224457.csv",
+      "provenance_path": "data/provenance/20261021T190204614685Z__subway.json",
+      "outcome": "loaded",
+      "reconciliation": {
+        "exact_field_comparison": true,
+        "source": {
+          "row_count": 45475,
+          "blank_counts": {
+            "_id": 0,
+            "Date": 0,
+            "Time": 0,
+            "Day": 0,
+            "Station": 0,
+            "Code": 0,
+            "Min Delay": 0,
+            "Min Gap": 0,
+            "Bound": 15860,
+            "Line": 177,
+            "Vehicle": 0
+          },
+          "empty_string_counts": {
+            "_id": 0,
+            "Date": 0,
+            "Time": 0,
+            "Day": 0,
+            "Station": 0,
+            "Code": 0,
+            "Min Delay": 0,
+            "Min Gap": 0,
+            "Bound": 15860,
+            "Line": 177,
+            "Vehicle": 0
+          },
+          "numeric": {
+            "Min Delay": {
+              "valid": 45475,
+              "blank": 0,
+              "invalid": 0,
+              "zero": 29669,
+              "negative": 0,
+              "total": "122071"
+            },
+            "Min Gap": {
+              "valid": 45475,
+              "blank": 0,
+              "invalid": 0,
+              "zero": 30403,
+              "negative": 0,
+              "total": "169074"
+            }
+          },
+          "minimum_date": "2025-01-01",
+          "maximum_date": "2026-08-31",
+          "invalid_dates": 0,
+          "duplicate_groups_excluding_id": 66,
+          "duplicate_excess_excluding_id": 66
+        },
+        "staged": {
+          "row_count": 45475,
+          "blank_counts": {
+            "_id": 0,
+            "Date": 0,
+            "Time": 0,
+            "Day": 0,
+            "Station": 0,
+            "Code": 0,
+            "Min Delay": 0,
+            "Min Gap": 0,
+            "Bound": 15860,
+            "Line": 177,
+            "Vehicle": 0
+          },
+          "empty_string_counts": {
+            "_id": 0,
+            "Date": 0,
+            "Time": 0,
+            "Day": 0,
+            "Station": 0,
+            "Code": 0,
+            "Min Delay": 0,
+            "Min Gap": 0,
+            "Bound": 15860,
+            "Line": 177,
+            "Vehicle": 0
+          },
+          "numeric": {
+            "Min Delay": {
+              "valid": 45475,
+              "blank": 0,
+              "invalid": 0,
+              "zero": 29669,
+              "negative": 0,
+              "total": "122071"
+            },
+            "Min Gap": {
+              "valid": 45475,
+              "blank": 0,
+              "invalid": 0,
+              "zero": 30403,
+              "negative": 0,
+              "total": "169074"
+            }
+          },
+          "minimum_date": "2025-01-01",
+          "maximum_date": "2026-08-31",
+          "invalid_dates": 0,
+          "duplicate_groups_excluding_id": 66,
+          "duplicate_excess_excluding_id": 66
+        }
+      }
+    },
+    {
+      "mode": "bus",
+      "snapshot_id": 2,
+      "resource_id": "b5725365-9252-4bfe-b6f4-cda7ddf74341",
+      "sha256": "1474f16414e63aaeab58714c236446ea370f5e00e072a3b97fdfeb1f079cd8fe",
+      "file_size_bytes": 9492730,
+      "raw_path": "data/raw/bus/20261021T190548363172Z__b5725365-9252-4bfe-b6f4-cda7ddf74341.csv",
+      "provenance_path": "data/provenance/20261021T190548363172Z__bus.json",
+      "outcome": "loaded",
+      "reconciliation": {
+        "exact_field_comparison": true,
+        "source": {
+          "row_count": 102257,
+          "blank_counts": {
+            "_id": 0,
+            "Date": 0,
+            "Time": 0,
+            "Day": 0,
+            "Station": 0,
+            "Code": 0,
+            "Min Delay": 0,
+            "Min Gap": 0,
+            "Bound": 21327,
+            "Line": 1241,
+            "Vehicle": 0
+          },
+          "empty_string_counts": {
+            "_id": 0,
+            "Date": 0,
+            "Time": 0,
+            "Day": 0,
+            "Station": 0,
+            "Code": 0,
+            "Min Delay": 0,
+            "Min Gap": 0,
+            "Bound": 21327,
+            "Line": 1241,
+            "Vehicle": 0
+          },
+          "numeric": {
+            "Min Delay": {
+              "valid": 102257,
+              "blank": 0,
+              "invalid": 0,
+              "zero": 12974,
+              "negative": 0,
+              "total": "2163102"
+            },
+            "Min Gap": {
+              "valid": 102257,
+              "blank": 0,
+              "invalid": 0,
+              "zero": 13216,
+              "negative": 0,
+              "total": "3417331"
+            }
+          },
+          "minimum_date": "2025-01-01",
+          "maximum_date": "2026-08-31",
+          "invalid_dates": 0,
+          "duplicate_groups_excluding_id": 297,
+          "duplicate_excess_excluding_id": 298
+        },
+        "staged": {
+          "row_count": 102257,
+          "blank_counts": {
+            "_id": 0,
+            "Date": 0,
+            "Time": 0,
+            "Day": 0,
+            "Station": 0,
+            "Code": 0,
+            "Min Delay": 0,
+            "Min Gap": 0,
+            "Bound": 21327,
+            "Line": 1241,
+            "Vehicle": 0
+          },
+          "empty_string_counts": {
+            "_id": 0,
+            "Date": 0,
+            "Time": 0,
+            "Day": 0,
+            "Station": 0,
+            "Code": 0,
+            "Min Delay": 0,
+            "Min Gap": 0,
+            "Bound": 21327,
+            "Line": 1241,
+            "Vehicle": 0
+          },
+          "numeric": {
+            "Min Delay": {
+              "valid": 102257,
+              "blank": 0,
+              "invalid": 0,
+              "zero": 12974,
+              "negative": 0,
+              "total": "2163102"
+            },
+            "Min Gap": {
+              "valid": 102257,
+              "blank": 0,
+              "invalid": 0,
+              "zero": 13216,
+              "negative": 0,
+              "total": "3417331"
+            }
+          },
+          "minimum_date": "2025-01-01",
+          "maximum_date": "2026-08-31",
+          "invalid_dates": 0,
+          "duplicate_groups_excluding_id": 297,
+          "duplicate_excess_excluding_id": 298
+        }
+      }
+    },
+    {
+      "mode": "streetcar",
+      "snapshot_id": 3,
+      "resource_id": "cf2fdd12-6f0e-4644-aae7-0bbfc31df031",
+      "sha256": "c6c081880619ffff8779c61af3a0b77466471473a014d8dec48d16306ddf9606",
+      "file_size_bytes": 1882886,
+      "raw_path": "data/raw/streetcar/20261021T190549738480Z__cf2fdd12-6f0e-4644-aae7-0bbfc31df031.csv",
+      "provenance_path": "data/provenance/20261021T190549738480Z__streetcar.json",
+      "outcome": "loaded",
+      "reconciliation": {
+        "exact_field_comparison": true,
+        "source": {
+          "row_count": 23703,
+          "blank_counts": {
+            "_id": 0,
+            "Date": 0,
+            "Time": 0,
+            "Day": 0,
+            "Station": 0,
+            "Code": 1,
+            "Min Delay": 0,
+            "Min Gap": 0,
+            "Bound": 5327,
+            "Line": 352,
+            "Vehicle": 0
+          },
+          "empty_string_counts": {
+            "_id": 0,
+            "Date": 0,
+            "Time": 0,
+            "Day": 0,
+            "Station": 0,
+            "Code": 1,
+            "Min Delay": 0,
+            "Min Gap": 0,
+            "Bound": 5327,
+            "Line": 352,
+            "Vehicle": 0
+          },
+          "numeric": {
+            "Min Delay": {
+              "valid": 23703,
+              "blank": 0,
+              "invalid": 0,
+              "zero": 5279,
+              "negative": 0,
+              "total": "416513"
+            },
+            "Min Gap": {
+              "valid": 23703,
+              "blank": 0,
+              "invalid": 0,
+              "zero": 5359,
+              "negative": 0,
+              "total": "590287"
+            }
+          },
+          "minimum_date": "2025-01-01",
+          "maximum_date": "2026-08-31",
+          "invalid_dates": 0,
+          "duplicate_groups_excluding_id": 18,
+          "duplicate_excess_excluding_id": 18
+        },
+        "staged": {
+          "row_count": 23703,
+          "blank_counts": {
+            "_id": 0,
+            "Date": 0,
+            "Time": 0,
+            "Day": 0,
+            "Station": 0,
+            "Code": 1,
+            "Min Delay": 0,
+            "Min Gap": 0,
+            "Bound": 5327,
+            "Line": 352,
+            "Vehicle": 0
+          },
+          "empty_string_counts": {
+            "_id": 0,
+            "Date": 0,
+            "Time": 0,
+            "Day": 0,
+            "Station": 0,
+            "Code": 1,
+            "Min Delay": 0,
+            "Min Gap": 0,
+            "Bound": 5327,
+            "Line": 352,
+            "Vehicle": 0
+          },
+          "numeric": {
+            "Min Delay": {
+              "valid": 23703,
+              "blank": 0,
+              "invalid": 0,
+              "zero": 5279,
+              "negative": 0,
+              "total": "416513"
+            },
+            "Min Gap": {
+              "valid": 23703,
+              "blank": 0,
+              "invalid": 0,
+              "zero": 5359,
+              "negative": 0,
+              "total": "590287"
+            }
+          },
+          "minimum_date": "2025-01-01",
+          "maximum_date": "2026-08-31",
+          "invalid_dates": 0,
+          "duplicate_groups_excluding_id": 18,
+          "duplicate_excess_excluding_id": 18
+        }
+      }
+    },
+    {
+      "mode": "lrt",
+      "snapshot_id": 4,
+      "resource_id": "9a800c92-0362-4cee-8232-7374596b6a43",
+      "sha256": "a493ad2f0d3c2889c34eba7cb42b3c27fc1d6cbf15728be09d7f1b230964984a",
+      "file_size_bytes": 313915,
+      "raw_path": "data/raw/lrt/20261021T190550293696Z__9a800c92-0362-4cee-8232-7374596b6a43.csv",
+      "provenance_path": "data/provenance/20261021T190550293696Z__lrt.json",
+      "outcome": "loaded",
+      "reconciliation": {
+        "exact_field_comparison": true,
+        "source": {
+          "row_count": 4569,
+          "blank_counts": {
+            "_id": 0,
+            "Date": 0,
+            "Time": 0,
+            "Day": 0,
+            "Station": 0,
+            "Code": 0,
+            "Min Delay": 0,
+            "Min Gap": 0,
+            "Bound": 773,
+            "Line": 7,
+            "Vehicle": 0
+          },
+          "empty_string_counts": {
+            "_id": 0,
+            "Date": 0,
+            "Time": 0,
+            "Day": 0,
+            "Station": 0,
+            "Code": 0,
+            "Min Delay": 0,
+            "Min Gap": 0,
+            "Bound": 773,
+            "Line": 7,
+            "Vehicle": 0
+          },
+          "numeric": {
+            "Min Delay": {
+              "valid": 4569,
+              "blank": 0,
+              "invalid": 0,
+              "zero": 1908,
+              "negative": 0,
+              "total": "38829"
+            },
+            "Min Gap": {
+              "valid": 4569,
+              "blank": 0,
+              "invalid": 0,
+              "zero": 2003,
+              "negative": 0,
+              "total": "55939"
+            }
+          },
+          "minimum_date": "2025-12-07",
+          "maximum_date": "2026-08-31",
+          "invalid_dates": 0,
+          "duplicate_groups_excluding_id": 2,
+          "duplicate_excess_excluding_id": 5
+        },
+        "staged": {
+          "row_count": 4569,
+          "blank_counts": {
+            "_id": 0,
+            "Date": 0,
+            "Time": 0,
+            "Day": 0,
+            "Station": 0,
+            "Code": 0,
+            "Min Delay": 0,
+            "Min Gap": 0,
+            "Bound": 773,
+            "Line": 7,
+            "Vehicle": 0
+          },
+          "empty_string_counts": {
+            "_id": 0,
+            "Date": 0,
+            "Time": 0,
+            "Day": 0,
+            "Station": 0,
+            "Code": 0,
+            "Min Delay": 0,
+            "Min Gap": 0,
+            "Bound": 773,
+            "Line": 7,
+            "Vehicle": 0
+          },
+          "numeric": {
+            "Min Delay": {
+              "valid": 4569,
+              "blank": 0,
+              "invalid": 0,
+              "zero": 1908,
+              "negative": 0,
+              "total": "38829"
+            },
+            "Min Gap": {
+              "valid": 4569,
+              "blank": 0,
+              "invalid": 0,
+              "zero": 2003,
+              "negative": 0,
+              "total": "55939"
+            }
+          },
+          "minimum_date": "2025-12-07",
+          "maximum_date": "2026-08-31",
+          "invalid_dates": 0,
+          "duplicate_groups_excluding_id": 2,
+          "duplicate_excess_excluding_id": 5
+        }
+      }
+    }
+  ],
+  "total_source_rows": 176004,
+  "total_staged_rows": 176004
+}
