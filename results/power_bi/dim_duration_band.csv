@@ -1,0 +1,9 @@
+duration_band,sort_order,is_over60,is_zero,is_duration_eligible
+zero,0,0,1,1
+positive_0_to_5,1,0,0,1
+over_5_to_15,2,0,0,1
+over_15_to_30,3,0,0,1
+over_30_to_60,4,0,0,1
+over_60_to_120,5,1,0,1
+over_120,6,1,0,1
+unavailable_or_ineligible,7,0,0,0

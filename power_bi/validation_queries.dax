@@ -1,0 +1,23 @@
+// Run each EVALUATE separately in Desktop DAX Query View after creating the measures.
+// Filters here are explicit and independent of report slicers.
+EVALUATE ROW("Incidents", [Overview Incidents], "Minutes", [Overview Minutes], "Zeros", [Overview Zero Records])
+// Expected: 176004, 2740515, 49830.
+
+EVALUATE CALCULATETABLE(
+    ROW("MFDV count", [MFDV Incidents], "MFDV min", [MFDV Minutes],
+        "Long count", [Long Incidents], "Long min", [Long Minutes],
+        "Both count", [Overlap Incidents], "Both min", [Overlap Minutes],
+        "Union count", [Union Incidents], "Union min", [Union Minutes]),
+    DimMode[source_mode]="bus")
+// Expected: 7288,871387,4209,853656,3775,777169,7722,947874.
+
+EVALUATE CALCULATETABLE(
+    SUMMARIZECOLUMNS(DimMonth[month_label],
+        "MFDV minute rank", [Code Minute Rank], "MFDV minute share", [Code Minutes Share]),
+    DimMode[source_mode]="bus", DimCode[raw_code]="MFDV")
+// Expected: 20 rows, minute rank 1 throughout; shares 29.05%-50.33%.
+
+EVALUATE CALCULATETABLE(
+    ROW("Overview guard", [Overview Incidents], "Code count", [Code Incidents], "Line guard", [Line Incidents]),
+    DimMode[source_mode]="bus", DimCode[raw_code]="MFDV")
+// Expected: BLANK,7288,BLANK. Generic Code slicer must not drive duration/line/overview.

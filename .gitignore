@@ -41,3 +41,34 @@ credentials*.json
 # Local working data and tool caches
 /data/local/
 .pytest_cache/
+
+# Reproducible analytical intermediates remain local; retain only the approved Desktop bundle.
+/results/*
+!/results/power_bi/
+/results/power_bi/*
+!/results/power_bi/dim_code.csv
+!/results/power_bi/dim_duration_band.csv
+!/results/power_bi/dim_line.csv
+!/results/power_bi/dim_mode.csv
+!/results/power_bi/dim_month.csv
+!/results/power_bi/fact_code.csv
+!/results/power_bi/fact_duration.csv
+!/results/power_bi/fact_line.csv
+!/results/power_bi/fact_month.csv
+!/results/power_bi/reporting_gaps.csv
+!/results/power_bi/manifest.json
+# Required by manifest checks and typed audit; preserve with the ten CSVs.
+!/results/power_bi/results.json
+
+# Editor backups, diagnostic logs and Power BI machine-local state.
+*.temp
+*.swo
+*.bak
+*.log
+*.orig
+*.rej
+~$*
+.pbi/
+*.pbix.lock
+*.pbit.lock
+# Deliberate .pbix/.pbip/.pbit report deliverables remain eligible for later review.

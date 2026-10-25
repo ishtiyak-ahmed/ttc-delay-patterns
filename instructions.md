@@ -36,9 +36,15 @@ I want a project with genuine analytical value, sound engineering decisions, and
 
 ## 2. Project question and intended outcome
 
-The central question is:
+The finalized case-study title is **TTC Delay Patterns: Why Incident Frequency and Recorded Duration Tell Different Stories.**
 
-**When, where, and how do recorded TTC delays recur?**
+The analytical question is:
+
+**How do incident frequency and recorded delay duration reveal different patterns of TTC disruption, and where might those differences warrant further investigation?**
+
+The initial “When, where, and how do recorded TTC delays recur?” question remains the historical exploratory context. The finalized narrative emphasizes concentration of recorded minutes, differences between frequency and duration rankings, and monthly persistence or variation. “Disruption” here refers to recorded activity, not independently verified unique events or passenger impact.
+
+The reader-facing deliverable is an approximately 9–11-page professional analytical case study, supported by Power BI and a reproducible GitHub repository. It must demonstrate substantive analytical reasoning and reliable engineering; the data scope, pipeline invariants and evidence standards below remain in force.
 
 The project should investigate what the available records can reliably tell us about recorded delay incidents, identify useful patterns, and explain the limitations of the evidence.
 

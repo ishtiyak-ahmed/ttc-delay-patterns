@@ -13,8 +13,10 @@ from pathlib import Path
 
 try:
     from .init_storage import ROOT, DEFAULT_DATABASE, initialize_database
+    from .report_paths import report_path
 except ImportError:  # direct script invocation
     from init_storage import ROOT, DEFAULT_DATABASE, initialize_database
+    from report_paths import report_path
 
 COLUMNS = ('_id', 'Date', 'Time', 'Day', 'Station', 'Code', 'Min Delay', 'Min Gap', 'Bound', 'Line', 'Vehicle')
 QUOTED_COLUMNS = ', '.join('"' + name + '"' for name in COLUMNS)
@@ -264,7 +266,7 @@ def main():
         parser.error('Report already exists; refusing overwrite before any load')
     results = [ingest_snapshot(p, args.database, verify_only=args.verify_only) for p in args.provenance]
     selected_counts = {r['snapshot_id']: r['reconciliation']['source']['row_count'] for r in results}
-    report = dict(parser_version=PARSER_VERSION, database=str(args.database.resolve()),
+    report = dict(parser_version=PARSER_VERSION, database=report_path(args.database, ROOT),
                   totals_scope='unique selected snapshot versions; not a current analytical dataset',
                   transaction_scope='one snapshot; earlier successful snapshots remain if a later snapshot fails',
                   results=results, total_source_rows=sum(selected_counts.values()),

@@ -2,9 +2,11 @@
 
 ## Project objective
 
-Build a reproducible Python + SQL pipeline that investigates:
+Build a reproducible Python + SQL pipeline supporting **TTC Delay Patterns: Why Incident Frequency and Recorded Duration Tell Different Stories.**
 
-**When, where, and how do recorded TTC delays recur?**
+**How do incident frequency and recorded delay duration reveal different patterns of TTC disruption, and where might those differences warrant further investigation?**
+
+The initial “when, where, and how” question remains historical context. The professional case study (approximately 9–11 pages), Power BI report and reproducible repository will emphasize recorded-minute concentration, frequency-versus-duration rankings, and monthly persistence/variation. All existing engineering, eligibility and interpretive constraints remain unchanged.
 
 The finished project should include a trustworthy data pipeline, defensible analytical findings, a Power BI report, and documentation suitable for internship applications and technical interviews.
 
@@ -153,6 +155,10 @@ These are candidates, not mandatory charts or conclusions. Refine the questions 
 **Deliverables:** Readable SQL queries, result tables, and metric definitions.
 
 **Verification:** Execute the queries, inspect the outputs, validate important totals independently, and document actual findings and limitations.
+
+### Analytical handoff status (Milestone 5)
+
+The original task descriptions above are retained as planning history. Executed task briefs expanded 5.1 to core analytical SQL, 5.2 to analytical viability/strategy, and 5.3 to temporal persistence. Verified evidence is in `reports/core_analytical_findings.md` and `reports/temporal_persistence_evidence.md`. The final Power BI export/model contract is `docs/power_bi_data_contract.md`. This handoff prepares validated data only; Power BI visuals and source-update automation remain unimplemented and require their own task approval.
 
 ## Milestone 6 — Extend to the monthly update workflow
 

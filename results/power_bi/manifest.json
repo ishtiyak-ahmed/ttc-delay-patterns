@@ -1,0 +1,214 @@
+{
+  "contract_version": "milestone5-v1",
+  "selection": {
+    "rule_version": "task4.1-v1",
+    "scope_start": "2025-01-01",
+    "scope_end": null,
+    "snapshots": [
+      {
+        "mode": "subway",
+        "snapshot_id": 1,
+        "resource_id": "0b6e5c52-e993-46d6-8d74-8602ee224457",
+        "sha256": "ec7c36eeb4785e34d58229e5da6af741c89dfdf9fa59c58a63abe5b026b95c44"
+      },
+      {
+        "mode": "bus",
+        "snapshot_id": 2,
+        "resource_id": "b5725365-9252-4bfe-b6f4-cda7ddf74341",
+        "sha256": "1474f16414e63aaeab58714c236446ea370f5e00e072a3b97fdfeb1f079cd8fe"
+      },
+      {
+        "mode": "streetcar",
+        "snapshot_id": 3,
+        "resource_id": "cf2fdd12-6f0e-4644-aae7-0bbfc31df031",
+        "sha256": "c6c081880619ffff8779c61af3a0b77466471473a014d8dec48d16306ddf9606"
+      },
+      {
+        "mode": "lrt",
+        "snapshot_id": 4,
+        "resource_id": "9a800c92-0362-4cee-8232-7374596b6a43",
+        "sha256": "a493ad2f0d3c2889c34eba7cb42b3c27fc1d6cbf15728be09d7f1b230964984a"
+      }
+    ]
+  },
+  "curated_sha256": "70e25ed9fd6ba4c6516f957e0fcfa0b825b5d4337ab7cb8203729fdf19bb5f31",
+  "input_manifest_sha256": {
+    "core": "cb20b8704c3e5b5d5dce1f38eccde69a949ce181599ff42c7c31ee73c8fc07b9",
+    "temporal": "9824fe92c893161420b22004a7b41dd8a27374a371dba0f79ebf8051bdb7697b"
+  },
+  "source_query_sha256": {
+    "core": {
+      "coverage.sql": "041cc5d6d2e48d204010f5c08ff75d864e6c7ae4fd1d12c56b4c13ec5da5a46c",
+      "dates_without_records.sql": "74796295254fa885dd61bcff0ce50c5807555dada0abd9b313b9a96ff7af7529",
+      "duration_distribution.sql": "7cca13f5a447f93cd343e6cae5596e4df65ba9f6650f50c29b9fe0c9e68ff28e",
+      "eligibility_audit.sql": "1575924b6583476dd8bf944c0eb1a5c6ea9aa7748d2d27bc9052277219a4f3d2",
+      "hourly.sql": "cb66cd8587e82e4bfb59e8e89e66cb259b900375de8b0d5d69d1b9f36481e3b0",
+      "mode_summary.sql": "5912eeddf2797de6d0dd3f52fcb279de8f00008a9909257076f2a54694e4d21b",
+      "monthly.sql": "11246f4df4e6e1dde076787282e0a1bc9c2ff9207338f0dc4d76485c16ac3bd0",
+      "raw_codes.sql": "5c6de25e2daf0cf9fd4cf83d992aa27634178e4178cf06971e9f09b0f6565e53",
+      "raw_lines.sql": "8d7ebcc98aa2a1e45537e341ef52826fc0f697da7f100353717cb84a05a02aaa",
+      "weekday_hour.sql": "fcae5b934dfdf2bc3918618f1a15452f8f61a7756b38831ac7b7ced17de412ef"
+    },
+    "temporal": {
+      "monthly_codes.sql": "d141dfa78faea8117c430b099c2cea21ad90ef1d9e207d84418adbdc8a5f8b8d",
+      "monthly_lines.sql": "34fe548eb229d2068841943f8667dec2bb05f255114ffa2dbb9bef61bf825006"
+    }
+  },
+  "query_sha256": {
+    "monthly_duration.sql": "59b455b4a2a1ea20e0abb344bf6676804342f13ef3d861e8e2fe545b92dd6937"
+  },
+  "tooling_sha256": "1df56e3cfc5f00b09430a10c21d76dc07c69dbde8cbefad739acf7062033b8ba",
+  "result_columns": {
+    "dim_mode": [
+      "source_mode",
+      "snapshot_id",
+      "resource_id",
+      "raw_sha256",
+      "first_observed_date",
+      "last_observed_date",
+      "observed_dates",
+      "calendar_span_days",
+      "dates_without_records_within_span",
+      "observed_months",
+      "selected_records",
+      "outside_or_unallocated_scope",
+      "missing_date",
+      "invalid_date",
+      "missing_time",
+      "invalid_time",
+      "missing_delay",
+      "invalid_delay",
+      "negative_delay_records",
+      "validated_weekday_records"
+    ],
+    "dim_month": [
+      "month_start",
+      "month_label",
+      "year",
+      "month_number"
+    ],
+    "dim_duration_band": [
+      "duration_band",
+      "sort_order",
+      "is_over60",
+      "is_zero",
+      "is_duration_eligible"
+    ],
+    "fact_month": [
+      "source_mode",
+      "month_start",
+      "recorded_incidents",
+      "duration_eligible_incidents",
+      "duration_ineligible_incidents",
+      "recorded_delay_minutes",
+      "zero_minute_incidents",
+      "observed_dates",
+      "weekday_conflicts",
+      "duplicate_candidate_records",
+      "first_observed_date",
+      "last_observed_date",
+      "calendar_month_days",
+      "missing_code_incidents",
+      "missing_line_incidents"
+    ],
+    "fact_duration": [
+      "source_mode",
+      "month_start",
+      "duration_band",
+      "is_bus_mfdv",
+      "recorded_incidents",
+      "duration_eligible_incidents",
+      "duration_ineligible_incidents",
+      "recorded_delay_minutes",
+      "zero_minute_incidents"
+    ],
+    "dim_code": [
+      "code_key",
+      "source_mode",
+      "category_eligible",
+      "raw_code"
+    ],
+    "fact_code": [
+      "source_mode",
+      "month_start",
+      "code_key",
+      "recorded_incidents",
+      "duration_eligible_incidents",
+      "duration_ineligible_incidents",
+      "recorded_delay_minutes",
+      "zero_minute_incidents",
+      "category_observed_dates",
+      "category_first_date",
+      "category_last_date"
+    ],
+    "dim_line": [
+      "line_key",
+      "source_mode",
+      "category_eligible",
+      "raw_line"
+    ],
+    "fact_line": [
+      "source_mode",
+      "month_start",
+      "line_key",
+      "recorded_incidents",
+      "duration_eligible_incidents",
+      "duration_ineligible_incidents",
+      "recorded_delay_minutes",
+      "zero_minute_incidents",
+      "category_observed_dates",
+      "category_first_date",
+      "category_last_date"
+    ],
+    "reporting_gaps": [
+      "source_mode",
+      "month_start",
+      "calendar_date"
+    ]
+  },
+  "verification": {
+    "compatible_aggregation_partitions": "passed",
+    "independent_eligibility_totals": "passed",
+    "integrity_check": "ok",
+    "foreign_key_violations": 0,
+    "repeat_results_identical": true,
+    "selected_records": 176004,
+    "staging_lineage_records": 176004,
+    "curated_bytes_unchanged": true,
+    "monthly_count_minutes_zero_eligibility_and_duplicate_reconciliation": "passed",
+    "raw_category_reconciliation": "passed",
+    "fact_grains_unique": true,
+    "dimension_keys_unique": true,
+    "relationships_valid": true,
+    "all_three_partitions_match_monthly_totals": true,
+    "duration_bands_and_all_bus_cohorts_reconciled": true,
+    "bus_overlap_records": 3775,
+    "bus_overlap_minutes": 777169
+  },
+  "null_encoding": "CSV empty cell = SQL NULL; typed JSON is authoritative. No missing duration is zero-filled.",
+  "result_row_counts": {
+    "dim_mode": 4,
+    "dim_month": 20,
+    "dim_duration_band": 8,
+    "fact_month": 69,
+    "fact_duration": 615,
+    "dim_code": 479,
+    "fact_code": 4851,
+    "dim_line": 909,
+    "fact_line": 5592,
+    "reporting_gaps": 1
+  },
+  "export_sha256": {
+    "dim_code.csv": "dda6988d0df9732ae049a2c4d067ed8b932574c445bf819374945f7c634b82fe",
+    "dim_duration_band.csv": "e5a9507d4f5ca95c9e4dc0aecb1942657c6a5682c3739ba9691b118a38c76487",
+    "dim_line.csv": "7f1e89907298b18a94d5e745e4026affad04e3a115a747fd8bc2b1c5576ea4a9",
+    "dim_mode.csv": "b18f02a6b8e88b804e09490c8626799da7a024cfc77a86e5ddc96e586b1e067e",
+    "dim_month.csv": "dba6401b04813dd5d5b7c47443d84c75c7b4534aeb77383dff7a951fb33f5788",
+    "fact_code.csv": "1f38b28a641418485324900da7d90769c70e20a38ca3e72948e20f73b31dc390",
+    "fact_duration.csv": "6aaba66befc2ed164e4c93b214792f7dcb5dbd89b2d999cf65e8c92b350b5f6a",
+    "fact_line.csv": "d121666e95e00b4077cd6b4e5373d8c783c32066eccbf688f83ae3f1097db916",
+    "fact_month.csv": "65beb98f5f06dc1d0d5d3156e4a384a3e953cb09210cf6a3175b52e9c1cc5b74",
+    "reporting_gaps.csv": "5012f221de16d9b6f093d80637b80a007458bd0d43ae8c3591103aa20c33a3e9",
+    "results.json": "b29542ee28244d68c9d8b50565e74f121bace77b3241f60551b283aa364f1622"
+  }
+}

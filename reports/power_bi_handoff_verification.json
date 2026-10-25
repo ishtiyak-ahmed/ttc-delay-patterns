@@ -1,0 +1,56 @@
+{
+  "automated_tests": 54,
+  "new_contract_tests": 5,
+  "repeat_export_bytes_identical": true,
+  "csv_json_roundtrip": "all cells verified",
+  "pre_existing_files_checked": 94,
+  "modified_pre_existing_files": [
+    "ROADMAP.md",
+    "instructions.md"
+  ],
+  "original_data_sha256": {
+    "data/local/ttc.sqlite3": "dec4388766ce094eb4616d2b61829b65bdb00ceeaa05827cf71d7aa01aba6f21",
+    "data/local/ttc_curated.sqlite3": "70e25ed9fd6ba4c6516f957e0fcfa0b825b5d4337ab7cb8203729fdf19bb5f31",
+    "data/provenance/20261021T190548363172Z__bus.json": "632e3e7d2e885d00c882532642a434a3b07db4708d1084eac2c459ea4cbe6e38",
+    "data/provenance/20261021T190204614685Z__subway.json": "8893fc6c9fbf0fa6cc7654a982298bbdbe7a6674a743000534e4055daa7d2d48",
+    "data/provenance/20261021T190550293696Z__lrt.json": "c5b792b71e64f4268852e4e76e1061eea6875104433fcda38b2e6fe34b5739df",
+    "data/provenance/20261021T190549738480Z__streetcar.json": "6d5d4bc2c2ad0105f00aced7243a9ba050de0e0aa742194c326ae748b9de7008",
+    "data/provenance/20261021T185626947184Z__subway.json": "05c4e922f9b1410e95b9c0eb955387d79c77b11c5a026f64638b6f422bd2f152",
+    "data/raw/streetcar/20261021T190549738480Z__cf2fdd12-6f0e-4644-aae7-0bbfc31df031.csv": "c6c081880619ffff8779c61af3a0b77466471473a014d8dec48d16306ddf9606",
+    "data/raw/lrt/20261021T190550293696Z__9a800c92-0362-4cee-8232-7374596b6a43.csv": "a493ad2f0d3c2889c34eba7cb42b3c27fc1d6cbf15728be09d7f1b230964984a",
+    "data/raw/bus/20261021T190548363172Z__b5725365-9252-4bfe-b6f4-cda7ddf74341.csv": "1474f16414e63aaeab58714c236446ea370f5e00e072a3b97fdfeb1f079cd8fe",
+    "data/raw/subway/20261021T190204614685Z__0b6e5c52-e993-46d6-8d74-8602ee224457.csv": "ec7c36eeb4785e34d58229e5da6af741c89dfdf9fa59c58a63abe5b026b95c44"
+  },
+  "all_original_pipeline_data_and_previous_analytical_exports_unchanged": true,
+  "final_row_counts": {
+    "dim_mode": 4,
+    "dim_month": 20,
+    "dim_duration_band": 8,
+    "fact_month": 69,
+    "fact_duration": 615,
+    "dim_code": 479,
+    "fact_code": 4851,
+    "dim_line": 909,
+    "fact_line": 5592,
+    "reporting_gaps": 1
+  },
+  "verification": {
+    "compatible_aggregation_partitions": "passed",
+    "independent_eligibility_totals": "passed",
+    "integrity_check": "ok",
+    "foreign_key_violations": 0,
+    "repeat_results_identical": true,
+    "selected_records": 176004,
+    "staging_lineage_records": 176004,
+    "curated_bytes_unchanged": true,
+    "monthly_count_minutes_zero_eligibility_and_duplicate_reconciliation": "passed",
+    "raw_category_reconciliation": "passed",
+    "fact_grains_unique": true,
+    "dimension_keys_unique": true,
+    "relationships_valid": true,
+    "all_three_partitions_match_monthly_totals": true,
+    "duration_bands_and_all_bus_cohorts_reconciled": true,
+    "bus_overlap_records": 3775,
+    "bus_overlap_minutes": 777169
+  }
+}

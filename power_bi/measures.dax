@@ -1,0 +1,431 @@
+// TTC Desktop measures — paste ONE Name = expression block at a time into New measure.
+// Home table: FactMonth; create in file order; hide names beginning with underscore after validation.
+// Filters must use dimensions, except the explicit FactDuration[is_bus_mfdv] cohort.
+// Do not use fact numeric/key columns as slicers. DAX/M not executed locally; Desktop validation pending.
+// Number format is set separately in Measure tools; commas are DAX argument separators.
+// Each block documents fact, filter restrictions, format and a known verification context.
+
+// Fact: No fact; filter guard
+// Filters/restrictions: Mode/month allowed; false under category/band/cohort filter
+// Format: True/False
+// Verification: No category filters = TRUE; Code selection = FALSE
+_Allow Overview =
+NOT ( ISFILTERED(DimCode) || ISFILTERED(DimLine) || ISFILTERED(DimDurationBand) || ISFILTERED(FactDuration[is_bus_mfdv]) )
+
+// Fact: No fact; filter guard
+// Filters/restrictions: One mode; Code and month allowed, Line/band/cohort forbidden
+// Format: True/False
+// Verification: Bus only = TRUE; Bus+Line selection = FALSE
+_Allow Code =
+HASONEVALUE(DimMode[source_mode]) && NOT ( ISFILTERED(DimLine) || ISFILTERED(DimDurationBand) || ISFILTERED(FactDuration[is_bus_mfdv]) )
+
+// Fact: No fact; filter guard
+// Filters/restrictions: One mode; Line and month allowed, Code/band/cohort forbidden
+// Format: True/False
+// Verification: Subway only = TRUE; Subway+Code selection = FALSE
+_Allow Line =
+HASONEVALUE(DimMode[source_mode]) && NOT ( ISFILTERED(DimCode) || ISFILTERED(DimDurationBand) || ISFILTERED(FactDuration[is_bus_mfdv]) )
+
+// Fact: No fact; filter guard
+// Filters/restrictions: Mode/month/band/cohort allowed; generic Code/Line forbidden
+// Format: True/False
+// Verification: Bus only = TRUE; generic Code=MFDV selection = FALSE
+_Allow Duration =
+NOT ( ISFILTERED(DimCode) || ISFILTERED(DimLine) )
+
+// Fact: FactMonth
+// Filters/restrictions: Hidden denominator: mode/month only; ignores category filters by relationship design
+// Format: #,0
+// Verification: All modes/months = 176004
+_Mode Month Incidents =
+SUM(FactMonth[recorded_incidents])
+
+// Fact: FactMonth
+// Filters/restrictions: Hidden denominator: mode/month only; ignores category filters by relationship design
+// Format: #,0
+// Verification: All modes/months = 2740515
+_Mode Month Minutes =
+SUM(FactMonth[recorded_delay_minutes])
+
+// Fact: FactMonth
+// Filters/restrictions: Uses [_Allow Overview]; respects own category and shared mode/month; no blank-to-zero conversion
+// Format: #,0
+// Verification: Bus all months = 102257 with no own-category filter
+Overview Incidents =
+IF([_Allow Overview], SUM(FactMonth[recorded_incidents]))
+
+// Fact: FactMonth
+// Filters/restrictions: Uses [_Allow Overview]; respects own category and shared mode/month; no blank-to-zero conversion
+// Format: #,0
+// Verification: Bus all months = 2163102 with no own-category filter
+Overview Minutes =
+IF([_Allow Overview], SUM(FactMonth[recorded_delay_minutes]))
+
+// Fact: FactMonth
+// Filters/restrictions: Uses [_Allow Overview]; respects own category and shared mode/month; no blank-to-zero conversion
+// Format: #,0
+// Verification: Bus all months = 102257 with no own-category filter
+Overview Eligible Records =
+IF([_Allow Overview], SUM(FactMonth[duration_eligible_incidents]))
+
+// Fact: FactMonth
+// Filters/restrictions: Uses [_Allow Overview]; respects own category and shared mode/month; no blank-to-zero conversion
+// Format: #,0
+// Verification: Bus all months = 12974 with no own-category filter
+Overview Zero Records =
+IF([_Allow Overview], SUM(FactMonth[zero_minute_incidents]))
+
+// Fact: FactMonth
+// Filters/restrictions: Same guards as Overview base measures; eligible denominator
+// Format: 0.00%
+// Verification: Bus all months/no own category = 12.69%; Subway = 65.24%
+Overview Zero Share =
+DIVIDE([Overview Zero Records], [Overview Eligible Records])
+
+// Fact: FactMonth
+// Filters/restrictions: Same guards; includes eligible zeros, excludes unavailable duration denominator
+// Format: 0.00
+// Verification: Bus all months/no own category = 21.1535836177
+Overview Average Minutes =
+DIVIDE([Overview Minutes], [Overview Eligible Records])
+
+// Fact: FactCode
+// Filters/restrictions: Uses [_Allow Code]; respects own category and shared mode/month; no blank-to-zero conversion
+// Format: #,0
+// Verification: Bus all months = 102257 with no own-category filter
+Code Incidents =
+IF([_Allow Code], SUM(FactCode[recorded_incidents]))
+
+// Fact: FactCode
+// Filters/restrictions: Uses [_Allow Code]; respects own category and shared mode/month; no blank-to-zero conversion
+// Format: #,0
+// Verification: Bus all months = 2163102 with no own-category filter
+Code Minutes =
+IF([_Allow Code], SUM(FactCode[recorded_delay_minutes]))
+
+// Fact: FactCode
+// Filters/restrictions: Uses [_Allow Code]; respects own category and shared mode/month; no blank-to-zero conversion
+// Format: #,0
+// Verification: Bus all months = 102257 with no own-category filter
+Code Eligible Records =
+IF([_Allow Code], SUM(FactCode[duration_eligible_incidents]))
+
+// Fact: FactCode
+// Filters/restrictions: Uses [_Allow Code]; respects own category and shared mode/month; no blank-to-zero conversion
+// Format: #,0
+// Verification: Bus all months = 12974 with no own-category filter
+Code Zero Records =
+IF([_Allow Code], SUM(FactCode[zero_minute_incidents]))
+
+// Fact: FactCode
+// Filters/restrictions: Same guards as Code base measures; eligible denominator
+// Format: 0.00%
+// Verification: Bus all months/no own category = 12.69%; Subway = 65.24%
+Code Zero Share =
+DIVIDE([Code Zero Records], [Code Eligible Records])
+
+// Fact: FactCode
+// Filters/restrictions: Same guards; includes eligible zeros, excludes unavailable duration denominator
+// Format: 0.00
+// Verification: Bus all months/no own category = 21.1535836177
+Code Average Minutes =
+DIVIDE([Code Minutes], [Code Eligible Records])
+
+// Fact: FactLine
+// Filters/restrictions: Uses [_Allow Line]; respects own category and shared mode/month; no blank-to-zero conversion
+// Format: #,0
+// Verification: Bus all months = 102257 with no own-category filter
+Line Incidents =
+IF([_Allow Line], SUM(FactLine[recorded_incidents]))
+
+// Fact: FactLine
+// Filters/restrictions: Uses [_Allow Line]; respects own category and shared mode/month; no blank-to-zero conversion
+// Format: #,0
+// Verification: Bus all months = 2163102 with no own-category filter
+Line Minutes =
+IF([_Allow Line], SUM(FactLine[recorded_delay_minutes]))
+
+// Fact: FactLine
+// Filters/restrictions: Uses [_Allow Line]; respects own category and shared mode/month; no blank-to-zero conversion
+// Format: #,0
+// Verification: Bus all months = 102257 with no own-category filter
+Line Eligible Records =
+IF([_Allow Line], SUM(FactLine[duration_eligible_incidents]))
+
+// Fact: FactLine
+// Filters/restrictions: Uses [_Allow Line]; respects own category and shared mode/month; no blank-to-zero conversion
+// Format: #,0
+// Verification: Bus all months = 12974 with no own-category filter
+Line Zero Records =
+IF([_Allow Line], SUM(FactLine[zero_minute_incidents]))
+
+// Fact: FactLine
+// Filters/restrictions: Same guards as Line base measures; eligible denominator
+// Format: 0.00%
+// Verification: Bus all months/no own category = 12.69%; Subway = 65.24%
+Line Zero Share =
+DIVIDE([Line Zero Records], [Line Eligible Records])
+
+// Fact: FactLine
+// Filters/restrictions: Same guards; includes eligible zeros, excludes unavailable duration denominator
+// Format: 0.00
+// Verification: Bus all months/no own category = 21.1535836177
+Line Average Minutes =
+DIVIDE([Line Minutes], [Line Eligible Records])
+
+// Fact: FactDuration
+// Filters/restrictions: Uses [_Allow Duration]; respects own category and shared mode/month; no blank-to-zero conversion
+// Format: #,0
+// Verification: Bus all months = 102257 with no own-category filter
+Duration Incidents =
+IF([_Allow Duration], SUM(FactDuration[recorded_incidents]))
+
+// Fact: FactDuration
+// Filters/restrictions: Uses [_Allow Duration]; respects own category and shared mode/month; no blank-to-zero conversion
+// Format: #,0
+// Verification: Bus all months = 2163102 with no own-category filter
+Duration Minutes =
+IF([_Allow Duration], SUM(FactDuration[recorded_delay_minutes]))
+
+// Fact: FactDuration
+// Filters/restrictions: Uses [_Allow Duration]; respects own category and shared mode/month; no blank-to-zero conversion
+// Format: #,0
+// Verification: Bus all months = 102257 with no own-category filter
+Duration Eligible Records =
+IF([_Allow Duration], SUM(FactDuration[duration_eligible_incidents]))
+
+// Fact: FactDuration
+// Filters/restrictions: Uses [_Allow Duration]; respects own category and shared mode/month; no blank-to-zero conversion
+// Format: #,0
+// Verification: Bus all months = 12974 with no own-category filter
+Duration Zero Records =
+IF([_Allow Duration], SUM(FactDuration[zero_minute_incidents]))
+
+// Fact: FactCode / FactMonth denominator
+// Filters/restrictions: One mode; own-category numerator; all mode-period records/minutes denominator including missing
+// Format: 0.00%
+// Verification: Bus MFDV = 7.13% records / 40.28% minutes
+Code Incidents Share =
+DIVIDE([Code Incidents], [_Mode Month Incidents])
+
+// Fact: FactCode / FactMonth denominator
+// Filters/restrictions: One mode; own-category numerator; all mode-period records/minutes denominator including missing
+// Format: 0.00%
+// Verification: Bus MFDV = 7.13% records / 40.28% minutes
+Code Minutes Share =
+DIVIDE([Code Minutes], [_Mode Month Minutes])
+
+// Fact: FactCode
+// Filters/restrictions: One mode and one eligible raw category in context; all eligible categories form ranking universe; current months retained; missing/unknown excluded; ties Skip
+// Format: 0
+// Verification: Bus MFDV all months: incident 4, minute 1
+Code Incident Rank =
+VAR ModeValue = SELECTEDVALUE(DimMode[source_mode])
+VAR CurrentMembers = FILTER(VALUES(DimCode), DimCode[source_mode] = ModeValue && DimCode[category_eligible] = 1)
+VAR CurrentValue = [Code Incidents]
+VAR Candidates = FILTER(ALL(DimCode), DimCode[source_mode] = ModeValue && DimCode[category_eligible] = 1)
+VAR Scored = ADDCOLUMNS(Candidates, "__Score",
+    VAR CandidateKey = DimCode[code_key]
+    RETURN CALCULATE(SUM(FactCode[recorded_incidents]), REMOVEFILTERS(DimCode), TREATAS({CandidateKey}, DimCode[code_key])) )
+VAR Known = FILTER(Scored, NOT ISBLANK([__Score]))
+RETURN IF([_Allow Code] && COUNTROWS(CurrentMembers) = 1 && NOT ISBLANK(CurrentValue),
+    RANKX(Known, [__Score], CurrentValue, DESC, Skip))
+
+// Fact: FactCode
+// Filters/restrictions: One mode and one eligible raw category in context; all eligible categories form ranking universe; current months retained; missing/unknown excluded; ties Skip
+// Format: 0
+// Verification: Bus MFDV all months: incident 4, minute 1
+Code Minute Rank =
+VAR ModeValue = SELECTEDVALUE(DimMode[source_mode])
+VAR CurrentMembers = FILTER(VALUES(DimCode), DimCode[source_mode] = ModeValue && DimCode[category_eligible] = 1)
+VAR CurrentValue = [Code Minutes]
+VAR Candidates = FILTER(ALL(DimCode), DimCode[source_mode] = ModeValue && DimCode[category_eligible] = 1)
+VAR Scored = ADDCOLUMNS(Candidates, "__Score",
+    VAR CandidateKey = DimCode[code_key]
+    RETURN CALCULATE(SUM(FactCode[recorded_delay_minutes]), REMOVEFILTERS(DimCode), TREATAS({CandidateKey}, DimCode[code_key])) )
+VAR Known = FILTER(Scored, NOT ISBLANK([__Score]))
+RETURN IF([_Allow Code] && COUNTROWS(CurrentMembers) = 1 && NOT ISBLANK(CurrentValue),
+    RANKX(Known, [__Score], CurrentValue, DESC, Skip))
+
+// Fact: FactLine / FactMonth denominator
+// Filters/restrictions: One mode; own-category numerator; all mode-period records/minutes denominator including missing
+// Format: 0.00%
+// Verification: Subway YU = 23134/45475 records; 65506/122071 minutes
+Line Incidents Share =
+DIVIDE([Line Incidents], [_Mode Month Incidents])
+
+// Fact: FactLine / FactMonth denominator
+// Filters/restrictions: One mode; own-category numerator; all mode-period records/minutes denominator including missing
+// Format: 0.00%
+// Verification: Subway YU = 23134/45475 records; 65506/122071 minutes
+Line Minutes Share =
+DIVIDE([Line Minutes], [_Mode Month Minutes])
+
+// Fact: FactLine
+// Filters/restrictions: One mode and one eligible raw category in context; all eligible categories form ranking universe; current months retained; missing/unknown excluded; ties Skip
+// Format: 0
+// Verification: Subway YU all months: incident 1, minute 1
+Line Incident Rank =
+VAR ModeValue = SELECTEDVALUE(DimMode[source_mode])
+VAR CurrentMembers = FILTER(VALUES(DimLine), DimLine[source_mode] = ModeValue && DimLine[category_eligible] = 1)
+VAR CurrentValue = [Line Incidents]
+VAR Candidates = FILTER(ALL(DimLine), DimLine[source_mode] = ModeValue && DimLine[category_eligible] = 1)
+VAR Scored = ADDCOLUMNS(Candidates, "__Score",
+    VAR CandidateKey = DimLine[line_key]
+    RETURN CALCULATE(SUM(FactLine[recorded_incidents]), REMOVEFILTERS(DimLine), TREATAS({CandidateKey}, DimLine[line_key])) )
+VAR Known = FILTER(Scored, NOT ISBLANK([__Score]))
+RETURN IF([_Allow Line] && COUNTROWS(CurrentMembers) = 1 && NOT ISBLANK(CurrentValue),
+    RANKX(Known, [__Score], CurrentValue, DESC, Skip))
+
+// Fact: FactLine
+// Filters/restrictions: One mode and one eligible raw category in context; all eligible categories form ranking universe; current months retained; missing/unknown excluded; ties Skip
+// Format: 0
+// Verification: Subway YU all months: incident 1, minute 1
+Line Minute Rank =
+VAR ModeValue = SELECTEDVALUE(DimMode[source_mode])
+VAR CurrentMembers = FILTER(VALUES(DimLine), DimLine[source_mode] = ModeValue && DimLine[category_eligible] = 1)
+VAR CurrentValue = [Line Minutes]
+VAR Candidates = FILTER(ALL(DimLine), DimLine[source_mode] = ModeValue && DimLine[category_eligible] = 1)
+VAR Scored = ADDCOLUMNS(Candidates, "__Score",
+    VAR CandidateKey = DimLine[line_key]
+    RETURN CALCULATE(SUM(FactLine[recorded_delay_minutes]), REMOVEFILTERS(DimLine), TREATAS({CandidateKey}, DimLine[line_key])) )
+VAR Known = FILTER(Scored, NOT ISBLANK([__Score]))
+RETURN IF([_Allow Line] && COUNTROWS(CurrentMembers) = 1 && NOT ISBLANK(CurrentValue),
+    RANKX(Known, [__Score], CurrentValue, DESC, Skip))
+
+// Fact: FactMonth
+// Filters/restrictions: Mode/month only; not an additional population
+// Format: #,0
+// Verification: Streetcar all months = 1
+Overview Missing Code Records =
+IF([_Allow Overview], SUM(FactMonth[missing_code_incidents]))
+
+// Fact: FactMonth
+// Filters/restrictions: Mode/month only; not an additional population
+// Format: #,0
+// Verification: Subway all months = 177
+Overview Missing Line Records =
+IF([_Allow Overview], SUM(FactMonth[missing_line_incidents]))
+
+// Fact: FactMonth
+// Filters/restrictions: One mode only; disjoint selected months; no pooled distinct-date claim
+// Format: #,0
+// Verification: LRT all months = 267; Subway = 608; all modes = BLANK
+Overview Observed Dates =
+IF([_Allow Overview] && HASONEVALUE(DimMode[source_mode]), SUM(FactMonth[observed_dates]))
+
+// Fact: FactDuration
+// Filters/restrictions: Band/cohort numerator; denominator clears both and retains mode/month
+// Format: 0.00%
+// Verification: Bus band >60 = 4.12%
+Duration Incidents Share =
+DIVIDE([Duration Incidents], CALCULATE(SUM(FactDuration[recorded_incidents]), REMOVEFILTERS(DimDurationBand), REMOVEFILTERS(FactDuration[is_bus_mfdv])))
+
+// Fact: FactDuration
+// Filters/restrictions: Ignores own band/cohort selection by design; shared mode/month; generic Code/Line filters reject; any mode
+// Format: #,0
+// Verification: Bus all months = 4209 records / 853656 minutes
+Long Incidents =
+IF([_Allow Duration], CALCULATE(SUM(FactDuration[recorded_incidents]), REMOVEFILTERS(DimDurationBand), REMOVEFILTERS(FactDuration[is_bus_mfdv]), DimDurationBand[is_over60] = 1))
+
+// Fact: FactDuration
+// Filters/restrictions: Same cohort guards; all mode-period denominator, not selected band/cohort
+// Format: 0.00%
+// Verification: Bus Long = 4.12% records / 39.46% minutes
+Long Incidents Share =
+DIVIDE([Long Incidents], CALCULATE(SUM(FactDuration[recorded_incidents]), REMOVEFILTERS(DimDurationBand), REMOVEFILTERS(FactDuration[is_bus_mfdv])))
+
+// Fact: FactDuration
+// Filters/restrictions: Ignores own band/cohort selection by design; shared mode/month; generic Code/Line filters reject; Bus only
+// Format: #,0
+// Verification: Bus all months = 7288 records / 871387 minutes
+MFDV Incidents =
+IF([_Allow Duration] && SELECTEDVALUE(DimMode[source_mode]) = "bus", CALCULATE(SUM(FactDuration[recorded_incidents]), REMOVEFILTERS(DimDurationBand), REMOVEFILTERS(FactDuration[is_bus_mfdv]), FactDuration[is_bus_mfdv] = 1))
+
+// Fact: FactDuration
+// Filters/restrictions: Same cohort guards; all mode-period denominator, not selected band/cohort
+// Format: 0.00%
+// Verification: Bus MFDV = 7.13% records / 40.28% minutes
+MFDV Incidents Share =
+DIVIDE([MFDV Incidents], CALCULATE(SUM(FactDuration[recorded_incidents]), REMOVEFILTERS(DimDurationBand), REMOVEFILTERS(FactDuration[is_bus_mfdv])))
+
+// Fact: FactDuration
+// Filters/restrictions: Ignores own band/cohort selection by design; shared mode/month; generic Code/Line filters reject; Bus only
+// Format: #,0
+// Verification: Bus all months = 3775 records / 777169 minutes
+Overlap Incidents =
+IF([_Allow Duration] && SELECTEDVALUE(DimMode[source_mode]) = "bus", CALCULATE(SUM(FactDuration[recorded_incidents]), REMOVEFILTERS(DimDurationBand), REMOVEFILTERS(FactDuration[is_bus_mfdv]), FactDuration[is_bus_mfdv] = 1, DimDurationBand[is_over60] = 1))
+
+// Fact: FactDuration only
+// Filters/restrictions: Bus only; MFDV OR >60; ignore band/cohort selection; generic categories forbidden
+// Format: #,0
+// Verification: Bus all months = 7722
+Union Incidents =
+VAR Cells = CALCULATETABLE(FactDuration, REMOVEFILTERS(DimDurationBand), REMOVEFILTERS(FactDuration[is_bus_mfdv]))
+VAR UnionCells = FILTER(Cells, FactDuration[is_bus_mfdv] = 1 || FactDuration[duration_band] IN {"over_60_to_120", "over_120"})
+RETURN IF([_Allow Duration] && SELECTEDVALUE(DimMode[source_mode]) = "bus", SUMX(UnionCells, FactDuration[recorded_incidents]))
+
+// Fact: FactDuration
+// Filters/restrictions: Band/cohort numerator; denominator clears both and retains mode/month
+// Format: 0.00%
+// Verification: Bus bands >60 combined = 39.46%
+Duration Minutes Share =
+DIVIDE([Duration Minutes], CALCULATE(SUM(FactDuration[recorded_delay_minutes]), REMOVEFILTERS(DimDurationBand), REMOVEFILTERS(FactDuration[is_bus_mfdv])))
+
+// Fact: FactDuration
+// Filters/restrictions: Ignores own band/cohort selection by design; shared mode/month; generic Code/Line filters reject; any mode
+// Format: #,0
+// Verification: Bus all months = 4209 records / 853656 minutes
+Long Minutes =
+IF([_Allow Duration], CALCULATE(SUM(FactDuration[recorded_delay_minutes]), REMOVEFILTERS(DimDurationBand), REMOVEFILTERS(FactDuration[is_bus_mfdv]), DimDurationBand[is_over60] = 1))
+
+// Fact: FactDuration
+// Filters/restrictions: Same cohort guards; all mode-period denominator, not selected band/cohort
+// Format: 0.00%
+// Verification: Bus Long = 4.12% records / 39.46% minutes
+Long Minutes Share =
+DIVIDE([Long Minutes], CALCULATE(SUM(FactDuration[recorded_delay_minutes]), REMOVEFILTERS(DimDurationBand), REMOVEFILTERS(FactDuration[is_bus_mfdv])))
+
+// Fact: FactDuration
+// Filters/restrictions: Ignores own band/cohort selection by design; shared mode/month; generic Code/Line filters reject; Bus only
+// Format: #,0
+// Verification: Bus all months = 7288 records / 871387 minutes
+MFDV Minutes =
+IF([_Allow Duration] && SELECTEDVALUE(DimMode[source_mode]) = "bus", CALCULATE(SUM(FactDuration[recorded_delay_minutes]), REMOVEFILTERS(DimDurationBand), REMOVEFILTERS(FactDuration[is_bus_mfdv]), FactDuration[is_bus_mfdv] = 1))
+
+// Fact: FactDuration
+// Filters/restrictions: Same cohort guards; all mode-period denominator, not selected band/cohort
+// Format: 0.00%
+// Verification: Bus MFDV = 7.13% records / 40.28% minutes
+MFDV Minutes Share =
+DIVIDE([MFDV Minutes], CALCULATE(SUM(FactDuration[recorded_delay_minutes]), REMOVEFILTERS(DimDurationBand), REMOVEFILTERS(FactDuration[is_bus_mfdv])))
+
+// Fact: FactDuration
+// Filters/restrictions: Ignores own band/cohort selection by design; shared mode/month; generic Code/Line filters reject; Bus only
+// Format: #,0
+// Verification: Bus all months = 3775 records / 777169 minutes
+Overlap Minutes =
+IF([_Allow Duration] && SELECTEDVALUE(DimMode[source_mode]) = "bus", CALCULATE(SUM(FactDuration[recorded_delay_minutes]), REMOVEFILTERS(DimDurationBand), REMOVEFILTERS(FactDuration[is_bus_mfdv]), FactDuration[is_bus_mfdv] = 1, DimDurationBand[is_over60] = 1))
+
+// Fact: FactDuration only
+// Filters/restrictions: Bus only; MFDV OR >60; ignore band/cohort selection; generic categories forbidden
+// Format: #,0
+// Verification: Bus all months = 947874
+Union Minutes =
+VAR Cells = CALCULATETABLE(FactDuration, REMOVEFILTERS(DimDurationBand), REMOVEFILTERS(FactDuration[is_bus_mfdv]))
+VAR UnionCells = FILTER(Cells, FactDuration[is_bus_mfdv] = 1 || FactDuration[duration_band] IN {"over_60_to_120", "over_120"})
+RETURN IF([_Allow Duration] && SELECTEDVALUE(DimMode[source_mode]) = "bus", SUMX(UnionCells, FactDuration[recorded_delay_minutes]))
+
+// Fact: FactMonth
+// Filters/restrictions: Mode/month only; guarded overview contexts
+// Format: Text
+// Verification: LRT full selection: 2025-12-07 to 2026-08-31; 267 observed dates
+Coverage Note =
+VAR ModeValue = SELECTEDVALUE(DimMode[source_mode])
+VAR FirstDate = MIN(FactMonth[first_observed_date])
+VAR LastDate = MAX(FactMonth[last_observed_date])
+RETURN IF(NOT [_Allow Overview], "Unsupported category filter: clear selection.",
+    IF(NOT HASONEVALUE(DimMode[source_mode]), "Multiple modes: unequal reporting coverage; counts are inventory, not reliability.",
+       IF(ISBLANK(FirstDate), "No selected reporting rows; do not interpret as zero-delay service.",
+          ModeValue & ": " & FORMAT(FirstDate,"yyyy-MM-dd") & " to " & FORMAT(LastDate,"yyyy-MM-dd") &
+          "; " & FORMAT([Overview Observed Dates],"#,0") & " observed dates. Coverage is not service exposure.")))

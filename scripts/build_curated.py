@@ -14,8 +14,10 @@ from pathlib import Path
 
 try:
     from .init_storage import ROOT, DEFAULT_DATABASE
+    from .report_paths import report_path
 except ImportError:
     from init_storage import ROOT, DEFAULT_DATABASE
+    from report_paths import report_path
 
 APPLICATION_ID = 0x54544343
 DEFAULT_OUTPUT = ROOT / 'data/local/ttc_curated.sqlite3'
@@ -192,7 +194,7 @@ def build_curated(selection, source=DEFAULT_DATABASE, output=DEFAULT_OUTPUT):
         if hashlib.sha256(source.read_bytes()).hexdigest()!=source_hash:raise ValueError('Staging file changed during build')
         artifact_hash=hashlib.sha256(temporary.read_bytes()).hexdigest()
         os.replace(temporary,output)
-        return dict(output=str(output),artifact_sha256=artifact_hash,source_database_sha256=source_hash,
+        return dict(output=report_path(output, ROOT),artifact_sha256=artifact_hash,source_database_sha256=source_hash,
                     selection=selection,dictionary_policy='not_evaluated; no pinned reference artifact',**result)
     except sqlite3.OperationalError as exc:
         if function_errors:raise ValueError('Curated build failed: '+function_errors[-1]) from exc
