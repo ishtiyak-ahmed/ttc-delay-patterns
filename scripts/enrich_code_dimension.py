@@ -142,9 +142,11 @@ def enrich_dimension(rows, facts, lookup):
         status = ('missing_code' if not row['category_eligible'] else
                   reference['status'] if reference is not None else 'unmapped')
         description = reference['description'] if status == 'accepted' else None
-        # The raw code remains visible even for unresolved references; labels add no invented meaning.
-        label = ('[Missing code]' if not row['category_eligible'] else
-                 row['raw_code'] + ' — ' + description if description is not None else row['raw_code'])
+        # Presentation only: retain source values and distinguish unavailable descriptions.
+        display_code = (row['raw_code'] if row['raw_code'] is not None and row['raw_code'].strip()
+                        else 'Code not recorded')
+        label = (row['raw_code'] + ' — ' + description if description is not None else
+                 display_code + ' — Description unavailable')
         enriched = dict(row, code_description=description, code_display_label=label)
         if {k: enriched[k] for k in ORIGINAL_COLUMNS} != row:
             raise ValueError('Original dimension value changed')
