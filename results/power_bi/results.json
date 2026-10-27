@@ -8233,8 +8233,8 @@
       "source_mode": "subway",
       "category_eligible": 1,
       "raw_code": "PUEO",
-      "code_description": null,
-      "code_display_label": "PUEO"
+      "code_description": "ELECTRICAL \u2013 OTHER",
+      "code_display_label": "PUEO \u2014 ELECTRICAL \u2013 OTHER"
     },
     {
       "code_key": "02677f842b4991683df6fc6b572a163b1ca131114a80a5f6cc7089c0027be701",
@@ -8281,8 +8281,8 @@
       "source_mode": "subway",
       "category_eligible": 1,
       "raw_code": "PUMO",
-      "code_description": null,
-      "code_display_label": "PUMO"
+      "code_description": "PLANT MAINTENANCE \u2013 OTHER",
+      "code_display_label": "PUMO \u2014 PLANT MAINTENANCE \u2013 OTHER"
     },
     {
       "code_key": "06fce23ea607e00f526ccda94e1379d77c6bc49537014168d92dd5b2851139c6",
@@ -8313,8 +8313,8 @@
       "source_mode": "bus",
       "category_eligible": 1,
       "raw_code": "PFPD",
-      "code_description": null,
-      "code_display_label": "PFPD"
+      "code_description": "TTC COLLISION \u2013 PROPERTY DAMAGE",
+      "code_display_label": "PFPD \u2014 TTC COLLISION \u2013 PROPERTY DAMAGE"
     },
     {
       "code_key": "08ee742e12e72d57bfcb3446916d48b1285b68aadbfbd7e36f90a9bf916b2917",
@@ -8377,8 +8377,8 @@
       "source_mode": "subway",
       "category_eligible": 1,
       "raw_code": "PUTDN",
-      "code_description": null,
-      "code_display_label": "PUTDN"
+      "code_description": "DEBRIS AT TRACK LEVEL \u2013 NON-CONTROLLABLE",
+      "code_display_label": "PUTDN \u2014 DEBRIS AT TRACK LEVEL \u2013 NON-CONTROLLABLE"
     },
     {
       "code_key": "0f11d972901a51577a55f38977076a9a63eea9d4420ddcd0ec62418879ddeb3d",
@@ -8481,8 +8481,8 @@
       "source_mode": "streetcar",
       "category_eligible": 1,
       "raw_code": "ETNT",
-      "code_description": null,
-      "code_display_label": "ETNT"
+      "code_description": "EQUIPMENT \u2013 NO TROUBLE FOUND",
+      "code_display_label": "ETNT \u2014 EQUIPMENT \u2013 NO TROUBLE FOUND"
     },
     {
       "code_key": "168d00a5ab340f59b8bcfa0f8b8b1289fd82ab719af44222e6edad8e05b05f35",
@@ -8729,8 +8729,8 @@
       "source_mode": "streetcar",
       "category_eligible": 1,
       "raw_code": "STAP",
-      "code_description": null,
-      "code_display_label": "STAP"
+      "code_description": "ASSAULT \u2013 PATRON INVOLVED",
+      "code_display_label": "STAP \u2014 ASSAULT \u2013 PATRON INVOLVED"
     },
     {
       "code_key": "288b3d738c2cd4ceb47623bcedf02dc345d394dfbff33b9bdbb6e0d43ab10b74",
@@ -8785,8 +8785,8 @@
       "source_mode": "streetcar",
       "category_eligible": 1,
       "raw_code": "STEAS",
-      "code_description": null,
-      "code_display_label": "STEAS"
+      "code_description": "EMERGENCY ALARM STATION ACTIVATION \u2013 NO TROUBLE FOUND",
+      "code_display_label": "STEAS \u2014 EMERGENCY ALARM STATION ACTIVATION \u2013 NO TROUBLE FOUND"
     },
     {
       "code_key": "3099ef26161f928026bdbf6b7610791fcbc72f4b6236ed03ff12808fdb2a778c",
@@ -8841,8 +8841,8 @@
       "source_mode": "bus",
       "category_eligible": 1,
       "raw_code": "TFLF",
-      "code_description": null,
-      "code_display_label": "TFLF"
+      "code_description": "LATE ENTERING SERVICE \u2013 FIRST VEHICLE",
+      "code_display_label": "TFLF \u2014 LATE ENTERING SERVICE \u2013 FIRST VEHICLE"
     },
     {
       "code_key": "340fe475b11504dd2c511bac50afce026bdbc91029d38bfcdde7cdaa7134a955",
@@ -8993,16 +8993,16 @@
       "source_mode": "bus",
       "category_eligible": 1,
       "raw_code": "SFAE",
-      "code_description": null,
-      "code_display_label": "SFAE"
+      "code_description": "ASSAULT \u2013 EMPLOYEE",
+      "code_display_label": "SFAE \u2014 ASSAULT \u2013 EMPLOYEE"
     },
     {
       "code_key": "3c61faa58786491e4ff2fdbbf7dbcda7968b68c2722b824805a88d4c818fd57a",
       "source_mode": "subway",
       "category_eligible": 1,
       "raw_code": "PUMST",
-      "code_description": null,
-      "code_display_label": "PUMST"
+      "code_description": "ANY STAIRWAY INCIDENT \u2013 TRANSPORTED OR MEDICAL AID DECLINED",
+      "code_display_label": "PUMST \u2014 ANY STAIRWAY INCIDENT \u2013 TRANSPORTED OR MEDICAL AID DECLINED"
     },
     {
       "code_key": "3d73aabf1c449039624289c196e75c508395684e214d861f3e6ff63da26e06d4",
@@ -9057,8 +9057,8 @@
       "source_mode": "bus",
       "category_eligible": 1,
       "raw_code": "TFLL",
-      "code_description": null,
-      "code_display_label": "TFLL"
+      "code_description": "LATE VEHICLE \u2013 ROUTE",
+      "code_display_label": "TFLL \u2014 LATE VEHICLE \u2013 ROUTE"
     },
     {
       "code_key": "3fb78edd151ca1ab14c3b588083355632ababd5b018d4dcbb865c21b7c2f84c3",
@@ -9097,8 +9097,8 @@
       "source_mode": "subway",
       "category_eligible": 1,
       "raw_code": "MUPR1",
-      "code_description": null,
-      "code_display_label": "MUPR1"
+      "code_description": "PRIORITY ONE \u2013 TRAIN IN CONTACT WITH PERSON",
+      "code_display_label": "MUPR1 \u2014 PRIORITY ONE \u2013 TRAIN IN CONTACT WITH PERSON"
     },
     {
       "code_key": "431138eab7ac7f99212b05942582415238bd8eb2ab6d14a0b0675e27af817743",
@@ -9113,8 +9113,8 @@
       "source_mode": "subway",
       "category_eligible": 1,
       "raw_code": "PUSSW",
-      "code_description": null,
-      "code_display_label": "PUSSW"
+      "code_description": "TRACK SWITCH FAILURE \u2013 S/E/C RELATED PROBLEM",
+      "code_display_label": "PUSSW \u2014 TRACK SWITCH FAILURE \u2013 S/E/C RELATED PROBLEM"
     },
     {
       "code_key": "43ca9a59f70f9b130abd6692289cf07586d4d3ae26c2f94b1f613aebf15e3eb0",
@@ -9217,8 +9217,8 @@
       "source_mode": "subway",
       "category_eligible": 1,
       "raw_code": "MUI",
-      "code_description": null,
-      "code_display_label": "MUI"
+      "code_description": "INJURED/ILL CUSTOMER ON TRAIN \u2013 TRANSPORTED",
+      "code_display_label": "MUI \u2014 INJURED/ILL CUSTOMER ON TRAIN \u2013 TRANSPORTED"
     },
     {
       "code_key": "4d3d69767dfc25603a65c9a8df3c122179d72366462bee39350b18dad2f479ef",
@@ -9273,8 +9273,8 @@
       "source_mode": "subway",
       "category_eligible": 1,
       "raw_code": "MUIRS",
-      "code_description": null,
-      "code_display_label": "MUIRS"
+      "code_description": "INJURED/ILL CUSTOMER IN STATION \u2013 MEDICAL AID REFUSED",
+      "code_display_label": "MUIRS \u2014 INJURED/ILL CUSTOMER IN STATION \u2013 MEDICAL AID REFUSED"
     },
     {
       "code_key": "514776a35be156c31cd9983fb2596c971e3619c232b96e5490f7d63c046e34c4",
@@ -9409,8 +9409,8 @@
       "source_mode": "subway",
       "category_eligible": 1,
       "raw_code": "MUESA",
-      "code_description": null,
-      "code_display_label": "MUESA"
+      "code_description": "NO OPERATOR/CREW AVAILABLE \u2013 E.S.A. RELATED",
+      "code_display_label": "MUESA \u2014 NO OPERATOR/CREW AVAILABLE \u2013 E.S.A. RELATED"
     },
     {
       "code_key": "5b0f28445d5752b875c1740828cdb43d017a8443b5d32652f661782ec12c4054",
@@ -9457,8 +9457,8 @@
       "source_mode": "streetcar",
       "category_eligible": 1,
       "raw_code": "STSA",
-      "code_description": null,
-      "code_display_label": "STSA"
+      "code_description": "ASSAULT \u2013 SEXUAL",
+      "code_display_label": "STSA \u2014 ASSAULT \u2013 SEXUAL"
     },
     {
       "code_key": "5de6a4193d67d1bedf870fb586dff8c8006b3b1b035292a68065a27e75a4747f",
@@ -9497,8 +9497,8 @@
       "source_mode": "streetcar",
       "category_eligible": 1,
       "raw_code": "TTPI",
-      "code_description": null,
-      "code_display_label": "TTPI"
+      "code_description": "TTC COLLISION \u2013 PERSONAL INJURY",
+      "code_display_label": "TTPI \u2014 TTC COLLISION \u2013 PERSONAL INJURY"
     },
     {
       "code_key": "5f226b404f964142e4c70941e97718155064ddce1f4be8efb610ae1b34c0a190",
@@ -9649,8 +9649,8 @@
       "source_mode": "streetcar",
       "category_eligible": 1,
       "raw_code": "STAE",
-      "code_description": null,
-      "code_display_label": "STAE"
+      "code_description": "ASSAULT \u2013 EMPLOYEE INVOLVED",
+      "code_display_label": "STAE \u2014 ASSAULT \u2013 EMPLOYEE INVOLVED"
     },
     {
       "code_key": "686ce07fcf61544e9047f49c6d0f456fc332c7fe25e266711c0c7343aabbe315",
@@ -9673,8 +9673,8 @@
       "source_mode": "streetcar",
       "category_eligible": 1,
       "raw_code": "MTUIR",
-      "code_description": null,
-      "code_display_label": "MTUIR"
+      "code_description": "INJURIED/ILL CUSTOMER \u2013 MEDICAL AID DECLINED",
+      "code_display_label": "MTUIR \u2014 INJURIED/ILL CUSTOMER \u2013 MEDICAL AID DECLINED"
     },
     {
       "code_key": "69752583fe74ad0af196f05edf2e488c0091d29eadd42c52a4e362a690acc9aa",
@@ -9705,8 +9705,8 @@
       "source_mode": "streetcar",
       "category_eligible": 1,
       "raw_code": "TTLF",
-      "code_description": null,
-      "code_display_label": "TTLF"
+      "code_description": "LATE ENTERING SERVICE \u2013 FIRST VEHICLE",
+      "code_display_label": "TTLF \u2014 LATE ENTERING SERVICE \u2013 FIRST VEHICLE"
     },
     {
       "code_key": "6a7632afdb24691acf76b73c14732d414c6404eb34fce23dd45c5c0401d7eed4",
@@ -9777,8 +9777,8 @@
       "source_mode": "subway",
       "category_eligible": 1,
       "raw_code": "PUSO",
-      "code_description": null,
-      "code_display_label": "PUSO"
+      "code_description": "SIGNALS \u2013 OTHER",
+      "code_display_label": "PUSO \u2014 SIGNALS \u2013 OTHER"
     },
     {
       "code_key": "6e60914b363d69cca13d7c89b954c7a9d4a26c5e639c5daeab09f6160ba0584d",
@@ -9809,8 +9809,8 @@
       "source_mode": "subway",
       "category_eligible": 1,
       "raw_code": "PUTSC",
-      "code_description": null,
-      "code_display_label": "PUTSC"
+      "code_description": "SIGNALS\u2013CONTROL PROBLEM\u2013TRACK",
+      "code_display_label": "PUTSC \u2014 SIGNALS\u2013CONTROL PROBLEM\u2013TRACK"
     },
     {
       "code_key": "6f530010316d84aa085379e8c7842c2e0463fccefec195acc1d45faf8bd45449",
@@ -9833,16 +9833,16 @@
       "source_mode": "bus",
       "category_eligible": 1,
       "raw_code": "SFAP",
-      "code_description": null,
-      "code_display_label": "SFAP"
+      "code_description": "ASSAULT \u2013 PATRON",
+      "code_display_label": "SFAP \u2014 ASSAULT \u2013 PATRON"
     },
     {
       "code_key": "711b1858108a902ec8dea54e5d2778d2b9439dd9afa83c1515e87d72e5d49609",
       "source_mode": "subway",
       "category_eligible": 1,
       "raw_code": "PUSNT",
-      "code_description": null,
-      "code_display_label": "PUSNT"
+      "code_description": "SIGNAL PROBLEM \u2013 NO TROUBLE FOUND",
+      "code_display_label": "PUSNT \u2014 SIGNAL PROBLEM \u2013 NO TROUBLE FOUND"
     },
     {
       "code_key": "71f5807fb6e4a57cbdad326c914d27e7fc9cecf5b616271db600547264c3865b",
@@ -9881,8 +9881,8 @@
       "source_mode": "subway",
       "category_eligible": 1,
       "raw_code": "PUMEL",
-      "code_description": null,
-      "code_display_label": "PUMEL"
+      "code_description": "ANY ESCL. OR ELEV. INCIDENT \u2013 TRANSPORTED OR MEDICAL AID DECLINED",
+      "code_display_label": "PUMEL \u2014 ANY ESCL. OR ELEV. INCIDENT \u2013 TRANSPORTED OR MEDICAL AID DECLINED"
     },
     {
       "code_key": "7531d2e74c526ecb5bec0347220234bdafa99ea5b7f94ff9c953aec36e8aa065",
@@ -9937,8 +9937,8 @@
       "source_mode": "subway",
       "category_eligible": 1,
       "raw_code": "MUPLB",
-      "code_description": null,
-      "code_display_label": "MUPLB"
+      "code_description": "FIRE/SMOKE PLAN B \u2013 SOURCE TTC (TRACK LEVEL)",
+      "code_display_label": "MUPLB \u2014 FIRE/SMOKE PLAN B \u2013 SOURCE TTC (TRACK LEVEL)"
     },
     {
       "code_key": "782d543857ec26a30e5f80bc1b73b607e29cf7f0f003feb6dce4e7b2c2f750cf",
@@ -9993,8 +9993,8 @@
       "source_mode": "streetcar",
       "category_eligible": 1,
       "raw_code": "PTPD",
-      "code_description": null,
-      "code_display_label": "PTPD"
+      "code_description": "TTC COLLISION \u2013 PROPERTY DAMAGE",
+      "code_display_label": "PTPD \u2014 TTC COLLISION \u2013 PROPERTY DAMAGE"
     },
     {
       "code_key": "7c2a44b5a9dac40c3ae4759df2a89a205ce2b0f47af063c25f4c181c5c671228",
@@ -10017,8 +10017,8 @@
       "source_mode": "subway",
       "category_eligible": 1,
       "raw_code": "PUEME",
-      "code_description": null,
-      "code_display_label": "PUEME"
+      "code_description": "ELECTRICAL \u2013 MAINTENANCE ERROR",
+      "code_display_label": "PUEME \u2014 ELECTRICAL \u2013 MAINTENANCE ERROR"
     },
     {
       "code_key": "7f809011844fb2ae2c54fa73502b533f0be31361a41038a0870098bd944cb354",
@@ -10057,16 +10057,16 @@
       "source_mode": "subway",
       "category_eligible": 1,
       "raw_code": "MUPAA",
-      "code_description": null,
-      "code_display_label": "MUPAA"
+      "code_description": "PAA \u2013 NO TROUBLE FOUND",
+      "code_display_label": "MUPAA \u2014 PAA \u2013 NO TROUBLE FOUND"
     },
     {
       "code_key": "824f444190ece8477dc82df7473f4b67192924e3fa4ec77fd73221443b866067",
       "source_mode": "subway",
       "category_eligible": 1,
       "raw_code": "MUD",
-      "code_description": null,
-      "code_display_label": "MUD"
+      "code_description": "DOOR PROBLEMS \u2013 PASSENGER RELATED",
+      "code_display_label": "MUD \u2014 DOOR PROBLEMS \u2013 PASSENGER RELATED"
     },
     {
       "code_key": "8266dda66d1788f5c403d9646146a32d748f64135fa72920e1690233648d89b2",
@@ -10145,8 +10145,8 @@
       "source_mode": "subway",
       "category_eligible": 1,
       "raw_code": "SUEAS",
-      "code_description": null,
-      "code_display_label": "SUEAS"
+      "code_description": "EAS ACTIVATED \u2013 NO TROUBLE FOUND",
+      "code_display_label": "SUEAS \u2014 EAS ACTIVATED \u2013 NO TROUBLE FOUND"
     },
     {
       "code_key": "882516eaefee5c680380509741f72da4c40a3f73675db7a6a03e2cda59ab1343",
@@ -10185,8 +10185,8 @@
       "source_mode": "streetcar",
       "category_eligible": 1,
       "raw_code": "MTUI",
-      "code_description": null,
-      "code_display_label": "MTUI"
+      "code_description": "INJURIED/ILL CUSTOMER \u2013 TRANSPORTED",
+      "code_display_label": "MTUI \u2014 INJURIED/ILL CUSTOMER \u2013 TRANSPORTED"
     },
     {
       "code_key": "8b6a6f59d4742b03d50f073d5d60bd0bb4c5b68bea3b9f55ee00b4e5c562c0b3",
@@ -10209,8 +10209,8 @@
       "source_mode": "bus",
       "category_eligible": 1,
       "raw_code": "TFPI",
-      "code_description": null,
-      "code_display_label": "TFPI"
+      "code_description": "TTC COLLISION \u2013 PERSONAL INJURY",
+      "code_display_label": "TFPI \u2014 TTC COLLISION \u2013 PERSONAL INJURY"
     },
     {
       "code_key": "8dc17f8fd6d9dc87261e3bd9c6b164c87347cf02101b572e68547bfa17349f96",
@@ -10289,8 +10289,8 @@
       "source_mode": "subway",
       "category_eligible": 1,
       "raw_code": "MUNCA",
-      "code_description": null,
-      "code_display_label": "MUNCA"
+      "code_description": "NO COLLECTOR AVAILABLE \u2013 NON ESA RELATED",
+      "code_display_label": "MUNCA \u2014 NO COLLECTOR AVAILABLE \u2013 NON ESA RELATED"
     },
     {
       "code_key": "92a9381a085324be11294dc50d7710c71b72f2b4e3e76298c275d58cd4a6396d",
@@ -10401,8 +10401,8 @@
       "source_mode": "streetcar",
       "category_eligible": 1,
       "raw_code": "MTESA",
-      "code_description": null,
-      "code_display_label": "MTESA"
+      "code_description": "NO OPERATOR/CREW AVILABLE \u2013 ESA RELATED",
+      "code_display_label": "MTESA \u2014 NO OPERATOR/CREW AVILABLE \u2013 ESA RELATED"
     },
     {
       "code_key": "996123c12cab2feeccf2c9eeb6f4cd7bb44612e46124752ce1e57819e9e5b069",
@@ -10561,8 +10561,8 @@
       "source_mode": "bus",
       "category_eligible": 1,
       "raw_code": "TFPD",
-      "code_description": null,
-      "code_display_label": "TFPD"
+      "code_description": "TTC COLLISION \u2013 PROPERTY DAMAGE",
+      "code_display_label": "TFPD \u2014 TTC COLLISION \u2013 PROPERTY DAMAGE"
     },
     {
       "code_key": "a2f0b6e3037e298daff62edfbe001e1b7261baae3ff208fb42a9b81b5b6cfb4a",
@@ -10785,8 +10785,8 @@
       "source_mode": "bus",
       "category_eligible": 1,
       "raw_code": "MFUIR",
-      "code_description": null,
-      "code_display_label": "MFUIR"
+      "code_description": "ILL CUSTOMER \u2013 TRANSPORTATION DECLINED",
+      "code_display_label": "MFUIR \u2014 ILL CUSTOMER \u2013 TRANSPORTATION DECLINED"
     },
     {
       "code_key": "b0ea823cd3d130fd1135e086065dc10c03498fcf84c1fb1d96fec899448cf5fc",
@@ -10849,8 +10849,8 @@
       "source_mode": "subway",
       "category_eligible": 1,
       "raw_code": "EUCD",
-      "code_description": null,
-      "code_display_label": "EUCD"
+      "code_description": "RC&S CONSEQUENTIAL DELAY (SECOND DELAY SAME FAULT \u2013 NO INTERVENTION)",
+      "code_display_label": "EUCD \u2014 RC&S CONSEQUENTIAL DELAY (SECOND DELAY SAME FAULT \u2013 NO INTERVENTION)"
     },
     {
       "code_key": "b4e1de715e7150f768b4bfa9a48207acd545e0cbe472660b94fdcbfbd8404e52",
@@ -11041,16 +11041,16 @@
       "source_mode": "subway",
       "category_eligible": 1,
       "raw_code": "SUPOL",
-      "code_description": null,
-      "code_display_label": "SUPOL"
+      "code_description": "HELD BY POLICE \u2013 NON TTC RELATED",
+      "code_display_label": "SUPOL \u2014 HELD BY POLICE \u2013 NON TTC RELATED"
     },
     {
       "code_key": "beb319b94e2da732ac0fcb7828fbb5e93f1651a3075488cf02e383ffcedb634c",
       "source_mode": "subway",
       "category_eligible": 1,
       "raw_code": "MUNOA",
-      "code_description": null,
-      "code_display_label": "MUNOA"
+      "code_description": "NO OPERATOR AVAILABLE \u2013 NON ESA RELATED",
+      "code_display_label": "MUNOA \u2014 NO OPERATOR AVAILABLE \u2013 NON ESA RELATED"
     },
     {
       "code_key": "bef14b52ba41cd4cd38f3eab9d4c6e42642501f7eaa2276725d07b8cb7baca37",
@@ -11081,8 +11081,8 @@
       "source_mode": "subway",
       "category_eligible": 1,
       "raw_code": "TUCC",
-      "code_description": null,
-      "code_display_label": "TUCC"
+      "code_description": "TRANSIT CONTROL RELATED \u2013 TOWER CONTROLLER ERROR",
+      "code_display_label": "TUCC \u2014 TRANSIT CONTROL RELATED \u2013 TOWER CONTROLLER ERROR"
     },
     {
       "code_key": "bffa501f76dca2ad83b2dab4c5b505d5416e8327acc60084f4af6417237d5fd8",
@@ -11169,8 +11169,8 @@
       "source_mode": "subway",
       "category_eligible": 1,
       "raw_code": "PUEWZ",
-      "code_description": null,
-      "code_display_label": "PUEWZ"
+      "code_description": "ELECTRICAL \u2013 WORK ZONE PROBLEMS",
+      "code_display_label": "PUEWZ \u2014 ELECTRICAL \u2013 WORK ZONE PROBLEMS"
     },
     {
       "code_key": "c3a3bb7e88a282367d85a55bfbbad7e6cd406432be6596b0a44be1eb23dd26ad",
@@ -11233,8 +11233,8 @@
       "source_mode": "subway",
       "category_eligible": 1,
       "raw_code": "EUNT",
-      "code_description": null,
-      "code_display_label": "EUNT"
+      "code_description": "EQUIPMENT \u2013 NO TROUBLE FOUND",
+      "code_display_label": "EUNT \u2014 EQUIPMENT \u2013 NO TROUBLE FOUND"
     },
     {
       "code_key": "c6676b3efd7d1a3fd537734351e855317491202f946db21c0b4f91beca73b95c",
@@ -11249,8 +11249,8 @@
       "source_mode": "subway",
       "category_eligible": 1,
       "raw_code": "PUTWZ",
-      "code_description": null,
-      "code_display_label": "PUTWZ"
+      "code_description": "WORK ZONES PROBLEMS \u2013 TRACK",
+      "code_display_label": "PUTWZ \u2014 WORK ZONES PROBLEMS \u2013 TRACK"
     },
     {
       "code_key": "c6918b99edb642b30cb956fe7afb50d997840eed0deed044c29211d3bde8451a",
@@ -11281,8 +11281,8 @@
       "source_mode": "subway",
       "category_eligible": 1,
       "raw_code": "PUSTS",
-      "code_description": null,
-      "code_display_label": "PUSTS"
+      "code_description": "SIGNALS \u2013 TRAIN STOPS",
+      "code_display_label": "PUSTS \u2014 SIGNALS \u2013 TRAIN STOPS"
     },
     {
       "code_key": "ca59b49c3b87f2719a04e127fe5313eae922cdb2664988bf8aa4873889a3a432",
@@ -11297,16 +11297,16 @@
       "source_mode": "streetcar",
       "category_eligible": 1,
       "raw_code": "TTO",
-      "code_description": null,
-      "code_display_label": "TTO"
+      "code_description": "TRANSPORTATION \u2013 OTHER",
+      "code_display_label": "TTO \u2014 TRANSPORTATION \u2013 OTHER"
     },
     {
       "code_key": "cb05389f8e1384b4a66e6a5ac9d84ee6e57a9ba31f432d3385a5316f235c086b",
       "source_mode": "bus",
       "category_eligible": 1,
       "raw_code": "TFO",
-      "code_description": null,
-      "code_display_label": "TFO"
+      "code_description": "OTHER \u2013 SWITCH VIOLATION",
+      "code_display_label": "TFO \u2014 OTHER \u2013 SWITCH VIOLATION"
     },
     {
       "code_key": "ccb5dfde3c732c6eefe3056557250381f2355c4ee0974acfc31d255bf97d0031",
@@ -11449,8 +11449,8 @@
       "source_mode": "subway",
       "category_eligible": 1,
       "raw_code": "PUTNT",
-      "code_description": null,
-      "code_display_label": "PUTNT"
+      "code_description": "T&S RELATED PROBLEM \u2013 NO TROUBLE FOUND",
+      "code_display_label": "PUTNT \u2014 T&S RELATED PROBLEM \u2013 NO TROUBLE FOUND"
     },
     {
       "code_key": "d33f44ea05f73dfbe5f76f46190a88ee3dd5f07bf3f80ec89ce4549ddd8b69a8",
@@ -11585,8 +11585,8 @@
       "source_mode": "subway",
       "category_eligible": 1,
       "raw_code": "PUSWZ",
-      "code_description": null,
-      "code_display_label": "PUSWZ"
+      "code_description": "WORK ZONE PROBLEMS \u2013 SIGNALS",
+      "code_display_label": "PUSWZ \u2014 WORK ZONE PROBLEMS \u2013 SIGNALS"
     },
     {
       "code_key": "dcec0594a5f94f930a02dcd3537a2c61762f00eeeb51284077ed9f3fe90d9c26",
@@ -11609,8 +11609,8 @@
       "source_mode": "subway",
       "category_eligible": 1,
       "raw_code": "MUIR",
-      "code_description": null,
-      "code_display_label": "MUIR"
+      "code_description": "INJURED/ILL CUSTOMER ON TRAIN \u2013 MEDICAL AID REFUSED",
+      "code_display_label": "MUIR \u2014 INJURED/ILL CUSTOMER ON TRAIN \u2013 MEDICAL AID REFUSED"
     },
     {
       "code_key": "de9599c8998fb30f603cf6e6e82df06fa59475012135620350e5aee3f97be745",
@@ -11673,8 +11673,8 @@
       "source_mode": "subway",
       "category_eligible": 1,
       "raw_code": "MUFS",
-      "code_description": null,
-      "code_display_label": "MUFS"
+      "code_description": "FIRE/SMOKE PLAN B \u2013 SOURCE EXTERNAL TO TTC",
+      "code_display_label": "MUFS \u2014 FIRE/SMOKE PLAN B \u2013 SOURCE EXTERNAL TO TTC"
     },
     {
       "code_key": "e634558d566445f4d81bd7b0a7b29cd16c1285c129683912373a6f3ceaa4f969",
@@ -11753,8 +11753,8 @@
       "source_mode": "bus",
       "category_eligible": 1,
       "raw_code": "SFSA",
-      "code_description": null,
-      "code_display_label": "SFSA"
+      "code_description": "ASSAULT \u2013 SEXUAL",
+      "code_display_label": "SFSA \u2014 ASSAULT \u2013 SEXUAL"
     },
     {
       "code_key": "eab9177b9803ef24261a147cfa95d0a147b190826680f546047519cb43dd52f8",
@@ -11785,8 +11785,8 @@
       "source_mode": "subway",
       "category_eligible": 1,
       "raw_code": "MUDD",
-      "code_description": null,
-      "code_display_label": "MUDD"
+      "code_description": "DOOR PROBLEMS \u2013 DEBRIS RELATED",
+      "code_display_label": "MUDD \u2014 DOOR PROBLEMS \u2013 DEBRIS RELATED"
     },
     {
       "code_key": "ed372cc1e1b3a882f3b1ad599e0d271ff7d3f7dd7cffcfeabc212b20462aa1ff",
@@ -11865,8 +11865,8 @@
       "source_mode": "subway",
       "category_eligible": 1,
       "raw_code": "PUTSM",
-      "code_description": null,
-      "code_display_label": "PUTSM"
+      "code_description": "TRACK SWITCH FAILURE \u2013 T&S RELATED PROBLEM",
+      "code_display_label": "PUTSM \u2014 TRACK SWITCH FAILURE \u2013 T&S RELATED PROBLEM"
     },
     {
       "code_key": "f30487cdf2be5d66e2a794434d54a543898d256abee0b6d36e22a64ad33666a9",
@@ -12017,8 +12017,8 @@
       "source_mode": "streetcar",
       "category_eligible": 1,
       "raw_code": "TTPD",
-      "code_description": null,
-      "code_display_label": "TTPD"
+      "code_description": "TTC COLLISION \u2013 PROPERTY DAMAGE",
+      "code_display_label": "TTPD \u2014 TTC COLLISION \u2013 PROPERTY DAMAGE"
     },
     {
       "code_key": "fc3459105633905c1e4422efe2703dcc7173c3f29dc153c6174d50ce9507e624",

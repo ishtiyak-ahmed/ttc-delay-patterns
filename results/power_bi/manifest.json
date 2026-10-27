@@ -57,7 +57,7 @@
   "query_sha256": {
     "monthly_duration.sql": "59b455b4a2a1ea20e0abb344bf6676804342f13ef3d861e8e2fe545b92dd6937"
   },
-  "tooling_sha256": "07158a045838468aecfbeb6af20c34b956db1a873743425db32f58b4b80d0e67",
+  "tooling_sha256": "bc9e8f89d0ea46ff4f62421db94e4b6b9d936577bef52f31716ca53ebf90c024",
   "result_columns": {
     "dim_mode": [
       "source_mode",
@@ -191,16 +191,12 @@
     "coverage": {
       "streetcar": {
         "accepted": {
-          "dimension_rows": 61,
-          "incident_records": 16507
+          "dimension_rows": 74,
+          "incident_records": 20477
         },
         "unmapped": {
           "dimension_rows": 74,
           "incident_records": 3225
-        },
-        "encoding_defect": {
-          "dimension_rows": 13,
-          "incident_records": 3970
         },
         "missing_code": {
           "dimension_rows": 1,
@@ -212,13 +208,9 @@
           "dimension_rows": 10,
           "incident_records": 1654
         },
-        "encoding_defect": {
-          "dimension_rows": 33,
-          "incident_records": 12440
-        },
         "accepted": {
-          "dimension_rows": 97,
-          "incident_records": 31381
+          "dimension_rows": 130,
+          "incident_records": 43821
         }
       },
       "lrt": {
@@ -236,17 +228,13 @@
         }
       },
       "bus": {
-        "encoding_defect": {
-          "dimension_rows": 10,
-          "incident_records": 15001
+        "accepted": {
+          "dimension_rows": 40,
+          "incident_records": 96789
         },
         "unmapped": {
           "dimension_rows": 35,
           "incident_records": 5468
-        },
-        "accepted": {
-          "dimension_rows": 30,
-          "incident_records": 81788
         }
       }
     },
@@ -256,12 +244,6 @@
         "raw_code": "XXXXX",
         "status": "unmapped",
         "incident_records": 9
-      },
-      {
-        "source_mode": "subway",
-        "raw_code": "PUEO",
-        "status": "encoding_defect",
-        "incident_records": 56
       },
       {
         "source_mode": "streetcar",
@@ -276,22 +258,10 @@
         "incident_records": 3
       },
       {
-        "source_mode": "subway",
-        "raw_code": "PUMO",
-        "status": "encoding_defect",
-        "incident_records": 371
-      },
-      {
         "source_mode": "streetcar",
         "raw_code": "TFOR",
         "status": "unmapped",
         "incident_records": 2
-      },
-      {
-        "source_mode": "bus",
-        "raw_code": "PFPD",
-        "status": "encoding_defect",
-        "incident_records": 27
       },
       {
         "source_mode": "streetcar",
@@ -316,12 +286,6 @@
         "raw_code": "EFDB",
         "status": "unmapped",
         "incident_records": 5
-      },
-      {
-        "source_mode": "subway",
-        "raw_code": "PUTDN",
-        "status": "encoding_defect",
-        "incident_records": 60
       },
       {
         "source_mode": "bus",
@@ -364,12 +328,6 @@
         "raw_code": "NTGD",
         "status": "unmapped",
         "incident_records": 1
-      },
-      {
-        "source_mode": "streetcar",
-        "raw_code": "ETNT",
-        "status": "encoding_defect",
-        "incident_records": 81
       },
       {
         "source_mode": "bus",
@@ -445,12 +403,6 @@
       },
       {
         "source_mode": "streetcar",
-        "raw_code": "STAP",
-        "status": "encoding_defect",
-        "incident_records": 186
-      },
-      {
-        "source_mode": "streetcar",
         "raw_code": "EFO",
         "status": "unmapped",
         "incident_records": 420
@@ -460,12 +412,6 @@
         "raw_code": "EFCE",
         "status": "unmapped",
         "incident_records": 3
-      },
-      {
-        "source_mode": "streetcar",
-        "raw_code": "STEAS",
-        "status": "encoding_defect",
-        "incident_records": 1
       },
       {
         "source_mode": "streetcar",
@@ -484,12 +430,6 @@
         "raw_code": "MFO",
         "status": "unmapped",
         "incident_records": 78
-      },
-      {
-        "source_mode": "bus",
-        "raw_code": "TFLF",
-        "status": "encoding_defect",
-        "incident_records": 9
       },
       {
         "source_mode": "streetcar",
@@ -517,39 +457,9 @@
       },
       {
         "source_mode": "bus",
-        "raw_code": "SFAE",
-        "status": "encoding_defect",
-        "incident_records": 228
-      },
-      {
-        "source_mode": "subway",
-        "raw_code": "PUMST",
-        "status": "encoding_defect",
-        "incident_records": 565
-      },
-      {
-        "source_mode": "bus",
-        "raw_code": "TFLL",
-        "status": "encoding_defect",
-        "incident_records": 2
-      },
-      {
-        "source_mode": "subway",
-        "raw_code": "MUPR1",
-        "status": "encoding_defect",
-        "incident_records": 33
-      },
-      {
-        "source_mode": "bus",
         "raw_code": "EFTI",
         "status": "unmapped",
         "incident_records": 201
-      },
-      {
-        "source_mode": "subway",
-        "raw_code": "PUSSW",
-        "status": "encoding_defect",
-        "incident_records": 101
       },
       {
         "source_mode": "streetcar",
@@ -576,12 +486,6 @@
         "incident_records": 80
       },
       {
-        "source_mode": "subway",
-        "raw_code": "MUI",
-        "status": "encoding_defect",
-        "incident_records": 668
-      },
-      {
         "source_mode": "lrt",
         "raw_code": "MXFL",
         "status": "unmapped",
@@ -598,12 +502,6 @@
         "raw_code": "TFDP",
         "status": "unmapped",
         "incident_records": 1
-      },
-      {
-        "source_mode": "subway",
-        "raw_code": "MUIRS",
-        "status": "encoding_defect",
-        "incident_records": 2049
       },
       {
         "source_mode": "streetcar",
@@ -636,28 +534,10 @@
         "incident_records": 1
       },
       {
-        "source_mode": "subway",
-        "raw_code": "MUESA",
-        "status": "encoding_defect",
-        "incident_records": 2
-      },
-      {
         "source_mode": "streetcar",
         "raw_code": "TFO",
         "status": "unmapped",
         "incident_records": 88
-      },
-      {
-        "source_mode": "streetcar",
-        "raw_code": "STSA",
-        "status": "encoding_defect",
-        "incident_records": 13
-      },
-      {
-        "source_mode": "streetcar",
-        "raw_code": "TTPI",
-        "status": "encoding_defect",
-        "incident_records": 47
       },
       {
         "source_mode": "streetcar",
@@ -703,33 +583,15 @@
       },
       {
         "source_mode": "streetcar",
-        "raw_code": "STAE",
-        "status": "encoding_defect",
-        "incident_records": 65
-      },
-      {
-        "source_mode": "streetcar",
         "raw_code": "MFPI",
         "status": "unmapped",
         "incident_records": 13
-      },
-      {
-        "source_mode": "streetcar",
-        "raw_code": "MTUIR",
-        "status": "encoding_defect",
-        "incident_records": 932
       },
       {
         "source_mode": "bus",
         "raw_code": "EFWA",
         "status": "unmapped",
         "incident_records": 98
-      },
-      {
-        "source_mode": "streetcar",
-        "raw_code": "TTLF",
-        "status": "encoding_defect",
-        "incident_records": 2
       },
       {
         "source_mode": "lrt",
@@ -750,12 +612,6 @@
         "incident_records": 38
       },
       {
-        "source_mode": "subway",
-        "raw_code": "PUSO",
-        "status": "encoding_defect",
-        "incident_records": 47
-      },
-      {
         "source_mode": "bus",
         "raw_code": "EFTRM",
         "status": "unmapped",
@@ -768,46 +624,16 @@
         "incident_records": 26
       },
       {
-        "source_mode": "subway",
-        "raw_code": "PUTSC",
-        "status": "encoding_defect",
-        "incident_records": 16
-      },
-      {
         "source_mode": "lrt",
         "raw_code": "PXO",
         "status": "unmapped",
         "incident_records": 2
       },
       {
-        "source_mode": "bus",
-        "raw_code": "SFAP",
-        "status": "encoding_defect",
-        "incident_records": 506
-      },
-      {
-        "source_mode": "subway",
-        "raw_code": "PUSNT",
-        "status": "encoding_defect",
-        "incident_records": 53
-      },
-      {
         "source_mode": "subway",
         "raw_code": "MUBIO",
         "status": "unmapped",
         "incident_records": 13
-      },
-      {
-        "source_mode": "subway",
-        "raw_code": "PUMEL",
-        "status": "encoding_defect",
-        "incident_records": 1407
-      },
-      {
-        "source_mode": "subway",
-        "raw_code": "MUPLB",
-        "status": "encoding_defect",
-        "incident_records": 89
       },
       {
         "source_mode": "lrt",
@@ -817,33 +643,9 @@
       },
       {
         "source_mode": "streetcar",
-        "raw_code": "PTPD",
-        "status": "encoding_defect",
-        "incident_records": 12
-      },
-      {
-        "source_mode": "streetcar",
         "raw_code": "EFVIS",
         "status": "unmapped",
         "incident_records": 3
-      },
-      {
-        "source_mode": "subway",
-        "raw_code": "PUEME",
-        "status": "encoding_defect",
-        "incident_records": 6
-      },
-      {
-        "source_mode": "subway",
-        "raw_code": "MUPAA",
-        "status": "encoding_defect",
-        "incident_records": 2405
-      },
-      {
-        "source_mode": "subway",
-        "raw_code": "MUD",
-        "status": "encoding_defect",
-        "incident_records": 223
       },
       {
         "source_mode": "lrt",
@@ -865,12 +667,6 @@
       },
       {
         "source_mode": "subway",
-        "raw_code": "SUEAS",
-        "status": "encoding_defect",
-        "incident_records": 94
-      },
-      {
-        "source_mode": "subway",
         "raw_code": "MUFL",
         "status": "unmapped",
         "incident_records": 27
@@ -880,12 +676,6 @@
         "raw_code": "MTSE",
         "status": "unmapped",
         "incident_records": 8
-      },
-      {
-        "source_mode": "streetcar",
-        "raw_code": "MTUI",
-        "status": "encoding_defect",
-        "incident_records": 1290
       },
       {
         "source_mode": "lrt",
@@ -898,12 +688,6 @@
         "raw_code": "TFOR",
         "status": "unmapped",
         "incident_records": 163
-      },
-      {
-        "source_mode": "bus",
-        "raw_code": "TFPI",
-        "status": "encoding_defect",
-        "incident_records": 336
       },
       {
         "source_mode": "streetcar",
@@ -922,12 +706,6 @@
         "raw_code": "TFPD",
         "status": "unmapped",
         "incident_records": 261
-      },
-      {
-        "source_mode": "subway",
-        "raw_code": "MUNCA",
-        "status": "encoding_defect",
-        "incident_records": 963
       },
       {
         "source_mode": "streetcar",
@@ -967,12 +745,6 @@
       },
       {
         "source_mode": "streetcar",
-        "raw_code": "MTESA",
-        "status": "encoding_defect",
-        "incident_records": 53
-      },
-      {
-        "source_mode": "streetcar",
         "raw_code": "SFAP",
         "status": "unmapped",
         "incident_records": 8
@@ -1000,12 +772,6 @@
         "raw_code": "MFSH",
         "status": "unmapped",
         "incident_records": 254
-      },
-      {
-        "source_mode": "bus",
-        "raw_code": "TFPD",
-        "status": "encoding_defect",
-        "incident_records": 6776
       },
       {
         "source_mode": "subway",
@@ -1062,12 +828,6 @@
         "incident_records": 1
       },
       {
-        "source_mode": "bus",
-        "raw_code": "MFUIR",
-        "status": "encoding_defect",
-        "incident_records": 1474
-      },
-      {
         "source_mode": "streetcar",
         "raw_code": "TFPI",
         "status": "unmapped",
@@ -1078,12 +838,6 @@
         "raw_code": "MXST",
         "status": "unmapped",
         "incident_records": 4
-      },
-      {
-        "source_mode": "subway",
-        "raw_code": "EUCD",
-        "status": "encoding_defect",
-        "incident_records": 101
       },
       {
         "source_mode": "bus",
@@ -1134,24 +888,6 @@
         "incident_records": 846
       },
       {
-        "source_mode": "subway",
-        "raw_code": "SUPOL",
-        "status": "encoding_defect",
-        "incident_records": 146
-      },
-      {
-        "source_mode": "subway",
-        "raw_code": "MUNOA",
-        "status": "encoding_defect",
-        "incident_records": 22
-      },
-      {
-        "source_mode": "subway",
-        "raw_code": "TUCC",
-        "status": "encoding_defect",
-        "incident_records": 140
-      },
-      {
         "source_mode": "streetcar",
         "raw_code": "EFAS",
         "status": "unmapped",
@@ -1170,12 +906,6 @@
         "incident_records": 2
       },
       {
-        "source_mode": "subway",
-        "raw_code": "PUEWZ",
-        "status": "encoding_defect",
-        "incident_records": 7
-      },
-      {
         "source_mode": "streetcar",
         "raw_code": "MFUI",
         "status": "unmapped",
@@ -1188,40 +918,10 @@
         "incident_records": 5
       },
       {
-        "source_mode": "subway",
-        "raw_code": "EUNT",
-        "status": "encoding_defect",
-        "incident_records": 253
-      },
-      {
-        "source_mode": "subway",
-        "raw_code": "PUTWZ",
-        "status": "encoding_defect",
-        "incident_records": 369
-      },
-      {
         "source_mode": "lrt",
         "raw_code": "MXML",
         "status": "unmapped",
         "incident_records": 5
-      },
-      {
-        "source_mode": "subway",
-        "raw_code": "PUSTS",
-        "status": "encoding_defect",
-        "incident_records": 165
-      },
-      {
-        "source_mode": "streetcar",
-        "raw_code": "TTO",
-        "status": "encoding_defect",
-        "incident_records": 605
-      },
-      {
-        "source_mode": "bus",
-        "raw_code": "TFO",
-        "status": "encoding_defect",
-        "incident_records": 5593
       },
       {
         "source_mode": "streetcar",
@@ -1246,12 +946,6 @@
         "raw_code": "EFVC",
         "status": "unmapped",
         "incident_records": 77
-      },
-      {
-        "source_mode": "subway",
-        "raw_code": "PUTNT",
-        "status": "encoding_defect",
-        "incident_records": 2
       },
       {
         "source_mode": "bus",
@@ -1284,18 +978,6 @@
         "incident_records": 2
       },
       {
-        "source_mode": "subway",
-        "raw_code": "PUSWZ",
-        "status": "encoding_defect",
-        "incident_records": 20
-      },
-      {
-        "source_mode": "subway",
-        "raw_code": "MUIR",
-        "status": "encoding_defect",
-        "incident_records": 1574
-      },
-      {
         "source_mode": "streetcar",
         "raw_code": "MFBD",
         "status": "unmapped",
@@ -1306,12 +988,6 @@
         "raw_code": "MFGD",
         "status": "unmapped",
         "incident_records": 5
-      },
-      {
-        "source_mode": "subway",
-        "raw_code": "MUFS",
-        "status": "encoding_defect",
-        "incident_records": 6
       },
       {
         "source_mode": "bus",
@@ -1333,18 +1009,6 @@
       },
       {
         "source_mode": "bus",
-        "raw_code": "SFSA",
-        "status": "encoding_defect",
-        "incident_records": 50
-      },
-      {
-        "source_mode": "subway",
-        "raw_code": "MUDD",
-        "status": "encoding_defect",
-        "incident_records": 377
-      },
-      {
-        "source_mode": "bus",
         "raw_code": "EFEX",
         "status": "unmapped",
         "incident_records": 63
@@ -1354,12 +1018,6 @@
         "raw_code": "ETVIS",
         "status": "unmapped",
         "incident_records": 5
-      },
-      {
-        "source_mode": "subway",
-        "raw_code": "PUTSM",
-        "status": "encoding_defect",
-        "incident_records": 50
       },
       {
         "source_mode": "streetcar",
@@ -1393,12 +1051,6 @@
       },
       {
         "source_mode": "streetcar",
-        "raw_code": "TTPD",
-        "status": "encoding_defect",
-        "incident_records": 683
-      },
-      {
-        "source_mode": "streetcar",
         "raw_code": "SFG",
         "status": "unmapped",
         "incident_records": 2
@@ -1413,7 +1065,9 @@
     "reference_version": "2026-10-26",
     "reference_manifest": "references/ttc_delay_codes/2026-10-26/manifest.json",
     "reference_manifest_sha256": "db51acbb54ba3eca0921e0cefcae8f1b19fd36362703811b6a5dc3933050713c",
-    "implementation_sha256": "9a1c04dca1ab05c1d722c4b00f082c3e612fa862408b3687dc65693ec5233e66"
+    "recovery_evidence": "config/code_description_recovery.json",
+    "recovery_evidence_sha256": "996cbc69cba4c56161b95d305756d59a9537edd8477efa59c334acbd24a09309",
+    "implementation_sha256": "68aa6904d53f130fb423f1b950cc769a33761759b88521d7a3e042e47895ee2e"
   },
   "null_encoding": "CSV empty cell = SQL NULL; typed JSON is authoritative. No missing duration is zero-filled.",
   "result_row_counts": {
@@ -1429,7 +1083,7 @@
     "reporting_gaps": 1
   },
   "export_sha256": {
-    "dim_code.csv": "c7fdfdc91116615b0a50faa0e92da5af335309aef5ab3f152345fa86a8246f2b",
+    "dim_code.csv": "1e20000892fc035858450321df2798e735a4af36ced9da5463b883a96a5ec10a",
     "dim_duration_band.csv": "e5a9507d4f5ca95c9e4dc0aecb1942657c6a5682c3739ba9691b118a38c76487",
     "dim_line.csv": "7f1e89907298b18a94d5e745e4026affad04e3a115a747fd8bc2b1c5576ea4a9",
     "dim_mode.csv": "b18f02a6b8e88b804e09490c8626799da7a024cfc77a86e5ddc96e586b1e067e",
@@ -1439,6 +1093,6 @@
     "fact_line.csv": "d121666e95e00b4077cd6b4e5373d8c783c32066eccbf688f83ae3f1097db916",
     "fact_month.csv": "65beb98f5f06dc1d0d5d3156e4a384a3e953cb09210cf6a3175b52e9c1cc5b74",
     "reporting_gaps.csv": "5012f221de16d9b6f093d80637b80a007458bd0d43ae8c3591103aa20c33a3e9",
-    "results.json": "77768f6580d369d320fca48b9d9d886e6a1a2253172b74b78719487fdd7e1f5b"
+    "results.json": "60d4b856c001b73f9ad5f8f22384bb72c9227498aa9c69558d6cdd041dfb9aa7"
   }
 }

@@ -7,11 +7,11 @@ from pathlib import Path
 try:
     from .run_core_analysis import ROOT, digest, export, require
     from .run_temporal_analysis import run, nullable_sum
-    from .enrich_code_dimension import load_reference, enrich_dimension, REFERENCE
+    from .enrich_code_dimension import load_reference, enrich_dimension, REFERENCE, RECOVERY
 except ImportError:
     from run_core_analysis import ROOT, digest, export, require
     from run_temporal_analysis import run, nullable_sum
-    from enrich_code_dimension import load_reference, enrich_dimension, REFERENCE
+    from enrich_code_dimension import load_reference, enrich_dimension, REFERENCE, RECOVERY
 
 SQL=ROOT/'sql/power_bi/monthly_duration.sql'
 MEASURES=['recorded_incidents','duration_eligible_incidents','duration_ineligible_incidents','recorded_delay_minutes','zero_minute_incidents']
@@ -124,6 +124,8 @@ def build(database,selection,staging,core_folder,temporal_folder):
     code_enrichment.update(reference_version=reference_manifest['reference_version'],
         reference_manifest='references/ttc_delay_codes/2026-10-26/manifest.json',
         reference_manifest_sha256=digest(REFERENCE),
+        recovery_evidence='config/code_description_recovery.json',
+        recovery_evidence_sha256=digest(RECOVERY),
         implementation_sha256=digest(Path(__file__).with_name('enrich_code_dimension.py')))
     checks=verify(data)
     p=verified['headlines']['bus_disjoint_partitions']

@@ -70,7 +70,7 @@ class CodeEnrichmentTests(unittest.TestCase):
         self.assertEqual(lookup[('bus','MFDV')]['description'],'ON DIVERSION')
         self.assertEqual(lookup[('lrt','EXVE')]['status'],'ambiguous')
         self.assertEqual(lookup[('lrt','TXSUP')]['status'],'accepted')
-        self.assertEqual(lookup[('bus','MFUIR')]['status'],'encoding_defect')
+        self.assertEqual(lookup[('bus','MFUIR')]['description'],'ILL CUSTOMER – TRANSPORTATION DECLINED')
 
     def test_incomplete_reference_and_checksum_mismatch_rejected(self):
         original=json.loads(REFERENCE.read_text())
