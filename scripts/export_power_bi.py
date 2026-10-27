@@ -7,9 +7,11 @@ from pathlib import Path
 try:
     from .run_core_analysis import ROOT, digest, export, require
     from .run_temporal_analysis import run, nullable_sum
+    from .enrich_code_dimension import load_reference, enrich_dimension, REFERENCE
 except ImportError:
     from run_core_analysis import ROOT, digest, export, require
     from run_temporal_analysis import run, nullable_sum
+    from enrich_code_dimension import load_reference, enrich_dimension, REFERENCE
 
 SQL=ROOT/'sql/power_bi/monthly_duration.sql'
 MEASURES=['recorded_incidents','duration_eligible_incidents','duration_ineligible_incidents','recorded_delay_minutes','zero_minute_incidents']
@@ -116,7 +118,14 @@ def build(database,selection,staging,core_folder,temporal_folder):
         duration=[dict(x) for x in db.execute(SQL.read_text())]
         require(duration==[dict(x) for x in db.execute(SQL.read_text())],'Duration export differs on rerun')
     require(digest(database)==cm['curated_sha256'],'Curated data changed')
-    data=package(core,temporal,duration,verified);checks=verify(data)
+    data=package(core,temporal,duration,verified)
+    lookup,reference_manifest=load_reference()
+    data['dim_code'],code_enrichment=enrich_dimension(data['dim_code'],data['fact_code'],lookup)
+    code_enrichment.update(reference_version=reference_manifest['reference_version'],
+        reference_manifest='references/ttc_delay_codes/2026-10-26/manifest.json',
+        reference_manifest_sha256=digest(REFERENCE),
+        implementation_sha256=digest(Path(__file__).with_name('enrich_code_dimension.py')))
+    checks=verify(data)
     p=verified['headlines']['bus_disjoint_partitions']
     long_bands={'over_60_to_120','over_120'}
     overlap=[x for x in duration if x['source_mode']=='bus' and x['is_bus_mfdv'] and x['duration_band'] in long_bands]
@@ -142,6 +151,7 @@ def build(database,selection,staging,core_folder,temporal_folder):
         query_sha256={SQL.name:digest(SQL)},tooling_sha256=digest(__file__),
         result_columns={name:list(rows[0]) if rows else ['source_mode','month_start','calendar_date'] for name,rows in data.items()},
         verification=dict(**verified['verification'],**checks,bus_overlap_records=sum(x['recorded_incidents'] for x in overlap),bus_overlap_minutes=nullable_sum(x['recorded_delay_minutes'] for x in overlap)),
+        code_enrichment=code_enrichment,
         null_encoding='CSV empty cell = SQL NULL; typed JSON is authoritative. No missing duration is zero-filled.')
     return data,manifest
 

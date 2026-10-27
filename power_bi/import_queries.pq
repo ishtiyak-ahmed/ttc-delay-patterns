@@ -58,7 +58,9 @@ ReadTtcCsv("dim_code.csv", {
     {"code_key", type text},
     {"source_mode", type text},
     {"category_eligible", Int64.Type},
-    {"raw_code", type text}
+    {"raw_code", type text},
+    {"code_description", type text},
+    {"code_display_label", type text}
 })
 
 // QUERY: DimLine
