@@ -1,6 +1,6 @@
-# TTC Delay Patterns — standalone case study
+# TTC Delay Patterns — Version 2 case study
 
-React + TypeScript + Vite + Tailwind. Full six-section narrative, native evidence figures, semantic tables and explicit pending Power BI screenshot placements. No backend, credentials, SQLite connection or Python process is required at build/deploy time.
+React + TypeScript + Vite + Tailwind. Version 2 preserves the v0.1 editorial visual system while rendering the finalized six-section manuscript from `content/ttc-case-study-v2.md`. It includes semantic tables, selected native evidence figures, and explicit placeholders for the unfinished Power BI dashboard assets. No backend, credentials, SQLite connection or Python process is required at build/deploy time.
 
 ## Local development
 
@@ -24,10 +24,10 @@ The npm lockfile is tracked. `node_modules/`, `dist/`, `.vercel/`, coverage and 
 
 ## Content and evidence
 
-- `content/ttc-case-study.md` contains every substantive section/subheading from the supplied reconstructed narrative, with reviewed factual corrections. It remains an editorial draft, not a certified verbatim copy of earlier WritingBlocks.
-- `src/App.tsx` renders the Markdown and replaces explicit illustration markers with reusable components in `src/Charts.tsx`. No raw HTML execution is enabled in Markdown.
+- `content/ttc-case-study-v2.md` is the authoritative report manuscript. `src/App.tsx` renders every section body directly from that file and adds interface labels and figures around it. No raw HTML execution is enabled in Markdown.
+- `src/App.tsx` keeps the v0.1 hero, section rail, evidence area, footer, and editorial hierarchy. The Power BI placeholders are deliberate: no dashboard image, embed, or public report URL has been supplied.
 - `src/data/evidence.json` is a deterministic, small projection of the checked-in approved export bundle. It records selection, raw hashes, bundle hashes and adapter hash. No values are fetched from a live data feed in the browser.
-- `docs/content-coverage.md` maps all major subsections/claims to sources and components. `docs/validation.md` records checks and limits. `docs/DESIGN_SPEC.md` and `docs/CODEX_HANDOFF.md` retain the supplied implementation references; explicit user requirements and verified repository evidence take precedence.
+- `docs/v2-content-coverage.md` maps the finalized manuscript sections to the v2 implementation and records remaining asset placeholders. `docs/v2-validation.md` records current checks and limits. The v0.1 audit and supplied design/handoff references remain preserved separately.
 
 From the repository root:
 
@@ -76,4 +76,4 @@ Reference: [Vercel Vite deployment](https://vercel.com/docs/frameworks/frontend/
 
 ## Pending author decisions
 
-Review reconstructed wording and personal voice, final headline, reporting/model status and screenshot assets. GitHub visibility/access should be checked before using the site as a recruiter-facing link. The source data attribution is separate from a software/content licence; no software licence was selected for the author. No TTC logos, fabricated dashboards or inferred broad operational families are used.
+Review the finalized manuscript in context, the retained editorial hero headline, dashboard and author-photo placeholders, and eventual personal-website and Power BI URLs. GitHub visibility/access should be checked before using the site as a recruiter-facing link. The source data attribution is separate from a software/content licence; no software licence was selected for the author. No TTC logos, fabricated dashboards or inferred broad operational families are used.

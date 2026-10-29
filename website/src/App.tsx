@@ -1,54 +1,70 @@
 import { useEffect, useState } from 'react'
 import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
-import narrative from '../content/ttc-case-study.md?raw'
+import narrative from '../content/ttc-case-study-v2.md?raw'
 import evidence from './data/evidence.json'
 import { fmt } from './format'
-import { Architecture, BusConcentration, CodeComparison, EnrichmentFigure, MonthlyLeaders, MonthlyZeros, ZeroComposition } from './Charts'
+import { Architecture, BusConcentration, EnrichmentFigure, MonthlyLeaders, ZeroComposition } from './Charts'
 
-const repo = 'https://github.com/ishtiyak-ahmed/ttc-delay-patterns'
+const repositoryUrl = 'https://github.com/ishtiyak-ahmed/ttc-delay-patterns'
 const navigation = [
-  ['overview', 'Overview'], ['methodology', 'Data & methodology'], ['enrichment', 'Enrichment & validation'],
-  ['findings', 'Dashboard & findings'], ['limitations', 'Discussion & limitations'], ['conclusion', 'Conclusion & next steps'],
-]
-const sections = narrative.split(/\n## (?=0[1-6] — )/).slice(1).map((part, i) => ({
-  id: navigation[i][0], title: part.split('\n')[0].replace(/^0[1-6] — /, ''),
-  body: part.slice(part.indexOf('\n') + 1).split('\n---\n')[0].trim(),
-}))
-const slug = (s: string) => s.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
+  ['overview', 'Overview'],
+  ['pipeline', 'Data & Pipeline'],
+  ['modeling', 'Enrichment & Modeling'],
+  ['findings', 'Findings'],
+  ['limitations', 'Limitations'],
+  ['conclusion', 'Conclusion'],
+] as const
 
-function PendingDashboard({ number }: { number: number }) {
-  const name = ['Frequency vs Duration', 'Concentration & Persistence', 'Explore the Records'][number - 1]
-  return <figure className="pending-dashboard">
-    <span className="figure-kicker">Power BI / {String(number).padStart(2, '0')} / Pending asset</span>
-    <h3>{name}</h3>
-    <p>A place for the author’s validated report screenshot. No dashboard image or public embed has been supplied.</p>
-    <figcaption>Native evidence figures above are working visualizations of the verified exports. This placement is not a dashboard preview.</figcaption>
+const sections = narrative.split(/\n# (?=0[1-6] — )/).slice(1).map((part, index) => ({
+  id: navigation[index][0],
+  title: part.split('\n')[0].replace(/^0[1-6] — /, ''),
+  body: part.slice(part.indexOf('\n') + 1).replace(/\n---\s*$/, '').trim(),
+}))
+
+const slug = (value: string) => value.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '')
+
+function DashboardPlaceholder({ page, hero = false }: { page?: number; hero?: boolean }) {
+  const names = ['Frequency vs Duration', 'Concentration & Persistence', 'Explore the Records']
+  const Heading = hero ? 'h2' : 'h4'
+  return <figure className={hero ? 'dashboard-preview hero-dashboard' : 'dashboard-preview'} id={hero ? 'dashboard' : undefined}>
+    <div className="dashboard-frame" aria-label="Power BI dashboard asset placeholder">
+      <div className="dashboard-toolbar"><span>Power BI</span><span>Verified asset pending</span></div>
+      <div className="dashboard-canvas">
+        <span className="dashboard-mark" aria-hidden="true">BI</span>
+        <div>
+          <span className="figure-kicker">{hero ? 'Primary project deliverable' : `Planned report page ${String(page).padStart(2, '0')}`}</span>
+          <Heading>{hero ? 'Dashboard preview reserved.' : names[(page ?? 1) - 1]}</Heading>
+          <p>{hero
+            ? 'The verified Power BI dashboard will appear here after its visuals and interactions have been completed and validated.'
+            : 'This report placement is reserved for a verified Power BI screenshot. No dashboard image or interaction has been fabricated.'}</p>
+        </div>
+      </div>
+      <div className="dashboard-tabs" aria-label="Planned Power BI pages">{names.map((name, index) => <span className={page === index + 1 ? 'active' : ''} key={name}>{name}</span>)}</div>
+    </div>
+    <figcaption>{hero ? 'Prepared model: 10 reporting tables · 13 one-to-many relationships · 54 DAX measures. Interactive pages remain to be completed and validated.' : 'Power BI remains the intended primary visual analytical deliverable; the surrounding report preserves the SQL-verified evidence in the meantime.'}</figcaption>
   </figure>
 }
 
-function Illustration({ marker }: { marker: string }) {
-  if (marker.includes('POWER BI PLACEHOLDER')) return <PendingDashboard number={Number(marker.match(/PLACEHOLDER (\d)/)?.[1])} />
-  if (marker.includes('FIGURE 1A')) return <BusConcentration />
-  if (marker.includes('FIGURE 1B')) return <CodeComparison />
-  if (marker.includes('FIGURE 2A')) return <ZeroComposition />
-  if (marker.includes('FIGURE 2B')) return <MonthlyZeros />
-  if (marker.includes('FIGURE 3:')) return <MonthlyLeaders />
-  if (marker.includes('Five-stage')) return <Architecture />
-  if (marker.includes('Before/after')) return <EnrichmentFigure />
-  if (marker.includes('Hero summary')) return <div className="finding-links"><span className="figure-kicker">Three lenses on the same question</span><a href="#finding-1-long-bus-records-dominate-accumulated-minutes">01 / Duration concentration <span>↓</span></a><a href="#finding-2-zero-minute-records-shape-subway-counts">02 / Zero-minute composition <span>↓</span></a><a href="#finding-3-monthly-leaders-depend-on-the-metric">03 / Monthly persistence <span>↓</span></a></div>
-  if (marker.includes('Three-step')) return <aside className="validation-strip"><span>Detect the corrupted dash</span><b aria-hidden="true">→</b><span>Recover only reviewed text</span><b aria-hidden="true">→</b><span>Reconcile unchanged totals</span></aside>
-  return <aside className="validation-strip"><strong>Validated, not assumed.</strong><span>79 automated tests in this implementation; 76 at the analytical checkpoint. Snapshot identity, source preservation and compatible totals are checked separately from interpretation.</span></aside>
+function SectionFigure({ heading }: { heading: string }) {
+  if (heading === 'Pipeline architecture') return <Architecture />
+  if (heading === 'Enrichment results') return <EnrichmentFigure />
+  if (heading === 'Finding 1 — Bus delay minutes are concentrated in long-duration records') return <><DashboardPlaceholder page={1} /><BusConcentration /></>
+  if (heading === 'Finding 2 — Zero-minute records dominate Subway incident frequency') return <><DashboardPlaceholder page={2} /><ZeroComposition /></>
+  if (heading === 'Finding 3 — Subway line leadership differs by measure and month') return <><DashboardPlaceholder page={3} /><MonthlyLeaders /></>
+  return null
 }
 
 function Narrative({ body }: { body: string }) {
-  return <>{body.split(/(\*\*\[(?:VISUAL|NATIVE FIGURE|POWER BI PLACEHOLDER)[\s\S]*?\]\*\*)/g).map((part, index) => part.startsWith('**[')
-    ? <Illustration key={index} marker={part} />
-    : <ReactMarkdown key={index} remarkPlugins={[remarkGfm]} components={{
-      h3: ({ children }) => <h3 id={slug(String(children))}>{children}</h3>,
-      table: ({ children }) => <div className="table-scroll" role="region" aria-label="Case-study evidence table" tabIndex={0}><table>{children}</table></div>,
-      a: ({ href, children }) => <a href={href}>{children}</a>,
-    }}>{part}</ReactMarkdown>)}</>
+  return <ReactMarkdown remarkPlugins={[remarkGfm]} components={{
+    h2: ({ children }) => {
+      const heading = String(children)
+      return <><h3 id={`sub-${slug(heading)}`}>{children}</h3><SectionFigure heading={heading} /></>
+    },
+    h3: ({ children }) => <h4 id={`sub-${slug(String(children))}`}>{children}</h4>,
+    table: ({ children }) => <div className="table-scroll" role="region" aria-label="Case-study evidence table" tabIndex={0}><table>{children}</table></div>,
+    a: ({ href, children }) => <a href={href}>{children}</a>,
+  }}>{body}</ReactMarkdown>
 }
 
 export default function App() {
@@ -59,39 +75,47 @@ export default function App() {
       if (visible) setActive(visible.target.id)
     }, { rootMargin: '-12% 0px -65% 0px' })
     document.querySelectorAll('.story-section').forEach(section => observer.observe(section))
+    const target = document.getElementById(window.location.hash.slice(1))
+    if (target) requestAnimationFrame(() => target.scrollIntoView())
     return () => observer.disconnect()
   }, [])
+
   return <>
     <a className="skip-link" href="#main">Skip to the case study</a>
     <header className="site-header"><div className="header-inner">
-      <a href="#top" className="wordmark" aria-label="TTC Delay Patterns, back to top"><span className="project-mark" aria-hidden="true">T</span><span>TTC <b>Delay Patterns</b></span></a>
-      <nav aria-label="Primary"><a href="#findings">Findings</a><a href="#methodology">Methodology</a><a href={repo}>GitHub <span aria-hidden="true">↗</span></a></nav>
+      <a href="#top" className="wordmark" aria-label="TTC Delay Patterns, back to top"><span className="project-mark" aria-hidden="true">T</span><span><span className="ttc-word">TTC</span> <b>Delay Patterns</b></span></a>
+      <nav aria-label="Project navigation"><span className="pending-link" aria-label="Personal website link pending" title="Personal portfolio URL pending">Website</span><a href="#overview">Report</a><a href="#dashboard">Dashboard</a><a href={repositoryUrl}>GitHub <span aria-hidden="true">↗</span></a></nav>
     </div></header>
     <main id="main">
       <section className="hero" id="top" aria-labelledby="site-title">
-        <div className="hero-meta"><span>Independent data analysis · Toronto</span><span className="draft-note">First implementation · editorial review pending</span></div>
+        <div className="hero-meta"><span>Independent data analysis · Toronto</span><span className="draft-note">Version 2 · editorial review</span></div>
         <div className="hero-grid">
-          <div className="hero-copy"><p className="issue-number">A study in how we measure disruption / 01</p>
+          <div className="hero-copy">
+            <p className="issue-number">Understanding TTC delay patterns / 01</p>
             <h1 id="site-title">TTC delay patterns.<br /><em>Frequency is only<br className="desktop-break" /> half the story.</em></h1>
-            <p className="hero-deck">The most frequent incident is not always the largest contributor to recorded delay. A source-preserving investigation of four TTC modes, two measures, and the difference between them.</p>
-            <div className="byline"><span className="byline-mark" aria-hidden="true">IA</span><span><strong>Ishtiyak Ahmed</strong><small>Python · SQLite · SQL · Power BI reporting assets</small></span></div>
+            <p className="hero-deck">An analysis of <strong>176,004 TTC incident records</strong> reveals how incident frequency, accumulated delay duration, and monthly rankings produce different views of reported disruptions.</p>
+            <div className="byline"><span className="byline-mark" aria-label="Author photo placeholder">IA</span><span><strong>Ishtiyak Ahmed</strong><small>Python · SQLite · SQL · Power BI</small></span></div>
             <a className="read-link" href="#overview">Read the investigation <span aria-hidden="true">↓</span></a>
           </div>
-          <BusConcentration featured />
+          <DashboardPlaceholder hero />
         </div>
         <dl className="context-strip"><div><dt>Recorded incidents</dt><dd>{fmt(evidence.totals.recorded_incidents)}</dd></div><div><dt>Recorded delay minutes</dt><dd>{fmt(evidence.totals.recorded_delay_minutes)}</dd></div><div><dt>Source modes</dt><dd>04 <span>Bus / Subway / Streetcar / LRT</span></dd></div><div className="period-context"><dt>Observation window</dt><dd>Jan 2025–Aug 2026<span>LRT begins Dec 7, 2025. Coverage varies.</span></dd></div></dl>
       </section>
+
       <div className="story-layout">
-        <aside className="contents"><div className="contents-inner"><p className="figure-kicker">In this investigation</p><nav aria-label="Case-study sections">{navigation.map(([id, label], i) => <a key={id} href={`#${id}`} aria-current={active === id ? 'location' : undefined}><span>{String(i + 1).padStart(2, '0')}</span>{label}</a>)}</nav><div className="contents-note">Recorded activity.<br />Not passenger impact.<br />Not a reliability ranking.</div></div></aside>
-        <article className="story">{sections.map((section, i) => <section className="story-section" id={section.id} key={section.id} aria-labelledby={`${section.id}-title`}>
-          <div className="section-heading"><span className="section-index">{String(i + 1).padStart(2, '0')}</span><div><p className="figure-kicker">{['The question', 'The foundation', 'The judgment', 'The evidence', 'The boundaries', 'The contribution'][i]}</p><h2 id={`${section.id}-title`}>{section.title}</h2></div></div>
-          <div className="prose">{i === 0 && <blockquote className="research-question"><span className="figure-kicker">The research question</span><p>When, where, and how do recorded TTC delays recur—and what changes when we examine both incident frequency and recorded delay duration?</p></blockquote>}<Narrative body={section.body} /></div>
+        <aside className="contents"><div className="contents-inner"><p className="figure-kicker">In this report</p><nav aria-label="Report sections">{navigation.map(([id, label], index) => <a key={id} href={`#${id}`} aria-current={active === id ? 'location' : undefined}><span>{String(index + 1).padStart(2, '0')}</span>{label}</a>)}</nav><div className="contents-note">Recorded activity.<br />Not passenger impact.<br />Not a reliability ranking.</div></div></aside>
+        <article className="story">{sections.map((section, index) => <section className="story-section" id={section.id} key={section.id} aria-labelledby={`${section.id}-title`}>
+          <div className="section-heading"><span className="section-index">{String(index + 1).padStart(2, '0')}</span><div><p className="figure-kicker">{['The question', 'The pipeline', 'The model', 'The evidence', 'The boundaries', 'The contribution'][index]}</p><h2 id={`${section.id}-title`}>{section.title}</h2></div></div>
+          <div className="prose"><Narrative body={section.body} /></div>
         </section>)}</article>
       </div>
-      <section className="sources-section" id="sources" aria-labelledby="sources-title"><div className="sources-heading"><span className="figure-kicker">Evidence, not decoration</span><h2 id="sources-title">Follow the trail.</h2><p>Official source snapshots, retained checksums and reproducible SQL support each figure. Observed dates do not prove complete reporting.</p></div><div className="source-list">{evidence.modes.map(mode => <div key={mode.source_mode}><strong>{mode.source_mode === 'lrt' ? 'LRT' : mode.source_mode[0].toUpperCase() + mode.source_mode.slice(1)}</strong><span>{fmt(mode.recorded_incidents)} records · {mode.first_observed_date}–{mode.last_observed_date}</span><a href={mode.portal_url}>Official dataset ↗</a><a href={mode.source_url}>Resource ↗</a></div>)}</div>
-        <details className="provenance-details"><summary>Inspect snapshot and figure provenance</summary><p>The website uses a deterministic projection of the approved Power BI bundle. It does not query a live feed or run the analytical pipeline during deployment.</p><p>Bundle manifest SHA-256: <code>{evidence.provenance.bundle_manifest_sha256}</code></p>{evidence.provenance.selection.snapshots.map(s => <p key={s.mode}><strong>{s.mode}</strong> · Resource <code>{s.resource_id}</code><br />Raw SHA-256 <code>{s.sha256}</code></p>)}</details>
+
+      <section className="sources-section" id="sources" aria-labelledby="sources-title"><div className="sources-heading"><span className="figure-kicker">Evidence &amp; provenance</span><h2 id="sources-title">Follow the tracks.</h2><p>Official source snapshots, retained checksums, documented validation and reproducible SQL support the report. Observed dates do not prove complete reporting.</p></div>
+        <nav className="artifact-links" aria-label="Project evidence"><a href="#pipeline">Methodology</a><a href="#modeling">Validation &amp; enrichment</a><a href="#dashboard">Power BI experience</a><a href={repositoryUrl}>GitHub repository ↗</a></nav>
+        <div className="source-list">{evidence.modes.map(mode => <div key={mode.source_mode}><strong>{mode.source_mode === 'lrt' ? 'LRT' : mode.source_mode[0].toUpperCase() + mode.source_mode.slice(1)}</strong><span>{fmt(mode.recorded_incidents)} records · {mode.first_observed_date}–{mode.last_observed_date}</span><a href={mode.portal_url}>Official dataset ↗</a><a href={mode.source_url}>Resource ↗</a></div>)}</div>
+        <details className="provenance-details"><summary>Inspect selected snapshot provenance</summary><p>The website uses a deterministic projection of the approved analytical export bundle. It does not query a live feed or run the pipeline during deployment.</p><p>Bundle manifest SHA-256: <code>{evidence.provenance.bundle_manifest_sha256}</code></p>{evidence.provenance.selection.snapshots.map(snapshot => <p key={snapshot.mode}><strong>{snapshot.mode}</strong> · Resource <code>{snapshot.resource_id}</code><br />Raw SHA-256 <code>{snapshot.sha256}</code></p>)}</details>
       </section>
     </main>
-    <footer className="site-footer"><div><span className="figure-kicker">An independent case study by</span><strong>Ishtiyak Ahmed</strong><p>Not affiliated with or endorsed by the Toronto Transit Commission. Contains information licensed under the Open Government Licence – Toronto.</p></div><div><a href={repo}>View the repository ↗</a><p>Repository access may require permission.<br />Power BI public link: not supplied.<br />Editorial review and dashboard assets pending.</p><a href="https://open.toronto.ca/open-data-licence/">Source data licence ↗</a></div><a className="back-top" href="#top">Back to top ↑</a></footer>
+    <footer className="site-footer"><div><span className="figure-kicker">An independent case study by</span><strong>Ishtiyak Ahmed</strong><p>Not affiliated with or endorsed by the Toronto Transit Commission. Contains information licensed under the Open Government Licence – Toronto.</p></div><div><a href={repositoryUrl}>View the repository ↗</a><p>Repository access may require permission.<br />Personal website URL: pending.<br />Power BI public link: not supplied.</p><a href="https://open.toronto.ca/open-data-licence/">Source data licence ↗</a></div><a className="back-top" href="#top">Back to top ↑</a></footer>
   </>
 }

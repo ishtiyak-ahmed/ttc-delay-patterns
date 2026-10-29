@@ -9,7 +9,7 @@ Start with the root [technical README](../README.md). The directories and histor
 3. [Core findings](../reports/core_analytical_findings.md), [viability review](../reports/analytical_viability_review.md) and [temporal evidence](../reports/temporal_persistence_evidence.md), in that order. Later temporal evidence supersedes pending proposals in the viability/strategy documents.
 4. [Power BI contract](power_bi_data_contract.md), [Desktop build](power_bi_desktop_build.md) and [approved bundle](../results/power_bi/). The bundle manifest is the current export-integrity authority; older verification JSON files are checkpoint evidence.
 5. Description history: [initial enrichment](../reports/code_description_enrichment.md) → [reviewed encoding recovery](../reports/code_description_encoding_recovery.md) → [display fallback](../reports/code_display_fallback.md). No inferred operational families are implemented.
-6. [Website instructions](../website/README.md), [content map/editorial decisions](../website/docs/content-coverage.md) and [first implementation validation](../website/docs/validation.md).
+6. [Website v2 instructions](../website/README.md), [v2 content coverage](../website/docs/v2-content-coverage.md) and [v2 validation](../website/docs/v2-validation.md). The [v0.1 content map](../website/docs/content-coverage.md) and [v0.1 validation](../website/docs/validation.md) remain preserved as baseline evidence.
 
 ## Evidence retained
 
