@@ -1,0 +1,2 @@
+# Acquisition only. Analysis, evidence export and tests use the standard library.
+certifi

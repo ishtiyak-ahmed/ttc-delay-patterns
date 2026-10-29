@@ -37,7 +37,7 @@ The following exhaustive mapping matches `import_queries.pq`. `Whole Number` = `
 | DimMonth | Text | `month_label` |
 | DimMonth | Date | `month_start` |
 | DimMonth | Whole Number | `year`, `month_number` |
-| DimCode | Text | `code_key`, `source_mode`, `raw_code` |
+| DimCode | Text | `code_key`, `source_mode`, `raw_code`, `code_description`, `code_display_label` |
 | DimCode | Whole Number | `category_eligible` |
 | DimLine | Text | `line_key`, `source_mode`, `raw_line` |
 | DimLine | Whole Number | `category_eligible` |
@@ -220,3 +220,29 @@ The manifest also supplies `selection`, `curated_sha256` and export row/column c
 Local checks inspected every real schema and sample values; verified all bundle file hashes; checked that M type mappings cover all imported columns exactly and DAX table/column references use existing fields; confirmed current raw-label case/whitespace display collisions do not exist within mode; and recomputed the numerical QA examples from typed exports. All pre-existing repository files, raw/staging/curated data and exports are unchanged. Static checks do not execute M or DAX and do not establish Desktop compilation/filter semantics. Desktop checks above remain pending. No installed Windows Desktop session or reliable report-generation path was used; no PBIX or visuals were generated.
 
 Created only `docs/power_bi_desktop_build.md`, `power_bi/import_queries.pq`, `power_bi/measures.dax` and `power_bi/validation_queries.dax`. No pipeline change, dependencies, data downloads, commits, pushes or next-task work. Begin in Desktop with section 1, then model/measure QA, then the three pages.
+
+## Additive DimCode refresh — 2026-10-26
+
+For an already-built and validated model, **do not recreate or rename any query, column, key, relationship or DAX measure**. The existing DimCode CSV now appends two fields. Its original four columns and 479 rows are identical; all other nine CSVs are unchanged. The new official reference snapshots and audit are described in `../reports/code_description_enrichment.md`.
+
+1. Copy the complete reviewed export bundle to the existing Windows ExportFolder; keep manifest and typed JSON together. Verify the new manifest checksums.
+2. Transform data → select the existing **DimCode** query → Advanced Editor. For the supplied `ReadTtcCsv` import, retain its query/function names and replace only the existing four-item argument list with:
+
+```powerquery
+ReadTtcCsv("dim_code.csv", {
+    {"code_key", type text},
+    {"source_mode", type text},
+    {"category_eligible", Int64.Type},
+    {"raw_code", type text},
+    {"code_description", type text},
+    {"code_display_label", type text}
+})
+```
+
+3. Do not disable strict header validation. The supplied helper derives the expected headers from this list and already parses UTF-8 Text without normalization. If a manually built query instead has a fixed CSV column count of four, append support for six columns and the two Text conversions only; preserve the first four bindings.
+4. Preview: 479 rows; first four fields unchanged; two new Text fields. Unresolved descriptions are blank, not guessed text. Close & Apply / refresh in the existing model.
+5. Confirm **10 imported queries, 13 relationships, 54 unchanged measures**. The code_key relationship stays unique/active/single-direction. Keep raw_code and the existing slicer/interaction restrictions.
+6. Optionally replace raw_code with code_display_label in the intended Code slicers, tables, axes or legends. Do this manually. Do not create relationships on either new attribute; description-only grouping is not a one-code identity. New label filters remain DimCode filters and therefore trigger existing foreign-fact guards.
+7. Compare identical key selections before/after: code counts, minutes, shares and ranks, zero shares, independent Line panels and Bus-MFDV duration measures must match. Check missing and ambiguous examples and Desktop refresh twice. Desktop/DAX execution remains a manual regression check; repository tests do not execute the PBIX.
+
+The implementation package `power_bi/import_queries.pq` includes this minimal schema addition. `power_bi/measures.dax` and `validation_queries.dax` are unchanged. No Desktop or PBIX was modified automatically.

@@ -1,0 +1,967 @@
+{
+  "totals": {
+    "recorded_incidents": 176004,
+    "recorded_delay_minutes": 2740515,
+    "zero_minute_incidents": 49830
+  },
+  "modes": [
+    {
+      "source_mode": "bus",
+      "snapshot_id": 2,
+      "resource_id": "b5725365-9252-4bfe-b6f4-cda7ddf74341",
+      "raw_sha256": "1474f16414e63aaeab58714c236446ea370f5e00e072a3b97fdfeb1f079cd8fe",
+      "first_observed_date": "2025-01-01",
+      "last_observed_date": "2026-08-31",
+      "observed_dates": 608,
+      "calendar_span_days": 608,
+      "dates_without_records_within_span": 0,
+      "observed_months": 20,
+      "selected_records": 102257,
+      "outside_or_unallocated_scope": 0,
+      "missing_date": 0,
+      "invalid_date": 0,
+      "missing_time": 0,
+      "invalid_time": 0,
+      "missing_delay": 0,
+      "invalid_delay": 0,
+      "negative_delay_records": 0,
+      "validated_weekday_records": 0,
+      "recorded_incidents": 102257,
+      "recorded_delay_minutes": 2163102,
+      "zero_minute_incidents": 12974,
+      "portal_url": "https://open.toronto.ca/dataset/ttc-bus-delay-data/",
+      "source_url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/e271cdae-8788-4980-96ce-6a5c95bc6618/resource/b5725365-9252-4bfe-b6f4-cda7ddf74341/download/ttc-bus-delay-data-since-2025.csv"
+    },
+    {
+      "source_mode": "lrt",
+      "snapshot_id": 4,
+      "resource_id": "9a800c92-0362-4cee-8232-7374596b6a43",
+      "raw_sha256": "a493ad2f0d3c2889c34eba7cb42b3c27fc1d6cbf15728be09d7f1b230964984a",
+      "first_observed_date": "2025-12-07",
+      "last_observed_date": "2026-08-31",
+      "observed_dates": 267,
+      "calendar_span_days": 268,
+      "dates_without_records_within_span": 1,
+      "observed_months": 9,
+      "selected_records": 4569,
+      "outside_or_unallocated_scope": 0,
+      "missing_date": 0,
+      "invalid_date": 0,
+      "missing_time": 0,
+      "invalid_time": 0,
+      "missing_delay": 0,
+      "invalid_delay": 0,
+      "negative_delay_records": 0,
+      "validated_weekday_records": 0,
+      "recorded_incidents": 4569,
+      "recorded_delay_minutes": 38829,
+      "zero_minute_incidents": 1908,
+      "portal_url": "https://open.toronto.ca/dataset/ttc-lrt-delay-data/",
+      "source_url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/d4d64b0e-2945-4c92-960e-f0103ad48b02/resource/9a800c92-0362-4cee-8232-7374596b6a43/download/ttc-lrt-delays.csv"
+    },
+    {
+      "source_mode": "streetcar",
+      "snapshot_id": 3,
+      "resource_id": "cf2fdd12-6f0e-4644-aae7-0bbfc31df031",
+      "raw_sha256": "c6c081880619ffff8779c61af3a0b77466471473a014d8dec48d16306ddf9606",
+      "first_observed_date": "2025-01-01",
+      "last_observed_date": "2026-08-31",
+      "observed_dates": 608,
+      "calendar_span_days": 608,
+      "dates_without_records_within_span": 0,
+      "observed_months": 20,
+      "selected_records": 23703,
+      "outside_or_unallocated_scope": 0,
+      "missing_date": 0,
+      "invalid_date": 0,
+      "missing_time": 0,
+      "invalid_time": 0,
+      "missing_delay": 0,
+      "invalid_delay": 0,
+      "negative_delay_records": 0,
+      "validated_weekday_records": 0,
+      "recorded_incidents": 23703,
+      "recorded_delay_minutes": 416513,
+      "zero_minute_incidents": 5279,
+      "portal_url": "https://open.toronto.ca/dataset/ttc-streetcar-delay-data/",
+      "source_url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/b68cb71b-44a7-4394-97e2-5d2f41462a5d/resource/cf2fdd12-6f0e-4644-aae7-0bbfc31df031/download/ttc-streetcar-delay-data-since-2025.csv"
+    },
+    {
+      "source_mode": "subway",
+      "snapshot_id": 1,
+      "resource_id": "0b6e5c52-e993-46d6-8d74-8602ee224457",
+      "raw_sha256": "ec7c36eeb4785e34d58229e5da6af741c89dfdf9fa59c58a63abe5b026b95c44",
+      "first_observed_date": "2025-01-01",
+      "last_observed_date": "2026-08-31",
+      "observed_dates": 608,
+      "calendar_span_days": 608,
+      "dates_without_records_within_span": 0,
+      "observed_months": 20,
+      "selected_records": 45475,
+      "outside_or_unallocated_scope": 0,
+      "missing_date": 0,
+      "invalid_date": 0,
+      "missing_time": 0,
+      "invalid_time": 0,
+      "missing_delay": 0,
+      "invalid_delay": 0,
+      "negative_delay_records": 0,
+      "validated_weekday_records": 0,
+      "recorded_incidents": 45475,
+      "recorded_delay_minutes": 122071,
+      "zero_minute_incidents": 29669,
+      "portal_url": "https://open.toronto.ca/dataset/ttc-subway-delay-data/",
+      "source_url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/996cfe8d-fb35-40ce-b569-698d51fc683b/resource/0b6e5c52-e993-46d6-8d74-8602ee224457/download/ttc-subway-delay-data-since-2025.csv"
+    }
+  ],
+  "bus": {
+    "long": {
+      "recorded_incidents": 4209,
+      "recorded_delay_minutes": 853656,
+      "zero_minute_incidents": 0
+    },
+    "overlap": {
+      "recorded_incidents": 3775,
+      "recorded_delay_minutes": 777169,
+      "zero_minute_incidents": 0
+    },
+    "union": {
+      "recorded_incidents": 7722,
+      "recorded_delay_minutes": 947874,
+      "zero_minute_incidents": 485
+    },
+    "codes": [
+      {
+        "raw_code": "EFO",
+        "recorded_incidents": 18178,
+        "recorded_delay_minutes": 251714,
+        "zero_minute_incidents": 459
+      },
+      {
+        "raw_code": "MFDV",
+        "recorded_incidents": 7288,
+        "recorded_delay_minutes": 871387,
+        "zero_minute_incidents": 485
+      }
+    ]
+  },
+  "subway": {
+    "muis": {
+      "raw_code": "MUIS",
+      "recorded_incidents": 4263,
+      "recorded_delay_minutes": 369,
+      "zero_minute_incidents": 4217
+    }
+  },
+  "monthly": [
+    {
+      "month_start": "2025-01-01",
+      "subway": {
+        "recorded_incidents": 2106,
+        "recorded_delay_minutes": 6381,
+        "zero_minute_incidents": 1298
+      },
+      "line_values": [
+        {
+          "raw_line": "BD",
+          "recorded_incidents": 867,
+          "recorded_delay_minutes": 2245,
+          "zero_minute_incidents": 569
+        },
+        {
+          "raw_line": "YU",
+          "recorded_incidents": 1141,
+          "recorded_delay_minutes": 3932,
+          "zero_minute_incidents": 650
+        }
+      ],
+      "count_leaders": [
+        "YU"
+      ],
+      "minute_leaders": [
+        "YU"
+      ],
+      "bus": {
+        "recorded_incidents": 3908,
+        "recorded_delay_minutes": 72665,
+        "zero_minute_incidents": 411
+      },
+      "bus_mfdv": {
+        "recorded_incidents": 278,
+        "recorded_delay_minutes": 24603,
+        "zero_minute_incidents": 28
+      }
+    },
+    {
+      "month_start": "2025-02-01",
+      "subway": {
+        "recorded_incidents": 2274,
+        "recorded_delay_minutes": 8766,
+        "zero_minute_incidents": 1357
+      },
+      "line_values": [
+        {
+          "raw_line": "BD",
+          "recorded_incidents": 1001,
+          "recorded_delay_minutes": 2669,
+          "zero_minute_incidents": 621
+        },
+        {
+          "raw_line": "YU",
+          "recorded_incidents": 1172,
+          "recorded_delay_minutes": 5875,
+          "zero_minute_incidents": 659
+        }
+      ],
+      "count_leaders": [
+        "YU"
+      ],
+      "minute_leaders": [
+        "YU"
+      ],
+      "bus": {
+        "recorded_incidents": 5583,
+        "recorded_delay_minutes": 113994,
+        "zero_minute_incidents": 762
+      },
+      "bus_mfdv": {
+        "recorded_incidents": 383,
+        "recorded_delay_minutes": 41775,
+        "zero_minute_incidents": 46
+      }
+    },
+    {
+      "month_start": "2025-03-01",
+      "subway": {
+        "recorded_incidents": 1986,
+        "recorded_delay_minutes": 6305,
+        "zero_minute_incidents": 1185
+      },
+      "line_values": [
+        {
+          "raw_line": "BD",
+          "recorded_incidents": 936,
+          "recorded_delay_minutes": 3091,
+          "zero_minute_incidents": 545
+        },
+        {
+          "raw_line": "YU",
+          "recorded_incidents": 946,
+          "recorded_delay_minutes": 3090,
+          "zero_minute_incidents": 555
+        }
+      ],
+      "count_leaders": [
+        "YU"
+      ],
+      "minute_leaders": [
+        "BD"
+      ],
+      "bus": {
+        "recorded_incidents": 4703,
+        "recorded_delay_minutes": 98551,
+        "zero_minute_incidents": 504
+      },
+      "bus_mfdv": {
+        "recorded_incidents": 292,
+        "recorded_delay_minutes": 40976,
+        "zero_minute_incidents": 7
+      }
+    },
+    {
+      "month_start": "2025-04-01",
+      "subway": {
+        "recorded_incidents": 2117,
+        "recorded_delay_minutes": 6055,
+        "zero_minute_incidents": 1366
+      },
+      "line_values": [
+        {
+          "raw_line": "BD",
+          "recorded_incidents": 971,
+          "recorded_delay_minutes": 2477,
+          "zero_minute_incidents": 672
+        },
+        {
+          "raw_line": "YU",
+          "recorded_incidents": 1016,
+          "recorded_delay_minutes": 3298,
+          "zero_minute_incidents": 598
+        }
+      ],
+      "count_leaders": [
+        "YU"
+      ],
+      "minute_leaders": [
+        "YU"
+      ],
+      "bus": {
+        "recorded_incidents": 4764,
+        "recorded_delay_minutes": 105077,
+        "zero_minute_incidents": 686
+      },
+      "bus_mfdv": {
+        "recorded_incidents": 397,
+        "recorded_delay_minutes": 48836,
+        "zero_minute_incidents": 33
+      }
+    },
+    {
+      "month_start": "2025-05-01",
+      "subway": {
+        "recorded_incidents": 2175,
+        "recorded_delay_minutes": 5432,
+        "zero_minute_incidents": 1444
+      },
+      "line_values": [
+        {
+          "raw_line": "BD",
+          "recorded_incidents": 938,
+          "recorded_delay_minutes": 2001,
+          "zero_minute_incidents": 671
+        },
+        {
+          "raw_line": "YU",
+          "recorded_incidents": 1111,
+          "recorded_delay_minutes": 3194,
+          "zero_minute_incidents": 681
+        }
+      ],
+      "count_leaders": [
+        "YU"
+      ],
+      "minute_leaders": [
+        "YU"
+      ],
+      "bus": {
+        "recorded_incidents": 5291,
+        "recorded_delay_minutes": 108477,
+        "zero_minute_incidents": 749
+      },
+      "bus_mfdv": {
+        "recorded_incidents": 389,
+        "recorded_delay_minutes": 46582,
+        "zero_minute_incidents": 38
+      }
+    },
+    {
+      "month_start": "2025-06-01",
+      "subway": {
+        "recorded_incidents": 1941,
+        "recorded_delay_minutes": 5117,
+        "zero_minute_incidents": 1277
+      },
+      "line_values": [
+        {
+          "raw_line": "BD",
+          "recorded_incidents": 805,
+          "recorded_delay_minutes": 1793,
+          "zero_minute_incidents": 559
+        },
+        {
+          "raw_line": "YU",
+          "recorded_incidents": 1005,
+          "recorded_delay_minutes": 3046,
+          "zero_minute_incidents": 623
+        }
+      ],
+      "count_leaders": [
+        "YU"
+      ],
+      "minute_leaders": [
+        "YU"
+      ],
+      "bus": {
+        "recorded_incidents": 5803,
+        "recorded_delay_minutes": 117021,
+        "zero_minute_incidents": 775
+      },
+      "bus_mfdv": {
+        "recorded_incidents": 408,
+        "recorded_delay_minutes": 48810,
+        "zero_minute_incidents": 34
+      }
+    },
+    {
+      "month_start": "2025-07-01",
+      "subway": {
+        "recorded_incidents": 2122,
+        "recorded_delay_minutes": 5597,
+        "zero_minute_incidents": 1434
+      },
+      "line_values": [
+        {
+          "raw_line": "BD",
+          "recorded_incidents": 956,
+          "recorded_delay_minutes": 2523,
+          "zero_minute_incidents": 649
+        },
+        {
+          "raw_line": "YU",
+          "recorded_incidents": 1026,
+          "recorded_delay_minutes": 2704,
+          "zero_minute_incidents": 673
+        }
+      ],
+      "count_leaders": [
+        "YU"
+      ],
+      "minute_leaders": [
+        "YU"
+      ],
+      "bus": {
+        "recorded_incidents": 5318,
+        "recorded_delay_minutes": 114025,
+        "zero_minute_incidents": 635
+      },
+      "bus_mfdv": {
+        "recorded_incidents": 373,
+        "recorded_delay_minutes": 44632,
+        "zero_minute_incidents": 35
+      }
+    },
+    {
+      "month_start": "2025-08-01",
+      "subway": {
+        "recorded_incidents": 2719,
+        "recorded_delay_minutes": 5127,
+        "zero_minute_incidents": 1978
+      },
+      "line_values": [
+        {
+          "raw_line": "BD",
+          "recorded_incidents": 1107,
+          "recorded_delay_minutes": 1671,
+          "zero_minute_incidents": 850
+        },
+        {
+          "raw_line": "YU",
+          "recorded_incidents": 1424,
+          "recorded_delay_minutes": 3147,
+          "zero_minute_incidents": 985
+        }
+      ],
+      "count_leaders": [
+        "YU"
+      ],
+      "minute_leaders": [
+        "YU"
+      ],
+      "bus": {
+        "recorded_incidents": 5515,
+        "recorded_delay_minutes": 117450,
+        "zero_minute_incidents": 622
+      },
+      "bus_mfdv": {
+        "recorded_incidents": 379,
+        "recorded_delay_minutes": 48534,
+        "zero_minute_incidents": 37
+      }
+    },
+    {
+      "month_start": "2025-09-01",
+      "subway": {
+        "recorded_incidents": 1813,
+        "recorded_delay_minutes": 4193,
+        "zero_minute_incidents": 1199
+      },
+      "line_values": [
+        {
+          "raw_line": "BD",
+          "recorded_incidents": 768,
+          "recorded_delay_minutes": 1784,
+          "zero_minute_incidents": 517
+        },
+        {
+          "raw_line": "YU",
+          "recorded_incidents": 930,
+          "recorded_delay_minutes": 2105,
+          "zero_minute_incidents": 594
+        }
+      ],
+      "count_leaders": [
+        "YU"
+      ],
+      "minute_leaders": [
+        "YU"
+      ],
+      "bus": {
+        "recorded_incidents": 5406,
+        "recorded_delay_minutes": 105702,
+        "zero_minute_incidents": 696
+      },
+      "bus_mfdv": {
+        "recorded_incidents": 362,
+        "recorded_delay_minutes": 40598,
+        "zero_minute_incidents": 29
+      }
+    },
+    {
+      "month_start": "2025-10-01",
+      "subway": {
+        "recorded_incidents": 2027,
+        "recorded_delay_minutes": 5150,
+        "zero_minute_incidents": 1323
+      },
+      "line_values": [
+        {
+          "raw_line": "BD",
+          "recorded_incidents": 897,
+          "recorded_delay_minutes": 2089,
+          "zero_minute_incidents": 601
+        },
+        {
+          "raw_line": "YU",
+          "recorded_incidents": 1000,
+          "recorded_delay_minutes": 2767,
+          "zero_minute_incidents": 621
+        }
+      ],
+      "count_leaders": [
+        "YU"
+      ],
+      "minute_leaders": [
+        "YU"
+      ],
+      "bus": {
+        "recorded_incidents": 5325,
+        "recorded_delay_minutes": 106541,
+        "zero_minute_incidents": 712
+      },
+      "bus_mfdv": {
+        "recorded_incidents": 367,
+        "recorded_delay_minutes": 41649,
+        "zero_minute_incidents": 34
+      }
+    },
+    {
+      "month_start": "2025-11-01",
+      "subway": {
+        "recorded_incidents": 2215,
+        "recorded_delay_minutes": 6187,
+        "zero_minute_incidents": 1381
+      },
+      "line_values": [
+        {
+          "raw_line": "BD",
+          "recorded_incidents": 953,
+          "recorded_delay_minutes": 2215,
+          "zero_minute_incidents": 624
+        },
+        {
+          "raw_line": "YU",
+          "recorded_incidents": 1137,
+          "recorded_delay_minutes": 3582,
+          "zero_minute_incidents": 670
+        }
+      ],
+      "count_leaders": [
+        "YU"
+      ],
+      "minute_leaders": [
+        "YU"
+      ],
+      "bus": {
+        "recorded_incidents": 5630,
+        "recorded_delay_minutes": 106526,
+        "zero_minute_incidents": 785
+      },
+      "bus_mfdv": {
+        "recorded_incidents": 358,
+        "recorded_delay_minutes": 36625,
+        "zero_minute_incidents": 33
+      }
+    },
+    {
+      "month_start": "2025-12-01",
+      "subway": {
+        "recorded_incidents": 2242,
+        "recorded_delay_minutes": 6458,
+        "zero_minute_incidents": 1400
+      },
+      "line_values": [
+        {
+          "raw_line": "BD",
+          "recorded_incidents": 946,
+          "recorded_delay_minutes": 2846,
+          "zero_minute_incidents": 583
+        },
+        {
+          "raw_line": "YU",
+          "recorded_incidents": 1174,
+          "recorded_delay_minutes": 3492,
+          "zero_minute_incidents": 716
+        }
+      ],
+      "count_leaders": [
+        "YU"
+      ],
+      "minute_leaders": [
+        "YU"
+      ],
+      "bus": {
+        "recorded_incidents": 5783,
+        "recorded_delay_minutes": 121130,
+        "zero_minute_incidents": 649
+      },
+      "bus_mfdv": {
+        "recorded_incidents": 389,
+        "recorded_delay_minutes": 43075,
+        "zero_minute_incidents": 22
+      }
+    },
+    {
+      "month_start": "2026-01-01",
+      "subway": {
+        "recorded_incidents": 2481,
+        "recorded_delay_minutes": 12376,
+        "zero_minute_incidents": 1487
+      },
+      "line_values": [
+        {
+          "raw_line": "BD",
+          "recorded_incidents": 1072,
+          "recorded_delay_minutes": 5481,
+          "zero_minute_incidents": 688
+        },
+        {
+          "raw_line": "YU",
+          "recorded_incidents": 1279,
+          "recorded_delay_minutes": 6679,
+          "zero_minute_incidents": 708
+        }
+      ],
+      "count_leaders": [
+        "YU"
+      ],
+      "minute_leaders": [
+        "YU"
+      ],
+      "bus": {
+        "recorded_incidents": 6008,
+        "recorded_delay_minutes": 143043,
+        "zero_minute_incidents": 724
+      },
+      "bus_mfdv": {
+        "recorded_incidents": 442,
+        "recorded_delay_minutes": 57413,
+        "zero_minute_incidents": 13
+      }
+    },
+    {
+      "month_start": "2026-02-01",
+      "subway": {
+        "recorded_incidents": 2048,
+        "recorded_delay_minutes": 5816,
+        "zero_minute_incidents": 1299
+      },
+      "line_values": [
+        {
+          "raw_line": "BD",
+          "recorded_incidents": 866,
+          "recorded_delay_minutes": 2706,
+          "zero_minute_incidents": 563
+        },
+        {
+          "raw_line": "YU",
+          "recorded_incidents": 1070,
+          "recorded_delay_minutes": 2859,
+          "zero_minute_incidents": 651
+        }
+      ],
+      "count_leaders": [
+        "YU"
+      ],
+      "minute_leaders": [
+        "YU"
+      ],
+      "bus": {
+        "recorded_incidents": 4824,
+        "recorded_delay_minutes": 111849,
+        "zero_minute_incidents": 580
+      },
+      "bus_mfdv": {
+        "recorded_incidents": 353,
+        "recorded_delay_minutes": 49481,
+        "zero_minute_incidents": 27
+      }
+    },
+    {
+      "month_start": "2026-03-01",
+      "subway": {
+        "recorded_incidents": 2400,
+        "recorded_delay_minutes": 5789,
+        "zero_minute_incidents": 1566
+      },
+      "line_values": [
+        {
+          "raw_line": "BD",
+          "recorded_incidents": 1061,
+          "recorded_delay_minutes": 3028,
+          "zero_minute_incidents": 664
+        },
+        {
+          "raw_line": "YU",
+          "recorded_incidents": 1209,
+          "recorded_delay_minutes": 2613,
+          "zero_minute_incidents": 803
+        }
+      ],
+      "count_leaders": [
+        "YU"
+      ],
+      "minute_leaders": [
+        "BD"
+      ],
+      "bus": {
+        "recorded_incidents": 5319,
+        "recorded_delay_minutes": 98429,
+        "zero_minute_incidents": 653
+      },
+      "bus_mfdv": {
+        "recorded_incidents": 326,
+        "recorded_delay_minutes": 28590,
+        "zero_minute_incidents": 10
+      }
+    },
+    {
+      "month_start": "2026-04-01",
+      "subway": {
+        "recorded_incidents": 2719,
+        "recorded_delay_minutes": 7205,
+        "zero_minute_incidents": 1827
+      },
+      "line_values": [
+        {
+          "raw_line": "BD",
+          "recorded_incidents": 1146,
+          "recorded_delay_minutes": 3849,
+          "zero_minute_incidents": 772
+        },
+        {
+          "raw_line": "YU",
+          "recorded_incidents": 1430,
+          "recorded_delay_minutes": 2800,
+          "zero_minute_incidents": 955
+        }
+      ],
+      "count_leaders": [
+        "YU"
+      ],
+      "minute_leaders": [
+        "BD"
+      ],
+      "bus": {
+        "recorded_incidents": 4965,
+        "recorded_delay_minutes": 94603,
+        "zero_minute_incidents": 653
+      },
+      "bus_mfdv": {
+        "recorded_incidents": 292,
+        "recorded_delay_minutes": 31688,
+        "zero_minute_incidents": 20
+      }
+    },
+    {
+      "month_start": "2026-05-01",
+      "subway": {
+        "recorded_incidents": 2633,
+        "recorded_delay_minutes": 5617,
+        "zero_minute_incidents": 1767
+      },
+      "line_values": [
+        {
+          "raw_line": "BD",
+          "recorded_incidents": 1153,
+          "recorded_delay_minutes": 2693,
+          "zero_minute_incidents": 792
+        },
+        {
+          "raw_line": "YU",
+          "recorded_incidents": 1350,
+          "recorded_delay_minutes": 2747,
+          "zero_minute_incidents": 881
+        }
+      ],
+      "count_leaders": [
+        "YU"
+      ],
+      "minute_leaders": [
+        "YU"
+      ],
+      "bus": {
+        "recorded_incidents": 4893,
+        "recorded_delay_minutes": 105165,
+        "zero_minute_incidents": 660
+      },
+      "bus_mfdv": {
+        "recorded_incidents": 354,
+        "recorded_delay_minutes": 42934,
+        "zero_minute_incidents": 9
+      }
+    },
+    {
+      "month_start": "2026-06-01",
+      "subway": {
+        "recorded_incidents": 2638,
+        "recorded_delay_minutes": 5571,
+        "zero_minute_incidents": 1762
+      },
+      "line_values": [
+        {
+          "raw_line": "BD",
+          "recorded_incidents": 1206,
+          "recorded_delay_minutes": 2419,
+          "zero_minute_incidents": 805
+        },
+        {
+          "raw_line": "YU",
+          "recorded_incidents": 1296,
+          "recorded_delay_minutes": 2879,
+          "zero_minute_incidents": 865
+        }
+      ],
+      "count_leaders": [
+        "YU"
+      ],
+      "minute_leaders": [
+        "YU"
+      ],
+      "bus": {
+        "recorded_incidents": 4525,
+        "recorded_delay_minutes": 102299,
+        "zero_minute_incidents": 617
+      },
+      "bus_mfdv": {
+        "recorded_incidents": 415,
+        "recorded_delay_minutes": 45790,
+        "zero_minute_incidents": 17
+      }
+    },
+    {
+      "month_start": "2026-07-01",
+      "subway": {
+        "recorded_incidents": 2513,
+        "recorded_delay_minutes": 4782,
+        "zero_minute_incidents": 1691
+      },
+      "line_values": [
+        {
+          "raw_line": "BD",
+          "recorded_incidents": 1097,
+          "recorded_delay_minutes": 1991,
+          "zero_minute_incidents": 762
+        },
+        {
+          "raw_line": "YU",
+          "recorded_incidents": 1251,
+          "recorded_delay_minutes": 2616,
+          "zero_minute_incidents": 799
+        }
+      ],
+      "count_leaders": [
+        "YU"
+      ],
+      "minute_leaders": [
+        "YU"
+      ],
+      "bus": {
+        "recorded_incidents": 4338,
+        "recorded_delay_minutes": 110244,
+        "zero_minute_incidents": 541
+      },
+      "bus_mfdv": {
+        "recorded_incidents": 365,
+        "recorded_delay_minutes": 55483,
+        "zero_minute_incidents": 7
+      }
+    },
+    {
+      "month_start": "2026-08-01",
+      "subway": {
+        "recorded_incidents": 2306,
+        "recorded_delay_minutes": 4147,
+        "zero_minute_incidents": 1628
+      },
+      "line_values": [
+        {
+          "raw_line": "BD",
+          "recorded_incidents": 1012,
+          "recorded_delay_minutes": 1937,
+          "zero_minute_incidents": 719
+        },
+        {
+          "raw_line": "YU",
+          "recorded_incidents": 1167,
+          "recorded_delay_minutes": 2081,
+          "zero_minute_incidents": 807
+        }
+      ],
+      "count_leaders": [
+        "YU"
+      ],
+      "minute_leaders": [
+        "YU"
+      ],
+      "bus": {
+        "recorded_incidents": 4356,
+        "recorded_delay_minutes": 110311,
+        "zero_minute_incidents": 560
+      },
+      "bus_mfdv": {
+        "recorded_incidents": 366,
+        "recorded_delay_minutes": 53313,
+        "zero_minute_incidents": 6
+      }
+    }
+  ],
+  "enrichment": {
+    "before_records": 133713,
+    "after_records": 165124,
+    "recovered_records": 31411,
+    "recovered_codes": 56,
+    "accepted_codes": 342,
+    "total_codes": 479,
+    "unresolved_codes": 137
+  },
+  "provenance": {
+    "bundle_manifest_sha256": "154f796dfeb2f41edb265422caa15fc4e8af513ab1ae7af3c5a962572fb87885",
+    "typed_results_sha256": "8296a595de752b5d5a2e0f1f48c328cc6413e274900f9a39a7ac92402fcaa5af",
+    "source_manifest_sha256": "2ff290694fcbaa3ca64d80fd44c7ea70a24879a9cb229584f2daf380b7bbc4d0",
+    "recovery_evidence_sha256": "996cbc69cba4c56161b95d305756d59a9537edd8477efa59c334acbd24a09309",
+    "adapter_sha256": "a0e48c4f250a7d1e69b1bb6b4800e385bf8665e157664907684e1cabea409247",
+    "selection": {
+      "rule_version": "task4.1-v1",
+      "scope_start": "2025-01-01",
+      "scope_end": null,
+      "snapshots": [
+        {
+          "mode": "subway",
+          "snapshot_id": 1,
+          "resource_id": "0b6e5c52-e993-46d6-8d74-8602ee224457",
+          "sha256": "ec7c36eeb4785e34d58229e5da6af741c89dfdf9fa59c58a63abe5b026b95c44"
+        },
+        {
+          "mode": "bus",
+          "snapshot_id": 2,
+          "resource_id": "b5725365-9252-4bfe-b6f4-cda7ddf74341",
+          "sha256": "1474f16414e63aaeab58714c236446ea370f5e00e072a3b97fdfeb1f079cd8fe"
+        },
+        {
+          "mode": "streetcar",
+          "snapshot_id": 3,
+          "resource_id": "cf2fdd12-6f0e-4644-aae7-0bbfc31df031",
+          "sha256": "c6c081880619ffff8779c61af3a0b77466471473a014d8dec48d16306ddf9606"
+        },
+        {
+          "mode": "lrt",
+          "snapshot_id": 4,
+          "resource_id": "9a800c92-0362-4cee-8232-7374596b6a43",
+          "sha256": "a493ad2f0d3c2889c34eba7cb42b3c27fc1d6cbf15728be09d7f1b230964984a"
+        }
+      ]
+    },
+    "source": "results/power_bi",
+    "method": "Projection and compatible additive sums of approved measures; existing named-line eligibility; ties retained. No cleaning, inference or exposure normalization."
+  }
+}

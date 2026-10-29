@@ -1,0 +1,399 @@
+{
+  "reference_version": "2026-10-26",
+  "reference_manifest_sha256": "db51acbb54ba3eca0921e0cefcae8f1b19fd36362703811b6a5dc3933050713c",
+  "method": "latin1_encode_utf8_decode_strict_en_dash_v1",
+  "entries": [
+    {
+      "source_mode": "bus",
+      "raw_code": "MFUIR",
+      "reference_sha256": "cbb792a1cfd5744887b074bffc268832360648429be35213866ef8f6a06d71f0",
+      "original_text": "ILL CUSTOMER â TRANSPORTATION DECLINED",
+      "recovered_text": "ILL CUSTOMER – TRANSPORTATION DECLINED"
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "PFPD",
+      "reference_sha256": "cbb792a1cfd5744887b074bffc268832360648429be35213866ef8f6a06d71f0",
+      "original_text": "TTC COLLISION â PROPERTY DAMAGE",
+      "recovered_text": "TTC COLLISION – PROPERTY DAMAGE"
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "SFAE",
+      "reference_sha256": "cbb792a1cfd5744887b074bffc268832360648429be35213866ef8f6a06d71f0",
+      "original_text": "ASSAULT â EMPLOYEE",
+      "recovered_text": "ASSAULT – EMPLOYEE"
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "SFAP",
+      "reference_sha256": "cbb792a1cfd5744887b074bffc268832360648429be35213866ef8f6a06d71f0",
+      "original_text": "ASSAULT â PATRON",
+      "recovered_text": "ASSAULT – PATRON"
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "SFSA",
+      "reference_sha256": "cbb792a1cfd5744887b074bffc268832360648429be35213866ef8f6a06d71f0",
+      "original_text": "ASSAULT â SEXUAL",
+      "recovered_text": "ASSAULT – SEXUAL"
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "TFLF",
+      "reference_sha256": "cbb792a1cfd5744887b074bffc268832360648429be35213866ef8f6a06d71f0",
+      "original_text": "LATE ENTERING SERVICE â FIRST VEHICLE",
+      "recovered_text": "LATE ENTERING SERVICE – FIRST VEHICLE"
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "TFLL",
+      "reference_sha256": "cbb792a1cfd5744887b074bffc268832360648429be35213866ef8f6a06d71f0",
+      "original_text": "LATE VEHICLE â ROUTE",
+      "recovered_text": "LATE VEHICLE – ROUTE"
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "TFO",
+      "reference_sha256": "cbb792a1cfd5744887b074bffc268832360648429be35213866ef8f6a06d71f0",
+      "original_text": "OTHER â SWITCH VIOLATION",
+      "recovered_text": "OTHER – SWITCH VIOLATION"
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "TFPD",
+      "reference_sha256": "cbb792a1cfd5744887b074bffc268832360648429be35213866ef8f6a06d71f0",
+      "original_text": "TTC COLLISION â PROPERTY DAMAGE",
+      "recovered_text": "TTC COLLISION – PROPERTY DAMAGE"
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "TFPI",
+      "reference_sha256": "cbb792a1cfd5744887b074bffc268832360648429be35213866ef8f6a06d71f0",
+      "original_text": "TTC COLLISION â PERSONAL INJURY",
+      "recovered_text": "TTC COLLISION – PERSONAL INJURY"
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "ETNT",
+      "reference_sha256": "9d8cb77ca2a32703b7826f06dc84253ba19ce50b10f18fc762b03461f0888f44",
+      "original_text": "EQUIPMENT â NO TROUBLE FOUND",
+      "recovered_text": "EQUIPMENT – NO TROUBLE FOUND"
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "MTESA",
+      "reference_sha256": "9d8cb77ca2a32703b7826f06dc84253ba19ce50b10f18fc762b03461f0888f44",
+      "original_text": "NO OPERATOR/CREW AVILABLE â ESA RELATED",
+      "recovered_text": "NO OPERATOR/CREW AVILABLE – ESA RELATED"
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "MTUI",
+      "reference_sha256": "9d8cb77ca2a32703b7826f06dc84253ba19ce50b10f18fc762b03461f0888f44",
+      "original_text": "INJURIED/ILL CUSTOMER â TRANSPORTED",
+      "recovered_text": "INJURIED/ILL CUSTOMER – TRANSPORTED"
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "MTUIR",
+      "reference_sha256": "9d8cb77ca2a32703b7826f06dc84253ba19ce50b10f18fc762b03461f0888f44",
+      "original_text": "INJURIED/ILL CUSTOMER â MEDICAL AID DECLINED",
+      "recovered_text": "INJURIED/ILL CUSTOMER – MEDICAL AID DECLINED"
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "PTPD",
+      "reference_sha256": "9d8cb77ca2a32703b7826f06dc84253ba19ce50b10f18fc762b03461f0888f44",
+      "original_text": "TTC COLLISION â PROPERTY DAMAGE",
+      "recovered_text": "TTC COLLISION – PROPERTY DAMAGE"
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "STAE",
+      "reference_sha256": "9d8cb77ca2a32703b7826f06dc84253ba19ce50b10f18fc762b03461f0888f44",
+      "original_text": "ASSAULT â EMPLOYEE INVOLVED",
+      "recovered_text": "ASSAULT – EMPLOYEE INVOLVED"
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "STAP",
+      "reference_sha256": "9d8cb77ca2a32703b7826f06dc84253ba19ce50b10f18fc762b03461f0888f44",
+      "original_text": "ASSAULT â PATRON INVOLVED",
+      "recovered_text": "ASSAULT – PATRON INVOLVED"
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "STEAS",
+      "reference_sha256": "9d8cb77ca2a32703b7826f06dc84253ba19ce50b10f18fc762b03461f0888f44",
+      "original_text": "EMERGENCY ALARM STATION ACTIVATION â NO TROUBLE FOUND",
+      "recovered_text": "EMERGENCY ALARM STATION ACTIVATION – NO TROUBLE FOUND"
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "STSA",
+      "reference_sha256": "9d8cb77ca2a32703b7826f06dc84253ba19ce50b10f18fc762b03461f0888f44",
+      "original_text": "ASSAULT â SEXUAL",
+      "recovered_text": "ASSAULT – SEXUAL"
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "TTLF",
+      "reference_sha256": "9d8cb77ca2a32703b7826f06dc84253ba19ce50b10f18fc762b03461f0888f44",
+      "original_text": "LATE ENTERING SERVICE â FIRST VEHICLE",
+      "recovered_text": "LATE ENTERING SERVICE – FIRST VEHICLE"
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "TTO",
+      "reference_sha256": "9d8cb77ca2a32703b7826f06dc84253ba19ce50b10f18fc762b03461f0888f44",
+      "original_text": "TRANSPORTATION â OTHER",
+      "recovered_text": "TRANSPORTATION – OTHER"
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "TTPD",
+      "reference_sha256": "9d8cb77ca2a32703b7826f06dc84253ba19ce50b10f18fc762b03461f0888f44",
+      "original_text": "TTC COLLISION â PROPERTY DAMAGE",
+      "recovered_text": "TTC COLLISION – PROPERTY DAMAGE"
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "TTPI",
+      "reference_sha256": "9d8cb77ca2a32703b7826f06dc84253ba19ce50b10f18fc762b03461f0888f44",
+      "original_text": "TTC COLLISION â PERSONAL INJURY",
+      "recovered_text": "TTC COLLISION – PERSONAL INJURY"
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "EUCD",
+      "reference_sha256": "1034d4cc7168421a5179fde9b205abb2be66795fee93cfcba050de67aab67367",
+      "original_text": "RC&S CONSEQUENTIAL DELAY (SECOND DELAY SAME FAULT â NO INTERVENTION)",
+      "recovered_text": "RC&S CONSEQUENTIAL DELAY (SECOND DELAY SAME FAULT – NO INTERVENTION)"
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "EUNT",
+      "reference_sha256": "1034d4cc7168421a5179fde9b205abb2be66795fee93cfcba050de67aab67367",
+      "original_text": "EQUIPMENT â NO TROUBLE FOUND",
+      "recovered_text": "EQUIPMENT – NO TROUBLE FOUND"
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "MUD",
+      "reference_sha256": "1034d4cc7168421a5179fde9b205abb2be66795fee93cfcba050de67aab67367",
+      "original_text": "DOOR PROBLEMS â PASSENGER RELATED",
+      "recovered_text": "DOOR PROBLEMS – PASSENGER RELATED"
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "MUDD",
+      "reference_sha256": "1034d4cc7168421a5179fde9b205abb2be66795fee93cfcba050de67aab67367",
+      "original_text": "DOOR PROBLEMS â DEBRIS RELATED",
+      "recovered_text": "DOOR PROBLEMS – DEBRIS RELATED"
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "MUESA",
+      "reference_sha256": "1034d4cc7168421a5179fde9b205abb2be66795fee93cfcba050de67aab67367",
+      "original_text": "NO OPERATOR/CREW AVAILABLE â E.S.A. RELATED",
+      "recovered_text": "NO OPERATOR/CREW AVAILABLE – E.S.A. RELATED"
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "MUFS",
+      "reference_sha256": "1034d4cc7168421a5179fde9b205abb2be66795fee93cfcba050de67aab67367",
+      "original_text": "FIRE/SMOKE PLAN B â SOURCE EXTERNAL TO TTC",
+      "recovered_text": "FIRE/SMOKE PLAN B – SOURCE EXTERNAL TO TTC"
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "MUI",
+      "reference_sha256": "1034d4cc7168421a5179fde9b205abb2be66795fee93cfcba050de67aab67367",
+      "original_text": "INJURED/ILL CUSTOMER ON TRAIN â TRANSPORTED",
+      "recovered_text": "INJURED/ILL CUSTOMER ON TRAIN – TRANSPORTED"
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "MUIR",
+      "reference_sha256": "1034d4cc7168421a5179fde9b205abb2be66795fee93cfcba050de67aab67367",
+      "original_text": "INJURED/ILL CUSTOMER ON TRAIN â MEDICAL AID REFUSED",
+      "recovered_text": "INJURED/ILL CUSTOMER ON TRAIN – MEDICAL AID REFUSED"
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "MUIRS",
+      "reference_sha256": "1034d4cc7168421a5179fde9b205abb2be66795fee93cfcba050de67aab67367",
+      "original_text": "INJURED/ILL CUSTOMER IN STATION â MEDICAL AID REFUSED",
+      "recovered_text": "INJURED/ILL CUSTOMER IN STATION – MEDICAL AID REFUSED"
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "MUNCA",
+      "reference_sha256": "1034d4cc7168421a5179fde9b205abb2be66795fee93cfcba050de67aab67367",
+      "original_text": "NO COLLECTOR AVAILABLE â NON ESA RELATED",
+      "recovered_text": "NO COLLECTOR AVAILABLE – NON ESA RELATED"
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "MUNOA",
+      "reference_sha256": "1034d4cc7168421a5179fde9b205abb2be66795fee93cfcba050de67aab67367",
+      "original_text": "NO OPERATOR AVAILABLE â NON ESA RELATED",
+      "recovered_text": "NO OPERATOR AVAILABLE – NON ESA RELATED"
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "MUPAA",
+      "reference_sha256": "1034d4cc7168421a5179fde9b205abb2be66795fee93cfcba050de67aab67367",
+      "original_text": "PAA â NO TROUBLE FOUND",
+      "recovered_text": "PAA – NO TROUBLE FOUND"
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "MUPLB",
+      "reference_sha256": "1034d4cc7168421a5179fde9b205abb2be66795fee93cfcba050de67aab67367",
+      "original_text": "FIRE/SMOKE PLAN B â SOURCE TTC (TRACK LEVEL)",
+      "recovered_text": "FIRE/SMOKE PLAN B – SOURCE TTC (TRACK LEVEL)"
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "MUPR1",
+      "reference_sha256": "1034d4cc7168421a5179fde9b205abb2be66795fee93cfcba050de67aab67367",
+      "original_text": "PRIORITY ONE â TRAIN IN CONTACT WITH PERSON",
+      "recovered_text": "PRIORITY ONE – TRAIN IN CONTACT WITH PERSON"
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "PUEME",
+      "reference_sha256": "1034d4cc7168421a5179fde9b205abb2be66795fee93cfcba050de67aab67367",
+      "original_text": "ELECTRICAL â MAINTENANCE ERROR",
+      "recovered_text": "ELECTRICAL – MAINTENANCE ERROR"
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "PUEO",
+      "reference_sha256": "1034d4cc7168421a5179fde9b205abb2be66795fee93cfcba050de67aab67367",
+      "original_text": "ELECTRICAL â OTHER",
+      "recovered_text": "ELECTRICAL – OTHER"
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "PUEWZ",
+      "reference_sha256": "1034d4cc7168421a5179fde9b205abb2be66795fee93cfcba050de67aab67367",
+      "original_text": "ELECTRICAL â WORK ZONE PROBLEMS",
+      "recovered_text": "ELECTRICAL – WORK ZONE PROBLEMS"
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "PUMEL",
+      "reference_sha256": "1034d4cc7168421a5179fde9b205abb2be66795fee93cfcba050de67aab67367",
+      "original_text": "ANY ESCL. OR ELEV. INCIDENT â TRANSPORTED OR MEDICAL AID DECLINED",
+      "recovered_text": "ANY ESCL. OR ELEV. INCIDENT – TRANSPORTED OR MEDICAL AID DECLINED"
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "PUMO",
+      "reference_sha256": "1034d4cc7168421a5179fde9b205abb2be66795fee93cfcba050de67aab67367",
+      "original_text": "PLANT MAINTENANCE â OTHER",
+      "recovered_text": "PLANT MAINTENANCE – OTHER"
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "PUMST",
+      "reference_sha256": "1034d4cc7168421a5179fde9b205abb2be66795fee93cfcba050de67aab67367",
+      "original_text": "ANY STAIRWAY INCIDENT â TRANSPORTED OR MEDICAL AID DECLINED",
+      "recovered_text": "ANY STAIRWAY INCIDENT – TRANSPORTED OR MEDICAL AID DECLINED"
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "PUSNT",
+      "reference_sha256": "1034d4cc7168421a5179fde9b205abb2be66795fee93cfcba050de67aab67367",
+      "original_text": "SIGNAL PROBLEM â NO TROUBLE FOUND",
+      "recovered_text": "SIGNAL PROBLEM – NO TROUBLE FOUND"
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "PUSO",
+      "reference_sha256": "1034d4cc7168421a5179fde9b205abb2be66795fee93cfcba050de67aab67367",
+      "original_text": "SIGNALS â OTHER",
+      "recovered_text": "SIGNALS – OTHER"
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "PUSSW",
+      "reference_sha256": "1034d4cc7168421a5179fde9b205abb2be66795fee93cfcba050de67aab67367",
+      "original_text": "TRACK SWITCH FAILURE â S/E/C RELATED PROBLEM",
+      "recovered_text": "TRACK SWITCH FAILURE – S/E/C RELATED PROBLEM"
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "PUSTS",
+      "reference_sha256": "1034d4cc7168421a5179fde9b205abb2be66795fee93cfcba050de67aab67367",
+      "original_text": "SIGNALS â TRAIN STOPS",
+      "recovered_text": "SIGNALS – TRAIN STOPS"
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "PUSWZ",
+      "reference_sha256": "1034d4cc7168421a5179fde9b205abb2be66795fee93cfcba050de67aab67367",
+      "original_text": "WORK ZONE PROBLEMS â SIGNALS",
+      "recovered_text": "WORK ZONE PROBLEMS – SIGNALS"
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "PUTDN",
+      "reference_sha256": "1034d4cc7168421a5179fde9b205abb2be66795fee93cfcba050de67aab67367",
+      "original_text": "DEBRIS AT TRACK LEVEL â NON-CONTROLLABLE",
+      "recovered_text": "DEBRIS AT TRACK LEVEL – NON-CONTROLLABLE"
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "PUTNT",
+      "reference_sha256": "1034d4cc7168421a5179fde9b205abb2be66795fee93cfcba050de67aab67367",
+      "original_text": "T&S RELATED PROBLEM â NO TROUBLE FOUND",
+      "recovered_text": "T&S RELATED PROBLEM – NO TROUBLE FOUND"
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "PUTSC",
+      "reference_sha256": "1034d4cc7168421a5179fde9b205abb2be66795fee93cfcba050de67aab67367",
+      "original_text": "SIGNALSâCONTROL PROBLEMâTRACK",
+      "recovered_text": "SIGNALS–CONTROL PROBLEM–TRACK"
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "PUTSM",
+      "reference_sha256": "1034d4cc7168421a5179fde9b205abb2be66795fee93cfcba050de67aab67367",
+      "original_text": "TRACK SWITCH FAILURE â T&S RELATED PROBLEM",
+      "recovered_text": "TRACK SWITCH FAILURE – T&S RELATED PROBLEM"
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "PUTWZ",
+      "reference_sha256": "1034d4cc7168421a5179fde9b205abb2be66795fee93cfcba050de67aab67367",
+      "original_text": "WORK ZONES PROBLEMS â TRACK",
+      "recovered_text": "WORK ZONES PROBLEMS – TRACK"
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "SUEAS",
+      "reference_sha256": "1034d4cc7168421a5179fde9b205abb2be66795fee93cfcba050de67aab67367",
+      "original_text": "EAS ACTIVATED â NO TROUBLE FOUND",
+      "recovered_text": "EAS ACTIVATED – NO TROUBLE FOUND"
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "SUPOL",
+      "reference_sha256": "1034d4cc7168421a5179fde9b205abb2be66795fee93cfcba050de67aab67367",
+      "original_text": "HELD BY POLICE â NON TTC RELATED",
+      "recovered_text": "HELD BY POLICE – NON TTC RELATED"
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "TUCC",
+      "reference_sha256": "1034d4cc7168421a5179fde9b205abb2be66795fee93cfcba050de67aab67367",
+      "original_text": "TRANSIT CONTROL RELATED â TOWER CONTROLLER ERROR",
+      "recovered_text": "TRANSIT CONTROL RELATED – TOWER CONTROLLER ERROR"
+    }
+  ]
+}

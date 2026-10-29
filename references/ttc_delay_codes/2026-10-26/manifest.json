@@ -1,0 +1,79 @@
+{
+  "reference_version": "2026-10-26",
+  "tls_verification": "certificate and hostname verification enabled; existing certifi CA bundle",
+  "resources": [
+    {
+      "mode": "bus",
+      "package_id": "e271cdae-8788-4980-96ce-6a5c95bc6618",
+      "resource_id": "1fd9edd5-fc3a-4c1d-b524-95efcdc8eb8a",
+      "source_url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/e271cdae-8788-4980-96ce-6a5c95bc6618/resource/1fd9edd5-fc3a-4c1d-b524-95efcdc8eb8a/download/code-descriptions.json",
+      "final_url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/e271cdae-8788-4980-96ce-6a5c95bc6618/resource/1fd9edd5-fc3a-4c1d-b524-95efcdc8eb8a/download/code-descriptions.json",
+      "started_at_utc": "2026-10-27T01:24:33.813270+00:00",
+      "retrieved_at_utc": "2026-10-27T01:24:53.037926+00:00",
+      "http_status": 200,
+      "sha256": "cbb792a1cfd5744887b074bffc268832360648429be35213866ef8f6a06d71f0",
+      "file_size_bytes": 3142,
+      "format": "json",
+      "headers": {},
+      "file": "bus.json"
+    },
+    {
+      "mode": "lrt",
+      "package_id": "d4d64b0e-2945-4c92-960e-f0103ad48b02",
+      "resource_id": "1df53164-1023-40c1-900e-def362d105e4",
+      "source_url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/datastore/dump/1df53164-1023-40c1-900e-def362d105e4",
+      "final_url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/datastore/dump/1df53164-1023-40c1-900e-def362d105e4",
+      "started_at_utc": "2026-10-27T01:27:19.896996+00:00",
+      "retrieved_at_utc": "2026-10-27T01:27:30.818415+00:00",
+      "http_status": 200,
+      "sha256": "545b99a709dc43406cee86dfe0e0b07ca0735c8c92812f583b7306f87dceed3e",
+      "file_size_bytes": 4798,
+      "format": "csv",
+      "file": "lrt.csv",
+      "headers": {
+        "Content-Type": "application/octet-stream",
+        "Date": "Tue, 27 Oct 2026 01:27:30 GMT"
+      }
+    },
+    {
+      "mode": "streetcar",
+      "package_id": "b68cb71b-44a7-4394-97e2-5d2f41462a5d",
+      "resource_id": "4f2f6528-3c3b-4dd8-91c4-b71fba78f457",
+      "source_url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/b68cb71b-44a7-4394-97e2-5d2f41462a5d/resource/4f2f6528-3c3b-4dd8-91c4-b71fba78f457/download/code-descriptions.json",
+      "final_url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/dataset/b68cb71b-44a7-4394-97e2-5d2f41462a5d/resource/4f2f6528-3c3b-4dd8-91c4-b71fba78f457/download/code-descriptions.json",
+      "started_at_utc": "2026-10-27T01:28:10.049005+00:00",
+      "retrieved_at_utc": "2026-10-27T01:28:34.124227+00:00",
+      "http_status": 200,
+      "sha256": "9d8cb77ca2a32703b7826f06dc84253ba19ce50b10f18fc762b03461f0888f44",
+      "file_size_bytes": 6096,
+      "format": "json",
+      "file": "streetcar.json",
+      "headers": {
+        "Content-Type": "application/octet-stream",
+        "Content-Length": "6096",
+        "Date": "Tue, 27 Oct 2026 01:28:34 GMT",
+        "Last-Modified": "Mon, 07 Apr 2025 19:22:14 GMT",
+        "ETag": "\"1744053734.839-6096-1036915142\""
+      }
+    },
+    {
+      "mode": "subway",
+      "package_id": "996cfe8d-fb35-40ce-b569-698d51fc683b",
+      "resource_id": "9e9efbb6-3a2f-4934-ac94-9150ecaeb548",
+      "source_url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/api/3/action/datastore_search?resource_id=9e9efbb6-3a2f-4934-ac94-9150ecaeb548&limit=1000",
+      "final_url": "https://ckan0.cf.opendata.inter.prod-toronto.ca/api/3/action/datastore_search?resource_id=9e9efbb6-3a2f-4934-ac94-9150ecaeb548&limit=1000",
+      "started_at_utc": "2026-10-27T01:29:13.969243+00:00",
+      "retrieved_at_utc": "2026-10-27T01:29:36.072722+00:00",
+      "http_status": 200,
+      "sha256": "1034d4cc7168421a5179fde9b205abb2be66795fee93cfcba050de67aab67367",
+      "file_size_bytes": 10755,
+      "format": "ckan_json",
+      "file": "subway.json",
+      "headers": {
+        "Content-Type": "application/json;charset=utf-8",
+        "Content-Length": "10755",
+        "Date": "Tue, 27 Oct 2026 01:29:35 GMT"
+      }
+    }
+  ]
+}

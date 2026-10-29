@@ -1,0 +1,1849 @@
+{
+  "reference_version": "2026-10-26",
+  "policy": "No description accepted for missing, conflicting or encoding-defective text; no repair or cross-mode fallback. Identical reference duplicates may share one accepted description.",
+  "reference_issues": [
+    {
+      "source_mode": "bus",
+      "raw_code": "MFUIR",
+      "status": "encoding_defect",
+      "description": null,
+      "source_rows": 1,
+      "distinct_descriptions": 1,
+      "source_descriptions": [
+        "ILL CUSTOMER â TRANSPORTATION DECLINED"
+      ]
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "PFPD",
+      "status": "encoding_defect",
+      "description": null,
+      "source_rows": 1,
+      "distinct_descriptions": 1,
+      "source_descriptions": [
+        "TTC COLLISION â PROPERTY DAMAGE"
+      ]
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "SFAE",
+      "status": "encoding_defect",
+      "description": null,
+      "source_rows": 1,
+      "distinct_descriptions": 1,
+      "source_descriptions": [
+        "ASSAULT â EMPLOYEE"
+      ]
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "SFAP",
+      "status": "encoding_defect",
+      "description": null,
+      "source_rows": 1,
+      "distinct_descriptions": 1,
+      "source_descriptions": [
+        "ASSAULT â PATRON"
+      ]
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "SFSA",
+      "status": "encoding_defect",
+      "description": null,
+      "source_rows": 1,
+      "distinct_descriptions": 1,
+      "source_descriptions": [
+        "ASSAULT â SEXUAL"
+      ]
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "TFLF",
+      "status": "encoding_defect",
+      "description": null,
+      "source_rows": 1,
+      "distinct_descriptions": 1,
+      "source_descriptions": [
+        "LATE ENTERING SERVICE â FIRST VEHICLE"
+      ]
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "TFLL",
+      "status": "encoding_defect",
+      "description": null,
+      "source_rows": 1,
+      "distinct_descriptions": 1,
+      "source_descriptions": [
+        "LATE VEHICLE â ROUTE"
+      ]
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "TFO",
+      "status": "encoding_defect",
+      "description": null,
+      "source_rows": 1,
+      "distinct_descriptions": 1,
+      "source_descriptions": [
+        "OTHER â SWITCH VIOLATION"
+      ]
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "TFPD",
+      "status": "encoding_defect",
+      "description": null,
+      "source_rows": 1,
+      "distinct_descriptions": 1,
+      "source_descriptions": [
+        "TTC COLLISION â PROPERTY DAMAGE"
+      ]
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "TFPI",
+      "status": "encoding_defect",
+      "description": null,
+      "source_rows": 1,
+      "distinct_descriptions": 1,
+      "source_descriptions": [
+        "TTC COLLISION â PERSONAL INJURY"
+      ]
+    },
+    {
+      "source_mode": "lrt",
+      "raw_code": "EXVE",
+      "status": "ambiguous",
+      "description": null,
+      "source_rows": 2,
+      "distinct_descriptions": 2,
+      "source_descriptions": [
+        "VEHICLE (SOURCE OF PROBLEM NOT KNOWN)",
+        "WORK VEHICLE"
+      ]
+    },
+    {
+      "source_mode": "lrt",
+      "raw_code": "TXSUP",
+      "status": "accepted",
+      "description": "SUPERVISORY ERROR",
+      "source_rows": 2,
+      "distinct_descriptions": 1,
+      "source_descriptions": [
+        "SUPERVISORY ERROR"
+      ]
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "ETNT",
+      "status": "encoding_defect",
+      "description": null,
+      "source_rows": 1,
+      "distinct_descriptions": 1,
+      "source_descriptions": [
+        "EQUIPMENT â NO TROUBLE FOUND"
+      ]
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "MTESA",
+      "status": "encoding_defect",
+      "description": null,
+      "source_rows": 1,
+      "distinct_descriptions": 1,
+      "source_descriptions": [
+        "NO OPERATOR/CREW AVILABLE â ESA RELATED"
+      ]
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "MTUD",
+      "status": "encoding_defect",
+      "description": null,
+      "source_rows": 1,
+      "distinct_descriptions": 1,
+      "source_descriptions": [
+        "DOOR PROBLEMS â PASSENGER RELATED"
+      ]
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "MTUDD",
+      "status": "encoding_defect",
+      "description": null,
+      "source_rows": 1,
+      "distinct_descriptions": 1,
+      "source_descriptions": [
+        "DOOR PROBLEMS â DEBRIS RELATED"
+      ]
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "MTUI",
+      "status": "encoding_defect",
+      "description": null,
+      "source_rows": 1,
+      "distinct_descriptions": 1,
+      "source_descriptions": [
+        "INJURIED/ILL CUSTOMER â TRANSPORTED"
+      ]
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "MTUIR",
+      "status": "encoding_defect",
+      "description": null,
+      "source_rows": 1,
+      "distinct_descriptions": 1,
+      "source_descriptions": [
+        "INJURIED/ILL CUSTOMER â MEDICAL AID DECLINED"
+      ]
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "PTPD",
+      "status": "encoding_defect",
+      "description": null,
+      "source_rows": 1,
+      "distinct_descriptions": 1,
+      "source_descriptions": [
+        "TTC COLLISION â PROPERTY DAMAGE"
+      ]
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "STAE",
+      "status": "encoding_defect",
+      "description": null,
+      "source_rows": 1,
+      "distinct_descriptions": 1,
+      "source_descriptions": [
+        "ASSAULT â EMPLOYEE INVOLVED"
+      ]
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "STAP",
+      "status": "encoding_defect",
+      "description": null,
+      "source_rows": 1,
+      "distinct_descriptions": 1,
+      "source_descriptions": [
+        "ASSAULT â PATRON INVOLVED"
+      ]
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "STEAS",
+      "status": "encoding_defect",
+      "description": null,
+      "source_rows": 1,
+      "distinct_descriptions": 1,
+      "source_descriptions": [
+        "EMERGENCY ALARM STATION ACTIVATION â NO TROUBLE FOUND"
+      ]
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "STSA",
+      "status": "encoding_defect",
+      "description": null,
+      "source_rows": 1,
+      "distinct_descriptions": 1,
+      "source_descriptions": [
+        "ASSAULT â SEXUAL"
+      ]
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "TTLF",
+      "status": "encoding_defect",
+      "description": null,
+      "source_rows": 1,
+      "distinct_descriptions": 1,
+      "source_descriptions": [
+        "LATE ENTERING SERVICE â FIRST VEHICLE"
+      ]
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "TTO",
+      "status": "encoding_defect",
+      "description": null,
+      "source_rows": 1,
+      "distinct_descriptions": 1,
+      "source_descriptions": [
+        "TRANSPORTATION â OTHER"
+      ]
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "TTPD",
+      "status": "encoding_defect",
+      "description": null,
+      "source_rows": 1,
+      "distinct_descriptions": 1,
+      "source_descriptions": [
+        "TTC COLLISION â PROPERTY DAMAGE"
+      ]
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "TTPI",
+      "status": "encoding_defect",
+      "description": null,
+      "source_rows": 1,
+      "distinct_descriptions": 1,
+      "source_descriptions": [
+        "TTC COLLISION â PERSONAL INJURY"
+      ]
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "EUCD",
+      "status": "encoding_defect",
+      "description": null,
+      "source_rows": 1,
+      "distinct_descriptions": 1,
+      "source_descriptions": [
+        "RC&S CONSEQUENTIAL DELAY (SECOND DELAY SAME FAULT â NO INTERVENTION)"
+      ]
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "EUNT",
+      "status": "encoding_defect",
+      "description": null,
+      "source_rows": 1,
+      "distinct_descriptions": 1,
+      "source_descriptions": [
+        "EQUIPMENT â NO TROUBLE FOUND"
+      ]
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "MUD",
+      "status": "encoding_defect",
+      "description": null,
+      "source_rows": 1,
+      "distinct_descriptions": 1,
+      "source_descriptions": [
+        "DOOR PROBLEMS â PASSENGER RELATED"
+      ]
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "MUDD",
+      "status": "encoding_defect",
+      "description": null,
+      "source_rows": 1,
+      "distinct_descriptions": 1,
+      "source_descriptions": [
+        "DOOR PROBLEMS â DEBRIS RELATED"
+      ]
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "MUESA",
+      "status": "encoding_defect",
+      "description": null,
+      "source_rows": 1,
+      "distinct_descriptions": 1,
+      "source_descriptions": [
+        "NO OPERATOR/CREW AVAILABLE â E.S.A. RELATED"
+      ]
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "MUFM",
+      "status": "encoding_defect",
+      "description": null,
+      "source_rows": 1,
+      "distinct_descriptions": 1,
+      "source_descriptions": [
+        "âFORCE MAJEUREâ â DELAY OVER 90 MIN. RE: WEATHER OR MAJOR EVENT"
+      ]
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "MUFS",
+      "status": "encoding_defect",
+      "description": null,
+      "source_rows": 1,
+      "distinct_descriptions": 1,
+      "source_descriptions": [
+        "FIRE/SMOKE PLAN B â SOURCE EXTERNAL TO TTC"
+      ]
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "MUI",
+      "status": "encoding_defect",
+      "description": null,
+      "source_rows": 1,
+      "distinct_descriptions": 1,
+      "source_descriptions": [
+        "INJURED/ILL CUSTOMER ON TRAIN â TRANSPORTED"
+      ]
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "MUIR",
+      "status": "encoding_defect",
+      "description": null,
+      "source_rows": 1,
+      "distinct_descriptions": 1,
+      "source_descriptions": [
+        "INJURED/ILL CUSTOMER ON TRAIN â MEDICAL AID REFUSED"
+      ]
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "MUIRS",
+      "status": "encoding_defect",
+      "description": null,
+      "source_rows": 1,
+      "distinct_descriptions": 1,
+      "source_descriptions": [
+        "INJURED/ILL CUSTOMER IN STATION â MEDICAL AID REFUSED"
+      ]
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "MULD",
+      "status": "encoding_defect",
+      "description": null,
+      "source_rows": 1,
+      "distinct_descriptions": 1,
+      "source_descriptions": [
+        "LABOUR DISPUTE RELATED â SUBWAY"
+      ]
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "MUNCA",
+      "status": "encoding_defect",
+      "description": null,
+      "source_rows": 1,
+      "distinct_descriptions": 1,
+      "source_descriptions": [
+        "NO COLLECTOR AVAILABLE â NON ESA RELATED"
+      ]
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "MUNOA",
+      "status": "encoding_defect",
+      "description": null,
+      "source_rows": 1,
+      "distinct_descriptions": 1,
+      "source_descriptions": [
+        "NO OPERATOR AVAILABLE â NON ESA RELATED"
+      ]
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "MUPAA",
+      "status": "encoding_defect",
+      "description": null,
+      "source_rows": 1,
+      "distinct_descriptions": 1,
+      "source_descriptions": [
+        "PAA â NO TROUBLE FOUND"
+      ]
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "MUPLB",
+      "status": "encoding_defect",
+      "description": null,
+      "source_rows": 1,
+      "distinct_descriptions": 1,
+      "source_descriptions": [
+        "FIRE/SMOKE PLAN B â SOURCE TTC (TRACK LEVEL)"
+      ]
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "MUPR1",
+      "status": "encoding_defect",
+      "description": null,
+      "source_rows": 1,
+      "distinct_descriptions": 1,
+      "source_descriptions": [
+        "PRIORITY ONE â TRAIN IN CONTACT WITH PERSON"
+      ]
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "PUEME",
+      "status": "encoding_defect",
+      "description": null,
+      "source_rows": 1,
+      "distinct_descriptions": 1,
+      "source_descriptions": [
+        "ELECTRICAL â MAINTENANCE ERROR"
+      ]
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "PUEO",
+      "status": "encoding_defect",
+      "description": null,
+      "source_rows": 1,
+      "distinct_descriptions": 1,
+      "source_descriptions": [
+        "ELECTRICAL â OTHER"
+      ]
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "PUEWZ",
+      "status": "encoding_defect",
+      "description": null,
+      "source_rows": 1,
+      "distinct_descriptions": 1,
+      "source_descriptions": [
+        "ELECTRICAL â WORK ZONE PROBLEMS"
+      ]
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "PUMEL",
+      "status": "encoding_defect",
+      "description": null,
+      "source_rows": 1,
+      "distinct_descriptions": 1,
+      "source_descriptions": [
+        "ANY ESCL. OR ELEV. INCIDENT â TRANSPORTED OR MEDICAL AID DECLINED"
+      ]
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "PUMO",
+      "status": "encoding_defect",
+      "description": null,
+      "source_rows": 1,
+      "distinct_descriptions": 1,
+      "source_descriptions": [
+        "PLANT MAINTENANCE â OTHER"
+      ]
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "PUMST",
+      "status": "encoding_defect",
+      "description": null,
+      "source_rows": 1,
+      "distinct_descriptions": 1,
+      "source_descriptions": [
+        "ANY STAIRWAY INCIDENT â TRANSPORTED OR MEDICAL AID DECLINED"
+      ]
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "PUSNT",
+      "status": "encoding_defect",
+      "description": null,
+      "source_rows": 1,
+      "distinct_descriptions": 1,
+      "source_descriptions": [
+        "SIGNAL PROBLEM â NO TROUBLE FOUND"
+      ]
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "PUSO",
+      "status": "encoding_defect",
+      "description": null,
+      "source_rows": 1,
+      "distinct_descriptions": 1,
+      "source_descriptions": [
+        "SIGNALS â OTHER"
+      ]
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "PUSSW",
+      "status": "encoding_defect",
+      "description": null,
+      "source_rows": 1,
+      "distinct_descriptions": 1,
+      "source_descriptions": [
+        "TRACK SWITCH FAILURE â S/E/C RELATED PROBLEM"
+      ]
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "PUSTS",
+      "status": "encoding_defect",
+      "description": null,
+      "source_rows": 1,
+      "distinct_descriptions": 1,
+      "source_descriptions": [
+        "SIGNALS â TRAIN STOPS"
+      ]
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "PUSWZ",
+      "status": "encoding_defect",
+      "description": null,
+      "source_rows": 1,
+      "distinct_descriptions": 1,
+      "source_descriptions": [
+        "WORK ZONE PROBLEMS â SIGNALS"
+      ]
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "PUTDN",
+      "status": "encoding_defect",
+      "description": null,
+      "source_rows": 1,
+      "distinct_descriptions": 1,
+      "source_descriptions": [
+        "DEBRIS AT TRACK LEVEL â NON-CONTROLLABLE"
+      ]
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "PUTNT",
+      "status": "encoding_defect",
+      "description": null,
+      "source_rows": 1,
+      "distinct_descriptions": 1,
+      "source_descriptions": [
+        "T&S RELATED PROBLEM â NO TROUBLE FOUND"
+      ]
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "PUTSC",
+      "status": "encoding_defect",
+      "description": null,
+      "source_rows": 1,
+      "distinct_descriptions": 1,
+      "source_descriptions": [
+        "SIGNALSâCONTROL PROBLEMâTRACK"
+      ]
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "PUTSM",
+      "status": "encoding_defect",
+      "description": null,
+      "source_rows": 1,
+      "distinct_descriptions": 1,
+      "source_descriptions": [
+        "TRACK SWITCH FAILURE â T&S RELATED PROBLEM"
+      ]
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "PUTWZ",
+      "status": "encoding_defect",
+      "description": null,
+      "source_rows": 1,
+      "distinct_descriptions": 1,
+      "source_descriptions": [
+        "WORK ZONES PROBLEMS â TRACK"
+      ]
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "SUEAS",
+      "status": "encoding_defect",
+      "description": null,
+      "source_rows": 1,
+      "distinct_descriptions": 1,
+      "source_descriptions": [
+        "EAS ACTIVATED â NO TROUBLE FOUND"
+      ]
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "SUPOL",
+      "status": "encoding_defect",
+      "description": null,
+      "source_rows": 1,
+      "distinct_descriptions": 1,
+      "source_descriptions": [
+        "HELD BY POLICE â NON TTC RELATED"
+      ]
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "TUCC",
+      "status": "encoding_defect",
+      "description": null,
+      "source_rows": 1,
+      "distinct_descriptions": 1,
+      "source_descriptions": [
+        "TRANSIT CONTROL RELATED â TOWER CONTROLLER ERROR"
+      ]
+    }
+  ],
+  "observed_dimension_unresolved": [
+    {
+      "source_mode": "subway",
+      "raw_code": "XXXXX",
+      "status": "unmapped",
+      "incident_records": 9
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "PUEO",
+      "status": "encoding_defect",
+      "incident_records": 56
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "STL",
+      "status": "unmapped",
+      "incident_records": 396
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "EFTI",
+      "status": "unmapped",
+      "incident_records": 3
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "PUMO",
+      "status": "encoding_defect",
+      "incident_records": 371
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "TFOR",
+      "status": "unmapped",
+      "incident_records": 2
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "PFPD",
+      "status": "encoding_defect",
+      "incident_records": 27
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "TFOI",
+      "status": "unmapped",
+      "incident_records": 86
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "EFSP",
+      "status": "unmapped",
+      "incident_records": 1
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "MFBIO",
+      "status": "unmapped",
+      "incident_records": 113
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "EFDB",
+      "status": "unmapped",
+      "incident_records": 5
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "PUTDN",
+      "status": "encoding_defect",
+      "incident_records": 60
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "TFUT",
+      "status": "unmapped",
+      "incident_records": 30
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "SFL",
+      "status": "unmapped",
+      "incident_records": 13
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "EFWS",
+      "status": "unmapped",
+      "incident_records": 113
+    },
+    {
+      "source_mode": "lrt",
+      "raw_code": "SXL",
+      "status": "unmapped",
+      "incident_records": 37
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "MFWR",
+      "status": "unmapped",
+      "incident_records": 6
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "EFFS",
+      "status": "unmapped",
+      "incident_records": 41
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "NTGD",
+      "status": "unmapped",
+      "incident_records": 1
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "ETNT",
+      "status": "encoding_defect",
+      "incident_records": 81
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "EFFL",
+      "status": "unmapped",
+      "incident_records": 365
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "TFDM",
+      "status": "unmapped",
+      "incident_records": 76
+    },
+    {
+      "source_mode": "lrt",
+      "raw_code": "TXCL",
+      "status": "unmapped",
+      "incident_records": 3
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "MFIE",
+      "status": "unmapped",
+      "incident_records": 81
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "EFBK",
+      "status": "unmapped",
+      "incident_records": 4
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "MFWEA",
+      "status": "unmapped",
+      "incident_records": 17
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "SFL",
+      "status": "unmapped",
+      "incident_records": 415
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "MFINF",
+      "status": "unmapped",
+      "incident_records": 15
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "EFCAN",
+      "status": "unmapped",
+      "incident_records": 1
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "MTBIO",
+      "status": "unmapped",
+      "incident_records": 93
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "MFS",
+      "status": "unmapped",
+      "incident_records": 1
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "MFFL",
+      "status": "unmapped",
+      "incident_records": 14
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "STAP",
+      "status": "encoding_defect",
+      "incident_records": 186
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "EFO",
+      "status": "unmapped",
+      "incident_records": 420
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "EFCE",
+      "status": "unmapped",
+      "incident_records": 3
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "STEAS",
+      "status": "encoding_defect",
+      "incident_records": 1
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "MFSAN",
+      "status": "unmapped",
+      "incident_records": 96
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "PFPD",
+      "status": "unmapped",
+      "incident_records": 1
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "MFO",
+      "status": "unmapped",
+      "incident_records": 78
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "TFLF",
+      "status": "encoding_defect",
+      "incident_records": 9
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "SFO",
+      "status": "unmapped",
+      "incident_records": 57
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "TFCNO",
+      "status": "unmapped",
+      "incident_records": 281
+    },
+    {
+      "source_mode": "lrt",
+      "raw_code": "MFUIR",
+      "status": "unmapped",
+      "incident_records": 1
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "SUL",
+      "status": "unmapped",
+      "incident_records": 1132
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "SFAE",
+      "status": "encoding_defect",
+      "incident_records": 228
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "PUMST",
+      "status": "encoding_defect",
+      "incident_records": 565
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "TFLL",
+      "status": "encoding_defect",
+      "incident_records": 2
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "MUPR1",
+      "status": "encoding_defect",
+      "incident_records": 33
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "EFTI",
+      "status": "unmapped",
+      "incident_records": 201
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "PUSSW",
+      "status": "encoding_defect",
+      "incident_records": 101
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "MFTO",
+      "status": "unmapped",
+      "incident_records": 32
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "SFPOL",
+      "status": "unmapped",
+      "incident_records": 5
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "EFSD",
+      "status": "unmapped",
+      "incident_records": 3
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "EFCE",
+      "status": "unmapped",
+      "incident_records": 80
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "MUI",
+      "status": "encoding_defect",
+      "incident_records": 668
+    },
+    {
+      "source_mode": "lrt",
+      "raw_code": "MXFL",
+      "status": "unmapped",
+      "incident_records": 2
+    },
+    {
+      "source_mode": "lrt",
+      "raw_code": "MXSE",
+      "status": "unmapped",
+      "incident_records": 1
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "TFDP",
+      "status": "unmapped",
+      "incident_records": 1
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "MUIRS",
+      "status": "encoding_defect",
+      "incident_records": 2049
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "EFB",
+      "status": "unmapped",
+      "incident_records": 24
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "MFESA",
+      "status": "unmapped",
+      "incident_records": 6
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "MFDV",
+      "status": "unmapped",
+      "incident_records": 160
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "TTAV",
+      "status": "unmapped",
+      "incident_records": 9
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "MFSE",
+      "status": "unmapped",
+      "incident_records": 1
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "MUESA",
+      "status": "encoding_defect",
+      "incident_records": 2
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "TFO",
+      "status": "unmapped",
+      "incident_records": 88
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "STSA",
+      "status": "encoding_defect",
+      "incident_records": 13
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "TTPI",
+      "status": "encoding_defect",
+      "incident_records": 47
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "MTFL",
+      "status": "unmapped",
+      "incident_records": 31
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "STAE",
+      "status": "unmapped",
+      "incident_records": 1
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "EFTRM",
+      "status": "unmapped",
+      "incident_records": 7
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "TTDM",
+      "status": "unmapped",
+      "incident_records": 1
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "TTOR",
+      "status": "unmapped",
+      "incident_records": 46
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "EFLT",
+      "status": "unmapped",
+      "incident_records": 3
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "SFDP",
+      "status": "unmapped",
+      "incident_records": 111
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "STAE",
+      "status": "encoding_defect",
+      "incident_records": 65
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "MFPI",
+      "status": "unmapped",
+      "incident_records": 13
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "MTUIR",
+      "status": "encoding_defect",
+      "incident_records": 932
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "EFWA",
+      "status": "unmapped",
+      "incident_records": 98
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "TTLF",
+      "status": "encoding_defect",
+      "incident_records": 2
+    },
+    {
+      "source_mode": "lrt",
+      "raw_code": "SXUT",
+      "status": "unmapped",
+      "incident_records": 96
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "EFFL",
+      "status": "unmapped",
+      "incident_records": 5
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "MUSE",
+      "status": "unmapped",
+      "incident_records": 38
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "PUSO",
+      "status": "encoding_defect",
+      "incident_records": 47
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "EFTRM",
+      "status": "unmapped",
+      "incident_records": 117
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "MFSE",
+      "status": "unmapped",
+      "incident_records": 26
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "PUTSC",
+      "status": "encoding_defect",
+      "incident_records": 16
+    },
+    {
+      "source_mode": "lrt",
+      "raw_code": "PXO",
+      "status": "unmapped",
+      "incident_records": 2
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "SFAP",
+      "status": "encoding_defect",
+      "incident_records": 506
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "PUSNT",
+      "status": "encoding_defect",
+      "incident_records": 53
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "MUBIO",
+      "status": "unmapped",
+      "incident_records": 13
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "PUMEL",
+      "status": "encoding_defect",
+      "incident_records": 1407
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "MUPLB",
+      "status": "encoding_defect",
+      "incident_records": 89
+    },
+    {
+      "source_mode": "lrt",
+      "raw_code": "TXCSA",
+      "status": "unmapped",
+      "incident_records": 5
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "PTPD",
+      "status": "encoding_defect",
+      "incident_records": 12
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "EFVIS",
+      "status": "unmapped",
+      "incident_records": 3
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "PUEME",
+      "status": "encoding_defect",
+      "incident_records": 6
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "MUPAA",
+      "status": "encoding_defect",
+      "incident_records": 2405
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "MUD",
+      "status": "encoding_defect",
+      "incident_records": 223
+    },
+    {
+      "source_mode": "lrt",
+      "raw_code": "SXGDS",
+      "status": "unmapped",
+      "incident_records": 356
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "MFFL",
+      "status": "unmapped",
+      "incident_records": 317
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "EFCEL",
+      "status": "unmapped",
+      "incident_records": 11
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "SUEAS",
+      "status": "encoding_defect",
+      "incident_records": 94
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "MUFL",
+      "status": "unmapped",
+      "incident_records": 27
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "MTSE",
+      "status": "unmapped",
+      "incident_records": 8
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "MTUI",
+      "status": "encoding_defect",
+      "incident_records": 1290
+    },
+    {
+      "source_mode": "lrt",
+      "raw_code": "TXTO",
+      "status": "unmapped",
+      "incident_records": 8
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "TFOR",
+      "status": "unmapped",
+      "incident_records": 163
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "TFPI",
+      "status": "encoding_defect",
+      "incident_records": 336
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "EFRA",
+      "status": "unmapped",
+      "incident_records": 17
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "EFLT",
+      "status": "unmapped",
+      "incident_records": 120
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "TFPD",
+      "status": "unmapped",
+      "incident_records": 261
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "MUNCA",
+      "status": "encoding_defect",
+      "incident_records": 963
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "MFDI",
+      "status": "unmapped",
+      "incident_records": 3
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": null,
+      "status": "missing_code",
+      "incident_records": 1
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "MTDI",
+      "status": "unmapped",
+      "incident_records": 16
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "MTSH",
+      "status": "unmapped",
+      "incident_records": 94
+    },
+    {
+      "source_mode": "lrt",
+      "raw_code": "MXUIR",
+      "status": "unmapped",
+      "incident_records": 1
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "EFD",
+      "status": "unmapped",
+      "incident_records": 37
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "MTESA",
+      "status": "encoding_defect",
+      "incident_records": 53
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "SFAP",
+      "status": "unmapped",
+      "incident_records": 8
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "EFSD",
+      "status": "unmapped",
+      "incident_records": 512
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "EFVIS",
+      "status": "unmapped",
+      "incident_records": 299
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "XXXXX",
+      "status": "unmapped",
+      "incident_records": 53
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "MFSH",
+      "status": "unmapped",
+      "incident_records": 254
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "TFPD",
+      "status": "encoding_defect",
+      "incident_records": 6776
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "TFPD",
+      "status": "unmapped",
+      "incident_records": 1
+    },
+    {
+      "source_mode": "lrt",
+      "raw_code": "EXVE",
+      "status": "ambiguous",
+      "incident_records": 1
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "EFPO",
+      "status": "unmapped",
+      "incident_records": 4
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "STG",
+      "status": "unmapped",
+      "incident_records": 36
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "MFIE",
+      "status": "unmapped",
+      "incident_records": 2
+    },
+    {
+      "source_mode": "lrt",
+      "raw_code": "TXUS",
+      "status": "unmapped",
+      "incident_records": 1
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "PUFA",
+      "status": "unmapped",
+      "incident_records": 32
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "MFUIR",
+      "status": "unmapped",
+      "incident_records": 59
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "ETPO",
+      "status": "unmapped",
+      "incident_records": 1
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "MFUIR",
+      "status": "encoding_defect",
+      "incident_records": 1474
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "TFPI",
+      "status": "unmapped",
+      "incident_records": 3
+    },
+    {
+      "source_mode": "lrt",
+      "raw_code": "MXST",
+      "status": "unmapped",
+      "incident_records": 4
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "EUCD",
+      "status": "encoding_defect",
+      "incident_records": 101
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "MFBD",
+      "status": "unmapped",
+      "incident_records": 36
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "MFAFR",
+      "status": "unmapped",
+      "incident_records": 47
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "MUINF",
+      "status": "unmapped",
+      "incident_records": 202
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "XXXXX",
+      "status": "unmapped",
+      "incident_records": 1
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "PUTO",
+      "status": "unmapped",
+      "incident_records": 199
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "EFCEL",
+      "status": "unmapped",
+      "incident_records": 602
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "MFBIO",
+      "status": "unmapped",
+      "incident_records": 1
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "MFGD",
+      "status": "unmapped",
+      "incident_records": 846
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "SUPOL",
+      "status": "encoding_defect",
+      "incident_records": 146
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "MUNOA",
+      "status": "encoding_defect",
+      "incident_records": 22
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "TUCC",
+      "status": "encoding_defect",
+      "incident_records": 140
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "EFAS",
+      "status": "unmapped",
+      "incident_records": 12
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "MTINF",
+      "status": "unmapped",
+      "incident_records": 17
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "EFWA",
+      "status": "unmapped",
+      "incident_records": 2
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "PUEWZ",
+      "status": "encoding_defect",
+      "incident_records": 7
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "MFUI",
+      "status": "unmapped",
+      "incident_records": 75
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "EFEX",
+      "status": "unmapped",
+      "incident_records": 5
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "EUNT",
+      "status": "encoding_defect",
+      "incident_records": 253
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "PUTWZ",
+      "status": "encoding_defect",
+      "incident_records": 369
+    },
+    {
+      "source_mode": "lrt",
+      "raw_code": "MXML",
+      "status": "unmapped",
+      "incident_records": 5
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "PUSTS",
+      "status": "encoding_defect",
+      "incident_records": 165
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "TTO",
+      "status": "encoding_defect",
+      "incident_records": 605
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "TFO",
+      "status": "encoding_defect",
+      "incident_records": 5593
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "PTNT",
+      "status": "unmapped",
+      "incident_records": 1
+    },
+    {
+      "source_mode": "lrt",
+      "raw_code": "MXINF",
+      "status": "unmapped",
+      "incident_records": 7
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "SFAE",
+      "status": "unmapped",
+      "incident_records": 7
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "EFVC",
+      "status": "unmapped",
+      "incident_records": 77
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "PUTNT",
+      "status": "encoding_defect",
+      "incident_records": 2
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "EFSP",
+      "status": "unmapped",
+      "incident_records": 41
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "MFPR",
+      "status": "unmapped",
+      "incident_records": 2
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "EFSE",
+      "status": "unmapped",
+      "incident_records": 79
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "SFG",
+      "status": "unmapped",
+      "incident_records": 26
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "EFWS",
+      "status": "unmapped",
+      "incident_records": 2
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "PUSWZ",
+      "status": "encoding_defect",
+      "incident_records": 20
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "MUIR",
+      "status": "encoding_defect",
+      "incident_records": 1574
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "MFBD",
+      "status": "unmapped",
+      "incident_records": 1
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "MFGD",
+      "status": "unmapped",
+      "incident_records": 5
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "MUFS",
+      "status": "encoding_defect",
+      "incident_records": 6
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "EFAS",
+      "status": "unmapped",
+      "incident_records": 323
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "MFDI",
+      "status": "unmapped",
+      "incident_records": 65
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "EFHVA",
+      "status": "unmapped",
+      "incident_records": 20
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "SFSA",
+      "status": "encoding_defect",
+      "incident_records": 50
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "MUDD",
+      "status": "encoding_defect",
+      "incident_records": 377
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "EFEX",
+      "status": "unmapped",
+      "incident_records": 63
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "ETVIS",
+      "status": "unmapped",
+      "incident_records": 5
+    },
+    {
+      "source_mode": "subway",
+      "raw_code": "PUTSM",
+      "status": "encoding_defect",
+      "incident_records": 50
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "TFDM",
+      "status": "unmapped",
+      "incident_records": 1
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "MFUS",
+      "status": "unmapped",
+      "incident_records": 42
+    },
+    {
+      "source_mode": "lrt",
+      "raw_code": "MXBIO",
+      "status": "unmapped",
+      "incident_records": 2
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "MFAFR",
+      "status": "unmapped",
+      "incident_records": 1
+    },
+    {
+      "source_mode": "bus",
+      "raw_code": "TFAV",
+      "status": "unmapped",
+      "incident_records": 66
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "TTPD",
+      "status": "encoding_defect",
+      "incident_records": 683
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "SFG",
+      "status": "unmapped",
+      "incident_records": 2
+    },
+    {
+      "source_mode": "streetcar",
+      "raw_code": "MFVIS",
+      "status": "unmapped",
+      "incident_records": 43
+    }
+  ]
+}
