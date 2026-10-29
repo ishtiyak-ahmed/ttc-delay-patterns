@@ -72,3 +72,11 @@ credentials*.json
 *.pbix.lock
 *.pbit.lock
 # Deliberate .pbix/.pbip/.pbit report deliverables remain eligible for later review.
+
+# Independent case-study frontend: retain source, evidence and lockfile.
+/website/node_modules/
+/website/dist/
+/website/.vercel/
+/website/coverage/
+/website/*.tsbuildinfo
+/website/.vite/
